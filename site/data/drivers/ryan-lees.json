@@ -1,0 +1,72 @@
+{
+  "name": "Ryan Lees",
+  "slug": "ryan-lees",
+  "summary": {
+    "name": "Ryan Lees",
+    "slug": "ryan-lees",
+    "meetings_count": 1,
+    "attendance_pct": 5.6,
+    "total_laps": 110,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 1,
+    "a_final_rate": 100.0,
+    "a_final_podium_rate": 0.0,
+    "a_final_avg_pos": 4.0,
+    "a_finals_by_class": {
+      "2WD Buggy": 1
+    },
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 12.51,
+    "metronome": 1.01,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 12.51
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 23,
+        "seconds": 311.07,
+        "result_str": "23 / 311.07",
+        "meeting_date": "03-Mar-2024"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "A Final",
+        "position": 4,
+        "rank": 4,
+        "meeting_date": "03-Mar-2024",
+        "meeting_title": "23/24 Winter Series Round 6"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 2
+    },
+    "best10_per_class": {
+      "2WD Buggy": 12.79
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 10898,
+      "date": "03-Mar-2024",
+      "title": "23/24 Winter Series Round 6",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "A Final",
+      "position": 4,
+      "laps": 23,
+      "total_seconds": 311.07,
+      "best_lap": 12.51,
+      "average_lap": 13.52,
+      "best10": 12.79
+    }
+  ]
+}

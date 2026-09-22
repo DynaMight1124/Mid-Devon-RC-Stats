@@ -1,0 +1,22 @@
+{
+  "venueId": 1119,
+  "clubName": "Mid Devon RC Raceway",
+  "shortName": "MDRCR",
+  "tagline": "Indoor Off-Road Radio Controlled Car Club",
+  "website": "https://www.rc-results.com/Viewer/Main/VenueMeetings?venueId=1119",
+  "trackType": "Indoor Off-Road",
+  "location": "Mid Devon, UK",
+  "primaryColor": "#e11d48",
+  "secondaryColor": "#0ea5e9",
+  "defaultSeason": "25/26",
+  "classes": [
+    "2WD",
+    "4WD",
+    "Stadium Trucks",
+    "Vintage/Rear Motor"
+  ],
+  "socialLinks": {
+    "results": "https://www.rc-results.com/Viewer/Main/VenueMeetings?venueId=1119",
+    "Facebook": "https://www.facebook.com/middevonrcraceway"
+  }
+}

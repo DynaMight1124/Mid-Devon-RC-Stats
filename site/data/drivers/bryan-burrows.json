@@ -1,0 +1,161 @@
+{
+  "name": "Bryan Burrows",
+  "slug": "bryan-burrows",
+  "summary": {
+    "name": "Bryan Burrows",
+    "slug": "bryan-burrows",
+    "meetings_count": 6,
+    "attendance_pct": 33.3,
+    "total_laps": 569,
+    "a_final_wins": 1,
+    "a_final_podiums": 4,
+    "a_final_appearances": 6,
+    "a_final_rate": 100.0,
+    "a_final_podium_rate": 66.7,
+    "a_final_avg_pos": 3.7,
+    "a_finals_by_class": {
+      "Vintage / Rear Motor": 6
+    },
+    "tqs": 4,
+    "classes": [
+      "Vintage / Rear Motor"
+    ],
+    "best_lap": 13.13,
+    "metronome": 1.16,
+    "badges_count": 3
+  },
+  "badges": [
+    {
+      "id": "winner",
+      "label": "Race Winner",
+      "icon": "medal",
+      "desc": "Won an A-Final"
+    },
+    {
+      "id": "pole_king",
+      "label": "Pole King",
+      "icon": "target",
+      "desc": "2+ Top Qualifiers (TQ)"
+    },
+    {
+      "id": "clean_sweep",
+      "label": "Clean Sweep",
+      "icon": "sparkles",
+      "desc": "Achieved TQ & Win at the same meeting"
+    }
+  ],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "Vintage / Rear Motor": 13.13
+    },
+    "best_runs_per_class": {
+      "Vintage / Rear Motor": {
+        "laps": 21,
+        "seconds": 312.24,
+        "result_str": "21 / 312.24",
+        "meeting_date": "03-Mar-2024"
+      }
+    },
+    "highest_finishes_per_class": {
+      "Vintage / Rear Motor": {
+        "final": "A Final",
+        "position": 1,
+        "rank": 1,
+        "meeting_date": "05-Oct-2025",
+        "meeting_title": "25/26 Winter Series Round 1"
+      }
+    },
+    "highest_quals_per_class": {
+      "Vintage / Rear Motor": 1
+    },
+    "best10_per_class": {
+      "Vintage / Rear Motor": 13.79
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 18077,
+      "date": "07-Dec-2025",
+      "title": "25/26 Winter Series Round 3",
+      "season": "25/26",
+      "class": "Vintage / Rear Motor",
+      "final": "A Final",
+      "position": 6,
+      "laps": 19,
+      "total_seconds": 306.69,
+      "best_lap": 14.31,
+      "average_lap": 16.14,
+      "best10": 14.53
+    },
+    {
+      "meeting_id": 17667,
+      "date": "02-Nov-2025",
+      "title": "25/26 Winter Series Round 2",
+      "season": "25/26",
+      "class": "Vintage / Rear Motor",
+      "final": "A Final",
+      "position": 8,
+      "laps": 4,
+      "total_seconds": 65.45,
+      "best_lap": 16.28,
+      "average_lap": 16.36,
+      "best10": null
+    },
+    {
+      "meeting_id": 17348,
+      "date": "05-Oct-2025",
+      "title": "25/26 Winter Series Round 1",
+      "season": "25/26",
+      "class": "Vintage / Rear Motor",
+      "final": "A Final",
+      "position": 1,
+      "laps": 20,
+      "total_seconds": 307.31,
+      "best_lap": 14.67,
+      "average_lap": 15.36,
+      "best10": 15.03
+    },
+    {
+      "meeting_id": 10898,
+      "date": "03-Mar-2024",
+      "title": "23/24 Winter Series Round 6",
+      "season": "23/24",
+      "class": "Vintage / Rear Motor",
+      "final": "A Final",
+      "position": 2,
+      "laps": 21,
+      "total_seconds": 312.24,
+      "best_lap": 14.23,
+      "average_lap": 14.87,
+      "best10": 14.4
+    },
+    {
+      "meeting_id": 10579,
+      "date": "04-Feb-2024",
+      "title": "23/24 Winter Series Round 5",
+      "season": "23/24",
+      "class": "Vintage / Rear Motor",
+      "final": "A Final",
+      "position": 2,
+      "laps": 21,
+      "total_seconds": 312.26,
+      "best_lap": 13.13,
+      "average_lap": 14.87,
+      "best10": 13.79
+    },
+    {
+      "meeting_id": 9716,
+      "date": "05-Nov-2023",
+      "title": "23/24 Winter Series Round 2",
+      "season": "23/24",
+      "class": "Vintage / Rear Motor",
+      "final": "A Final",
+      "position": 3,
+      "laps": 17,
+      "total_seconds": 304.97,
+      "best_lap": 15.95,
+      "average_lap": 17.94,
+      "best10": 16.45
+    }
+  ]
+}

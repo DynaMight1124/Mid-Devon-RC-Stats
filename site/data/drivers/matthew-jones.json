@@ -1,0 +1,84 @@
+{
+  "name": "Matthew Jones",
+  "slug": "matthew-jones",
+  "summary": {
+    "name": "Matthew Jones",
+    "slug": "matthew-jones",
+    "meetings_count": 2,
+    "attendance_pct": 11.1,
+    "total_laps": 132,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 15.13,
+    "metronome": 2.52,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 15.13
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 17,
+        "seconds": 312.28,
+        "result_str": "17 / 312.28",
+        "meeting_date": "07-Dec-2025"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "E Final",
+        "position": 3,
+        "rank": 43,
+        "meeting_date": "02-Nov-2025",
+        "meeting_title": "25/26 Winter Series Round 2"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 38
+    },
+    "best10_per_class": {
+      "2WD Buggy": 16.09
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 18077,
+      "date": "07-Dec-2025",
+      "title": "25/26 Winter Series Round 3",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "E Final",
+      "position": 6,
+      "laps": 17,
+      "total_seconds": 312.28,
+      "best_lap": 15.28,
+      "average_lap": 18.36,
+      "best10": 16.43
+    },
+    {
+      "meeting_id": 17667,
+      "date": "02-Nov-2025",
+      "title": "25/26 Winter Series Round 2",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "E Final",
+      "position": 3,
+      "laps": 15,
+      "total_seconds": 319.32,
+      "best_lap": 19.33,
+      "average_lap": 21.28,
+      "best10": 20.18
+    }
+  ]
+}

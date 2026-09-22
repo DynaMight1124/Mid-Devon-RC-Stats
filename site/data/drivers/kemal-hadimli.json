@@ -1,0 +1,84 @@
+{
+  "name": "Kemal Hadimli",
+  "slug": "kemal-hadimli",
+  "summary": {
+    "name": "Kemal Hadimli",
+    "slug": "kemal-hadimli",
+    "meetings_count": 2,
+    "attendance_pct": 11.1,
+    "total_laps": 130,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 14.93,
+    "metronome": 4.29,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 14.93
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 17,
+        "seconds": 301.51,
+        "result_str": "17 / 301.51",
+        "meeting_date": "02-Feb-2025"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "F Final",
+        "position": 2,
+        "rank": 52,
+        "meeting_date": "02-Feb-2025",
+        "meeting_title": "24/25 Winter Series Round 6"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 44
+    },
+    "best10_per_class": {
+      "2WD Buggy": 16.22
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 14449,
+      "date": "02-Feb-2025",
+      "title": "24/25 Winter Series Round 6",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "F Final",
+      "position": 2,
+      "laps": 17,
+      "total_seconds": 301.51,
+      "best_lap": 14.93,
+      "average_lap": 17.74,
+      "best10": 16.22
+    },
+    {
+      "meeting_id": 14185,
+      "date": "05-Jan-2025",
+      "title": "24/25 Winter Series Round 5",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "F Final",
+      "position": 6,
+      "laps": 10,
+      "total_seconds": 311.87,
+      "best_lap": 25.42,
+      "average_lap": 31.19,
+      "best10": 31.18
+    }
+  ]
+}

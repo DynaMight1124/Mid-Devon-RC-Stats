@@ -1,0 +1,124 @@
+{
+  "name": "Andy Nelson",
+  "slug": "andy-nelson",
+  "summary": {
+    "name": "Andy Nelson",
+    "slug": "andy-nelson",
+    "meetings_count": 2,
+    "attendance_pct": 11.1,
+    "total_laps": 266,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 1,
+    "a_final_rate": 50.0,
+    "a_final_podium_rate": 0.0,
+    "a_final_avg_pos": 6.0,
+    "a_finals_by_class": {
+      "Vintage / Rear Motor": 1
+    },
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy",
+      "Vintage / Rear Motor"
+    ],
+    "best_lap": 14.22,
+    "metronome": 2.21,
+    "badges_count": 1
+  },
+  "badges": [
+    {
+      "id": "multi_class",
+      "label": "Multi-Class",
+      "icon": "shuffle",
+      "desc": "Competes in multiple classes"
+    }
+  ],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "Vintage / Rear Motor": 14.76,
+      "2WD Buggy": 14.22
+    },
+    "best_runs_per_class": {
+      "Vintage / Rear Motor": {
+        "laps": 18,
+        "seconds": 309.28,
+        "result_str": "18 / 309.28",
+        "meeting_date": "04-Feb-2024"
+      },
+      "2WD Buggy": {
+        "laps": 19,
+        "seconds": 303.99,
+        "result_str": "19 / 303.99",
+        "meeting_date": "04-Feb-2024"
+      }
+    },
+    "highest_finishes_per_class": {
+      "Vintage / Rear Motor": {
+        "final": "A Final",
+        "position": 6,
+        "rank": 6,
+        "meeting_date": "03-Mar-2024",
+        "meeting_title": "23/24 Winter Series Round 6"
+      },
+      "2WD Buggy": {
+        "final": "D Final",
+        "position": 4,
+        "rank": 34,
+        "meeting_date": "04-Feb-2024",
+        "meeting_title": "23/24 Winter Series Round 5"
+      }
+    },
+    "highest_quals_per_class": {
+      "Vintage / Rear Motor": 7,
+      "2WD Buggy": 28
+    },
+    "best10_per_class": {
+      "Vintage / Rear Motor": 15.9,
+      "2WD Buggy": 14.83
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 10898,
+      "date": "03-Mar-2024",
+      "title": "23/24 Winter Series Round 6",
+      "season": "23/24",
+      "class": "Vintage / Rear Motor",
+      "final": "A Final",
+      "position": 6,
+      "laps": 17,
+      "total_seconds": 300.09,
+      "best_lap": 14.88,
+      "average_lap": 17.65,
+      "best10": 15.98
+    },
+    {
+      "meeting_id": 10579,
+      "date": "04-Feb-2024",
+      "title": "23/24 Winter Series Round 5",
+      "season": "23/24",
+      "class": "Vintage / Rear Motor",
+      "final": "B Final",
+      "position": 2,
+      "laps": 18,
+      "total_seconds": 309.28,
+      "best_lap": 15.1,
+      "average_lap": 17.18,
+      "best10": 15.9
+    },
+    {
+      "meeting_id": 10579,
+      "date": "04-Feb-2024",
+      "title": "23/24 Winter Series Round 5",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "D Final",
+      "position": 4,
+      "laps": 19,
+      "total_seconds": 303.99,
+      "best_lap": 14.22,
+      "average_lap": 16.0,
+      "best10": 14.91
+    }
+  ]
+}

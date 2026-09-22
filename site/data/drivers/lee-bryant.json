@@ -1,0 +1,70 @@
+{
+  "name": "Lee Bryant",
+  "slug": "lee-bryant",
+  "summary": {
+    "name": "Lee Bryant",
+    "slug": "lee-bryant",
+    "meetings_count": 1,
+    "attendance_pct": 5.6,
+    "total_laps": 96,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 13.3,
+    "metronome": 1.76,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 13.3
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 20,
+        "seconds": 301.35,
+        "result_str": "20 / 301.35",
+        "meeting_date": "01-Feb-2026"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "D Final",
+        "position": 7,
+        "rank": 37,
+        "meeting_date": "01-Feb-2026",
+        "meeting_title": "25/26 Winter Series Round 4"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 32
+    },
+    "best10_per_class": {
+      "2WD Buggy": 13.83
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 18332,
+      "date": "01-Feb-2026",
+      "title": "25/26 Winter Series Round 4",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "D Final",
+      "position": 7,
+      "laps": 20,
+      "total_seconds": 301.35,
+      "best_lap": 13.3,
+      "average_lap": 15.06,
+      "best10": 13.83
+    }
+  ]
+}

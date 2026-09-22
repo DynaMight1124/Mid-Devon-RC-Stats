@@ -1,0 +1,72 @@
+{
+  "name": "Andrew Cockram",
+  "slug": "andrew-cockram",
+  "summary": {
+    "name": "Andrew Cockram",
+    "slug": "andrew-cockram",
+    "meetings_count": 1,
+    "attendance_pct": 5.6,
+    "total_laps": 81,
+    "a_final_wins": 0,
+    "a_final_podiums": 1,
+    "a_final_appearances": 1,
+    "a_final_rate": 100.0,
+    "a_final_podium_rate": 100.0,
+    "a_final_avg_pos": 3.0,
+    "a_finals_by_class": {
+      "4WD Buggy": 1
+    },
+    "tqs": 0,
+    "classes": [
+      "4WD Buggy"
+    ],
+    "best_lap": 16.02,
+    "metronome": 2.57,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "4WD Buggy": 16.02
+    },
+    "best_runs_per_class": {
+      "4WD Buggy": {
+        "laps": 16,
+        "seconds": 301.8,
+        "result_str": "16 / 301.80",
+        "meeting_date": "05-Nov-2023"
+      }
+    },
+    "highest_finishes_per_class": {
+      "4WD Buggy": {
+        "final": "A Final",
+        "position": 3,
+        "rank": 3,
+        "meeting_date": "05-Nov-2023",
+        "meeting_title": "23/24 Winter Series Round 2"
+      }
+    },
+    "highest_quals_per_class": {
+      "4WD Buggy": 3
+    },
+    "best10_per_class": {
+      "4WD Buggy": 16.76
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 9716,
+      "date": "05-Nov-2023",
+      "title": "23/24 Winter Series Round 2",
+      "season": "23/24",
+      "class": "4WD Buggy",
+      "final": "A Final",
+      "position": 3,
+      "laps": 16,
+      "total_seconds": 301.8,
+      "best_lap": 16.29,
+      "average_lap": 18.86,
+      "best10": 17.41
+    }
+  ]
+}

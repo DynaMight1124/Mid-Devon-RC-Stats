@@ -1,0 +1,4551 @@
+{
+  "id": 17667,
+  "date": "02-Nov-2025",
+  "title": "25/26 Winter Series Round 2",
+  "venue_id": 1119,
+  "scraped_at": "2026-09-22T13:29:30Z",
+  "qualifying": [
+    {
+      "class": "Stadium Trucks",
+      "position": 1,
+      "driver": "Jon Baker",
+      "best_run": "18 / 314.33",
+      "best_laps": 18,
+      "best_seconds": 314.33
+    },
+    {
+      "class": "Stadium Trucks",
+      "position": 2,
+      "driver": "Jake Coombs",
+      "best_run": "17 / 307.09",
+      "best_laps": 17,
+      "best_seconds": 307.09
+    },
+    {
+      "class": "Stadium Trucks",
+      "position": 3,
+      "driver": "Michael Julian",
+      "best_run": "17 / 300.07",
+      "best_laps": 17,
+      "best_seconds": 300.07
+    },
+    {
+      "class": "Stadium Trucks",
+      "position": 4,
+      "driver": "Harry Davis",
+      "best_run": "16 / 310.73",
+      "best_laps": 16,
+      "best_seconds": 310.73
+    },
+    {
+      "class": "Stadium Trucks",
+      "position": 5,
+      "driver": "Mark Hicks",
+      "best_run": "16 / 312.20",
+      "best_laps": 16,
+      "best_seconds": 312.2
+    },
+    {
+      "class": "Stadium Trucks",
+      "position": 6,
+      "driver": "Barry Norris",
+      "best_run": "16 / 315.57",
+      "best_laps": 16,
+      "best_seconds": 315.57
+    },
+    {
+      "class": "Stadium Trucks",
+      "position": 7,
+      "driver": "Edward Wenmouth",
+      "best_run": "16 / 307.08",
+      "best_laps": 16,
+      "best_seconds": 307.08
+    },
+    {
+      "class": "Stadium Trucks",
+      "position": 8,
+      "driver": "Tommy Gape",
+      "best_run": "16 / 300.47",
+      "best_laps": 16,
+      "best_seconds": 300.47
+    },
+    {
+      "class": "Stadium Trucks",
+      "position": 9,
+      "driver": "Luke Coombs",
+      "best_run": "16 / 303.95",
+      "best_laps": 16,
+      "best_seconds": 303.95
+    },
+    {
+      "class": "Stadium Trucks",
+      "position": 10,
+      "driver": "Adam Mozes",
+      "best_run": "16 / 315.52",
+      "best_laps": 16,
+      "best_seconds": 315.52
+    },
+    {
+      "class": "Stadium Trucks",
+      "position": 11,
+      "driver": "Adam Bedford",
+      "best_run": "16 / 315.10",
+      "best_laps": 16,
+      "best_seconds": 315.1
+    },
+    {
+      "class": "Stadium Trucks",
+      "position": 12,
+      "driver": "David Attiwell",
+      "best_run": "15 / 302.14",
+      "best_laps": 15,
+      "best_seconds": 302.14
+    },
+    {
+      "class": "Stadium Trucks",
+      "position": 13,
+      "driver": "Terry Leach",
+      "best_run": "15 / 312.24",
+      "best_laps": 15,
+      "best_seconds": 312.24
+    },
+    {
+      "class": "Stadium Trucks",
+      "position": 14,
+      "driver": "Marc Biddiss",
+      "best_run": "15 / 310.65",
+      "best_laps": 15,
+      "best_seconds": 310.65
+    },
+    {
+      "class": "Stadium Trucks",
+      "position": 15,
+      "driver": "Mark Martin",
+      "best_run": "14 / 317.85",
+      "best_laps": 14,
+      "best_seconds": 317.85
+    },
+    {
+      "class": "Stadium Trucks",
+      "position": 16,
+      "driver": "Sean Buller",
+      "best_run": "14 / 309.25",
+      "best_laps": 14,
+      "best_seconds": 309.25
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "position": 1,
+      "driver": "Bryan Burrows",
+      "best_run": "18 / 305.53",
+      "best_laps": 18,
+      "best_seconds": 305.53
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "position": 2,
+      "driver": "Jordan Newbery",
+      "best_run": "18 / 316.32",
+      "best_laps": 18,
+      "best_seconds": 316.32
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "position": 3,
+      "driver": "Dan Harding",
+      "best_run": "17 / 301.07",
+      "best_laps": 17,
+      "best_seconds": 301.07
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "position": 4,
+      "driver": "Mark Stocks",
+      "best_run": "17 / 307.60",
+      "best_laps": 17,
+      "best_seconds": 307.6
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "position": 5,
+      "driver": "Paul Duckmanton",
+      "best_run": "17 / 303.78",
+      "best_laps": 17,
+      "best_seconds": 303.78
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "position": 6,
+      "driver": "Steve Hawkins",
+      "best_run": "16 / 305.18",
+      "best_laps": 16,
+      "best_seconds": 305.18
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "position": 7,
+      "driver": "Carl Rowe",
+      "best_run": "16 / 309.90",
+      "best_laps": 16,
+      "best_seconds": 309.9
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "position": 8,
+      "driver": "John Howe",
+      "best_run": "16 / 310.94",
+      "best_laps": 16,
+      "best_seconds": 310.94
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "position": 9,
+      "driver": "Alan Stocks",
+      "best_run": "16 / 312.40c",
+      "best_laps": 0,
+      "best_seconds": 0.0
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "position": 10,
+      "driver": "Dave Mills",
+      "best_run": "14 / 303.77",
+      "best_laps": 14,
+      "best_seconds": 303.77
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "position": 11,
+      "driver": "Harry Davis",
+      "best_run": "15 / 312.03",
+      "best_laps": 15,
+      "best_seconds": 312.03
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "position": 12,
+      "driver": "Simon White",
+      "best_run": "14 / 311.50",
+      "best_laps": 14,
+      "best_seconds": 311.5
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "position": 13,
+      "driver": "Haiden Hicks",
+      "best_run": "15 / 314.66",
+      "best_laps": 15,
+      "best_seconds": 314.66
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "position": 14,
+      "driver": "Marcia Davis",
+      "best_run": "12 / 304.42",
+      "best_laps": 12,
+      "best_seconds": 304.42
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "position": 15,
+      "driver": "Natasha Venn",
+      "best_run": "10 / 302.28",
+      "best_laps": 10,
+      "best_seconds": 302.28
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "position": 16,
+      "driver": "Chris Law",
+      "best_run": "14 / 316.45",
+      "best_laps": 14,
+      "best_seconds": 316.45
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "position": 17,
+      "driver": "Mark Hicks",
+      "best_run": "2 / 53.47",
+      "best_laps": 2,
+      "best_seconds": 53.47
+    },
+    {
+      "class": "4WD",
+      "position": 1,
+      "driver": "Keith Halsey",
+      "best_run": "20 / 313.20",
+      "best_laps": 20,
+      "best_seconds": 313.2
+    },
+    {
+      "class": "4WD",
+      "position": 2,
+      "driver": "Jon Baker",
+      "best_run": "19 / 308.75",
+      "best_laps": 19,
+      "best_seconds": 308.75
+    },
+    {
+      "class": "4WD",
+      "position": 3,
+      "driver": "Michael Halsey",
+      "best_run": "19 / 307.19",
+      "best_laps": 19,
+      "best_seconds": 307.19
+    },
+    {
+      "class": "4WD",
+      "position": 4,
+      "driver": "Adam Roulston",
+      "best_run": "18 / 303.43",
+      "best_laps": 18,
+      "best_seconds": 303.43
+    },
+    {
+      "class": "4WD",
+      "position": 5,
+      "driver": "Ryan Eaton",
+      "best_run": "18 / 313.75",
+      "best_laps": 18,
+      "best_seconds": 313.75
+    },
+    {
+      "class": "4WD",
+      "position": 6,
+      "driver": "Ricky Newcombe",
+      "best_run": "18 / 315.39",
+      "best_laps": 18,
+      "best_seconds": 315.39
+    },
+    {
+      "class": "4WD",
+      "position": 7,
+      "driver": "Matt Martin",
+      "best_run": "16 / 304.56",
+      "best_laps": 16,
+      "best_seconds": 304.56
+    },
+    {
+      "class": "2WD",
+      "position": 1,
+      "driver": "Jordan Newbery",
+      "best_run": "20 / 312.53",
+      "best_laps": 20,
+      "best_seconds": 312.53
+    },
+    {
+      "class": "2WD",
+      "position": 2,
+      "driver": "Keith Halsey",
+      "best_run": "20 / 313.65",
+      "best_laps": 20,
+      "best_seconds": 313.65
+    },
+    {
+      "class": "2WD",
+      "position": 3,
+      "driver": "Gary Stocks",
+      "best_run": "19 / 303.96",
+      "best_laps": 19,
+      "best_seconds": 303.96
+    },
+    {
+      "class": "2WD",
+      "position": 4,
+      "driver": "David Bueno",
+      "best_run": "19 / 307.05",
+      "best_laps": 19,
+      "best_seconds": 307.05
+    },
+    {
+      "class": "2WD",
+      "position": 5,
+      "driver": "Paul Norris",
+      "best_run": "19 / 303.75",
+      "best_laps": 19,
+      "best_seconds": 303.75
+    },
+    {
+      "class": "2WD",
+      "position": 6,
+      "driver": "Callum Mitchell",
+      "best_run": "19 / 306.30",
+      "best_laps": 19,
+      "best_seconds": 306.3
+    },
+    {
+      "class": "2WD",
+      "position": 7,
+      "driver": "Paul Rose",
+      "best_run": "19 / 314.10",
+      "best_laps": 19,
+      "best_seconds": 314.1
+    },
+    {
+      "class": "2WD",
+      "position": 8,
+      "driver": "Jon Baker",
+      "best_run": "19 / 309.06",
+      "best_laps": 19,
+      "best_seconds": 309.06
+    },
+    {
+      "class": "2WD",
+      "position": 9,
+      "driver": "Sam Brown",
+      "best_run": "19 / 316.01",
+      "best_laps": 19,
+      "best_seconds": 316.01
+    },
+    {
+      "class": "2WD",
+      "position": 10,
+      "driver": "Stuart Ball",
+      "best_run": "19 / 321.11",
+      "best_laps": 19,
+      "best_seconds": 321.11
+    },
+    {
+      "class": "2WD",
+      "position": 11,
+      "driver": "Chris Cooke",
+      "best_run": "18 / 303.61",
+      "best_laps": 18,
+      "best_seconds": 303.61
+    },
+    {
+      "class": "2WD",
+      "position": 12,
+      "driver": "Terry Bates",
+      "best_run": "19 / 313.35",
+      "best_laps": 19,
+      "best_seconds": 313.35
+    },
+    {
+      "class": "2WD",
+      "position": 13,
+      "driver": "Michael Halsey",
+      "best_run": "19 / 312.04",
+      "best_laps": 19,
+      "best_seconds": 312.04
+    },
+    {
+      "class": "2WD",
+      "position": 14,
+      "driver": "Adam Roulston",
+      "best_run": "18 / 304.62",
+      "best_laps": 18,
+      "best_seconds": 304.62
+    },
+    {
+      "class": "2WD",
+      "position": 15,
+      "driver": "Andy Leach",
+      "best_run": "18 / 302.30",
+      "best_laps": 18,
+      "best_seconds": 302.3
+    },
+    {
+      "class": "2WD",
+      "position": 16,
+      "driver": "Chris Law",
+      "best_run": "18 / 304.69",
+      "best_laps": 18,
+      "best_seconds": 304.69
+    },
+    {
+      "class": "2WD",
+      "position": 17,
+      "driver": "Harry Porter",
+      "best_run": "18 / 309.58",
+      "best_laps": 18,
+      "best_seconds": 309.58
+    },
+    {
+      "class": "2WD",
+      "position": 18,
+      "driver": "Dave McCarthy",
+      "best_run": "18 / 309.92",
+      "best_laps": 18,
+      "best_seconds": 309.92
+    },
+    {
+      "class": "2WD",
+      "position": 19,
+      "driver": "Ricky Newcombe",
+      "best_run": "18 / 314.28",
+      "best_laps": 18,
+      "best_seconds": 314.28
+    },
+    {
+      "class": "2WD",
+      "position": 20,
+      "driver": "Keith Jenkins",
+      "best_run": "18 / 308.71",
+      "best_laps": 18,
+      "best_seconds": 308.71
+    },
+    {
+      "class": "2WD",
+      "position": 21,
+      "driver": "Jake Coombs",
+      "best_run": "18 / 316.76",
+      "best_laps": 18,
+      "best_seconds": 316.76
+    },
+    {
+      "class": "2WD",
+      "position": 22,
+      "driver": "Kev Dymond",
+      "best_run": "18 / 315.36",
+      "best_laps": 18,
+      "best_seconds": 315.36
+    },
+    {
+      "class": "2WD",
+      "position": 23,
+      "driver": "Edward Wenmouth",
+      "best_run": "17 / 307.08",
+      "best_laps": 17,
+      "best_seconds": 307.08
+    },
+    {
+      "class": "2WD",
+      "position": 24,
+      "driver": "Mark Stocks",
+      "best_run": "17 / 302.45",
+      "best_laps": 17,
+      "best_seconds": 302.45
+    },
+    {
+      "class": "2WD",
+      "position": 25,
+      "driver": "Ashley Parry",
+      "best_run": "17 / 300.11",
+      "best_laps": 17,
+      "best_seconds": 300.11
+    },
+    {
+      "class": "2WD",
+      "position": 26,
+      "driver": "David Attiwell",
+      "best_run": "17 / 301.24",
+      "best_laps": 17,
+      "best_seconds": 301.24
+    },
+    {
+      "class": "2WD",
+      "position": 27,
+      "driver": "Alan Stocks",
+      "best_run": "17 / 304.01",
+      "best_laps": 17,
+      "best_seconds": 304.01
+    },
+    {
+      "class": "2WD",
+      "position": 28,
+      "driver": "Paul Duckmanton",
+      "best_run": "17 / 307.63",
+      "best_laps": 17,
+      "best_seconds": 307.63
+    },
+    {
+      "class": "2WD",
+      "position": 29,
+      "driver": "Ryan Eaton",
+      "best_run": "17 / 307.87",
+      "best_laps": 17,
+      "best_seconds": 307.87
+    },
+    {
+      "class": "2WD",
+      "position": 30,
+      "driver": "Martial Radford",
+      "best_run": "17 / 317.68",
+      "best_laps": 17,
+      "best_seconds": 317.68
+    },
+    {
+      "class": "2WD",
+      "position": 31,
+      "driver": "Mike Batte",
+      "best_run": "17 / 315.68",
+      "best_laps": 17,
+      "best_seconds": 315.68
+    },
+    {
+      "class": "2WD",
+      "position": 32,
+      "driver": "Carl Rowe",
+      "best_run": "16 / 302.84",
+      "best_laps": 16,
+      "best_seconds": 302.84
+    },
+    {
+      "class": "2WD",
+      "position": 33,
+      "driver": "Adam Mozes",
+      "best_run": "16 / 305.70",
+      "best_laps": 16,
+      "best_seconds": 305.7
+    },
+    {
+      "class": "2WD",
+      "position": 34,
+      "driver": "Paul Scrase",
+      "best_run": "16 / 301.29",
+      "best_laps": 16,
+      "best_seconds": 301.29
+    },
+    {
+      "class": "2WD",
+      "position": 35,
+      "driver": "Matt Martin",
+      "best_run": "16 / 321.58",
+      "best_laps": 16,
+      "best_seconds": 321.58
+    },
+    {
+      "class": "2WD",
+      "position": 36,
+      "driver": "Dave Mills",
+      "best_run": "14 / 309.75",
+      "best_laps": 14,
+      "best_seconds": 309.75
+    },
+    {
+      "class": "2WD",
+      "position": 37,
+      "driver": "Will Thompson",
+      "best_run": "14 / 302.71",
+      "best_laps": 14,
+      "best_seconds": 302.71
+    },
+    {
+      "class": "2WD",
+      "position": 38,
+      "driver": "Matthew Jones",
+      "best_run": "14 / 314.93",
+      "best_laps": 14,
+      "best_seconds": 314.93
+    },
+    {
+      "class": "2WD",
+      "position": 39,
+      "driver": "Seb Eaton",
+      "best_run": "14 / 319.98",
+      "best_laps": 14,
+      "best_seconds": 319.98
+    },
+    {
+      "class": "2WD",
+      "position": 40,
+      "driver": "Sam Carson",
+      "best_run": "12 / 313.81",
+      "best_laps": 12,
+      "best_seconds": 313.81
+    }
+  ],
+  "finals": [
+    {
+      "class": "Stadium Trucks",
+      "final": "B Final",
+      "position": 1,
+      "car": 4,
+      "driver": "David Attiwell",
+      "laps": 16,
+      "total_seconds": 312.17,
+      "result_str": "16 / 312.17",
+      "average_lap": 19.51,
+      "best10": 18.02,
+      "best_lap": 17.3
+    },
+    {
+      "class": "Stadium Trucks",
+      "final": "B Final",
+      "position": 2,
+      "car": 1,
+      "driver": "Luke Coombs",
+      "laps": 16,
+      "total_seconds": 318.46,
+      "result_str": "16 / 318.46",
+      "average_lap": 19.9,
+      "best10": 18.84,
+      "best_lap": 18.44
+    },
+    {
+      "class": "Stadium Trucks",
+      "final": "B Final",
+      "position": 3,
+      "car": 3,
+      "driver": "Adam Bedford",
+      "laps": 15,
+      "total_seconds": 313.95,
+      "result_str": "15 / 313.95",
+      "average_lap": 20.93,
+      "best10": 19.5,
+      "best_lap": 18.9
+    },
+    {
+      "class": "Stadium Trucks",
+      "final": "B Final",
+      "position": 4,
+      "car": 2,
+      "driver": "Adam Mozes",
+      "laps": 15,
+      "total_seconds": 315.46,
+      "result_str": "15 / 315.46",
+      "average_lap": 21.03,
+      "best10": 19.92,
+      "best_lap": 18.21
+    },
+    {
+      "class": "Stadium Trucks",
+      "final": "B Final",
+      "position": 5,
+      "car": 6,
+      "driver": "Marc Biddiss",
+      "laps": 15,
+      "total_seconds": 317.86,
+      "result_str": "15 / 317.86",
+      "average_lap": 21.19,
+      "best10": 20.49,
+      "best_lap": 19.82
+    },
+    {
+      "class": "Stadium Trucks",
+      "final": "B Final",
+      "position": 6,
+      "car": 5,
+      "driver": "Terry Leach",
+      "laps": 14,
+      "total_seconds": 300.15,
+      "result_str": "14 / 300.15",
+      "average_lap": 21.43,
+      "best10": 19.92,
+      "best_lap": 18.81
+    },
+    {
+      "class": "Stadium Trucks",
+      "final": "B Final",
+      "position": 7,
+      "car": 8,
+      "driver": "Sean Buller",
+      "laps": 13,
+      "total_seconds": 308.57,
+      "result_str": "13 / 308.57",
+      "average_lap": 23.73,
+      "best10": 22.35,
+      "best_lap": 18.91
+    },
+    {
+      "class": "Stadium Trucks",
+      "final": "B Final",
+      "position": 8,
+      "car": 7,
+      "driver": "Mark Martin",
+      "laps": 13,
+      "total_seconds": 311.65,
+      "result_str": "13 / 311.65",
+      "average_lap": 23.97,
+      "best10": 21.8,
+      "best_lap": 18.9
+    },
+    {
+      "class": "Stadium Trucks",
+      "final": "A Final",
+      "position": 1,
+      "car": 1,
+      "driver": "Jon Baker",
+      "laps": 18,
+      "total_seconds": 309.71,
+      "result_str": "18 / 309.71",
+      "average_lap": 17.2,
+      "best10": 16.79,
+      "best_lap": 16.39
+    },
+    {
+      "class": "Stadium Trucks",
+      "final": "A Final",
+      "position": 2,
+      "car": 5,
+      "driver": "Mark Hicks",
+      "laps": 16,
+      "total_seconds": 306.55,
+      "result_str": "16 / 306.55",
+      "average_lap": 19.15,
+      "best10": 18.43,
+      "best_lap": 18.0
+    },
+    {
+      "class": "Stadium Trucks",
+      "final": "A Final",
+      "position": 3,
+      "car": 7,
+      "driver": "Edward Wenmouth",
+      "laps": 16,
+      "total_seconds": 309.15,
+      "result_str": "16 / 309.15",
+      "average_lap": 19.32,
+      "best10": 18.37,
+      "best_lap": 17.83
+    },
+    {
+      "class": "Stadium Trucks",
+      "final": "A Final",
+      "position": 4,
+      "car": 8,
+      "driver": "Tommy Gape",
+      "laps": 16,
+      "total_seconds": 311.93,
+      "result_str": "16 / 311.93",
+      "average_lap": 19.49,
+      "best10": 18.31,
+      "best_lap": 17.32
+    },
+    {
+      "class": "Stadium Trucks",
+      "final": "A Final",
+      "position": 5,
+      "car": 4,
+      "driver": "Harry Davis",
+      "laps": 16,
+      "total_seconds": 313.86,
+      "result_str": "16 / 313.86",
+      "average_lap": 19.61,
+      "best10": 18.58,
+      "best_lap": 17.73
+    },
+    {
+      "class": "Stadium Trucks",
+      "final": "A Final",
+      "position": 6,
+      "car": 2,
+      "driver": "Jake Coombs",
+      "laps": 15,
+      "total_seconds": 307.69,
+      "result_str": "15 / 307.69",
+      "average_lap": 20.51,
+      "best10": 18.44,
+      "best_lap": 17.21
+    },
+    {
+      "class": "Stadium Trucks",
+      "final": "A Final",
+      "position": 7,
+      "car": 6,
+      "driver": "Barry Norris",
+      "laps": 15,
+      "total_seconds": 311.24,
+      "result_str": "15 / 311.24",
+      "average_lap": 20.74,
+      "best10": 19.34,
+      "best_lap": 18.11
+    },
+    {
+      "class": "Stadium Trucks",
+      "final": "A Final",
+      "position": 8,
+      "car": 3,
+      "driver": "Michael Julian",
+      "laps": 13,
+      "total_seconds": 232.1,
+      "result_str": "13 / 232.10",
+      "average_lap": 17.85,
+      "best10": 17.5,
+      "best_lap": 17.11
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "final": "B Final",
+      "position": 1,
+      "car": 7,
+      "driver": "Chris Law",
+      "laps": 15,
+      "total_seconds": 310.83,
+      "result_str": "15 / 310.83",
+      "average_lap": 20.72,
+      "best10": 19.29,
+      "best_lap": 18.39
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "final": "B Final",
+      "position": 2,
+      "car": 4,
+      "driver": "Haiden Hicks",
+      "laps": 14,
+      "total_seconds": 303.58,
+      "result_str": "14 / 303.58",
+      "average_lap": 21.68,
+      "best10": 20.47,
+      "best_lap": 19.22
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "final": "B Final",
+      "position": 3,
+      "car": 1,
+      "driver": "Dave Mills",
+      "laps": 14,
+      "total_seconds": 310.58,
+      "result_str": "14 / 310.58",
+      "average_lap": 22.18,
+      "best10": 21.36,
+      "best_lap": 20.25
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "final": "B Final",
+      "position": 4,
+      "car": 2,
+      "driver": "Harry Davis",
+      "laps": 13,
+      "total_seconds": 322.1,
+      "result_str": "13 / 322.10",
+      "average_lap": 24.77,
+      "best10": 23.0,
+      "best_lap": 20.9
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "final": "B Final",
+      "position": 5,
+      "car": 5,
+      "driver": "Marcia Davis",
+      "laps": 12,
+      "total_seconds": 323.04,
+      "result_str": "12 / 323.04",
+      "average_lap": 26.92,
+      "best10": 26.1,
+      "best_lap": 23.82
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "final": "B Final",
+      "position": 6,
+      "car": 3,
+      "driver": "Simon White",
+      "laps": 4,
+      "total_seconds": 94.6,
+      "result_str": "4 / 94.60",
+      "average_lap": 23.65,
+      "best10": null,
+      "best_lap": 22.36
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "final": "B Final",
+      "position": "=7",
+      "car": 8,
+      "driver": "Mark Hicks",
+      "laps": 0,
+      "total_seconds": 0.0,
+      "result_str": "0 / 0.00",
+      "average_lap": null,
+      "best10": null,
+      "best_lap": null
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "final": "B Final",
+      "position": "=7",
+      "car": 6,
+      "driver": "Natasha Venn",
+      "laps": 0,
+      "total_seconds": 0.0,
+      "result_str": "0 / 0.00",
+      "average_lap": null,
+      "best10": null,
+      "best_lap": null
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "final": "A Final",
+      "position": 1,
+      "car": 2,
+      "driver": "Jordan Newbery",
+      "laps": 18,
+      "total_seconds": 307.45,
+      "result_str": "18 / 307.45",
+      "average_lap": 17.08,
+      "best10": 16.65,
+      "best_lap": 16.22
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "final": "A Final",
+      "position": 2,
+      "car": 3,
+      "driver": "Dan Harding",
+      "laps": 17,
+      "total_seconds": 301.19,
+      "result_str": "17 / 301.19",
+      "average_lap": 17.71,
+      "best10": 17.02,
+      "best_lap": 16.57
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "final": "A Final",
+      "position": 3,
+      "car": 5,
+      "driver": "Paul Duckmanton",
+      "laps": 17,
+      "total_seconds": 309.47,
+      "result_str": "17 / 309.47",
+      "average_lap": 18.2,
+      "best10": 17.66,
+      "best_lap": 17.27
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "final": "A Final",
+      "position": 4,
+      "car": 6,
+      "driver": "Steve Hawkins",
+      "laps": 17,
+      "total_seconds": 317.0,
+      "result_str": "17 / 317.00",
+      "average_lap": 18.64,
+      "best10": 18.07,
+      "best_lap": 17.67
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "final": "A Final",
+      "position": 5,
+      "car": 8,
+      "driver": "John Howe",
+      "laps": 16,
+      "total_seconds": 303.86,
+      "result_str": "16 / 303.86",
+      "average_lap": 18.99,
+      "best10": 18.08,
+      "best_lap": 17.84
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "final": "A Final",
+      "position": 6,
+      "car": 7,
+      "driver": "Carl Rowe",
+      "laps": 16,
+      "total_seconds": 305.75,
+      "result_str": "16 / 305.75",
+      "average_lap": 19.1,
+      "best10": 18.32,
+      "best_lap": 17.85
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "final": "A Final",
+      "position": 7,
+      "car": 9,
+      "driver": "Alan Stocks",
+      "laps": 15,
+      "total_seconds": 311.39,
+      "result_str": "15 / 311.39",
+      "average_lap": 20.75,
+      "best10": 19.75,
+      "best_lap": 17.97
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "final": "A Final",
+      "position": 8,
+      "car": 1,
+      "driver": "Bryan Burrows",
+      "laps": 4,
+      "total_seconds": 65.45,
+      "result_str": "4 / 65.45",
+      "average_lap": 16.36,
+      "best10": null,
+      "best_lap": 16.28
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "final": "A Final",
+      "position": 9,
+      "car": 4,
+      "driver": "Mark Stocks",
+      "laps": 2,
+      "total_seconds": 41.95,
+      "result_str": "2 / 41.95",
+      "average_lap": 20.97,
+      "best10": null,
+      "best_lap": 18.06
+    },
+    {
+      "class": "4WD",
+      "final": "A Final",
+      "position": 1,
+      "car": 1,
+      "driver": "Keith Halsey",
+      "laps": 20,
+      "total_seconds": 309.84,
+      "result_str": "20 / 309.84",
+      "average_lap": 15.49,
+      "best10": 15.28,
+      "best_lap": 15.03
+    },
+    {
+      "class": "4WD",
+      "final": "A Final",
+      "position": 2,
+      "car": 3,
+      "driver": "Michael Halsey",
+      "laps": 19,
+      "total_seconds": 305.54,
+      "result_str": "19 / 305.54",
+      "average_lap": 16.08,
+      "best10": 15.72,
+      "best_lap": 15.41
+    },
+    {
+      "class": "4WD",
+      "final": "A Final",
+      "position": 3,
+      "car": 4,
+      "driver": "Ryan Eaton",
+      "laps": 18,
+      "total_seconds": 311.13,
+      "result_str": "18 / 311.13",
+      "average_lap": 17.28,
+      "best10": 16.39,
+      "best_lap": 15.72
+    },
+    {
+      "class": "4WD",
+      "final": "A Final",
+      "position": 4,
+      "car": 5,
+      "driver": "Ricky Newcombe",
+      "laps": 17,
+      "total_seconds": 302.64,
+      "result_str": "17 / 302.64",
+      "average_lap": 17.8,
+      "best10": 16.97,
+      "best_lap": 16.67
+    },
+    {
+      "class": "4WD",
+      "final": "A Final",
+      "position": 5,
+      "car": 6,
+      "driver": "Matt Martin",
+      "laps": 17,
+      "total_seconds": 313.36,
+      "result_str": "17 / 313.36",
+      "average_lap": 18.43,
+      "best10": 17.39,
+      "best_lap": 16.89
+    },
+    {
+      "class": "4WD",
+      "final": "A Final",
+      "position": 6,
+      "car": 2,
+      "driver": "Jon Baker",
+      "laps": 13,
+      "total_seconds": 303.68,
+      "result_str": "13 / 303.68",
+      "average_lap": 23.36,
+      "best10": 15.72,
+      "best_lap": 15.41
+    },
+    {
+      "class": "2WD",
+      "final": "E Final",
+      "position": 1,
+      "car": 2,
+      "driver": "Matt Martin",
+      "laps": 16,
+      "total_seconds": 309.99,
+      "result_str": "16 / 309.99",
+      "average_lap": 19.37,
+      "best10": 18.37,
+      "best_lap": 17.7
+    },
+    {
+      "class": "2WD",
+      "final": "E Final",
+      "position": 2,
+      "car": 1,
+      "driver": "Paul Scrase",
+      "laps": 15,
+      "total_seconds": 301.68,
+      "result_str": "15 / 301.68",
+      "average_lap": 20.11,
+      "best10": 18.57,
+      "best_lap": 17.21
+    },
+    {
+      "class": "2WD",
+      "final": "E Final",
+      "position": 3,
+      "car": 5,
+      "driver": "Matthew Jones",
+      "laps": 15,
+      "total_seconds": 319.32,
+      "result_str": "15 / 319.32",
+      "average_lap": 21.28,
+      "best10": 20.18,
+      "best_lap": 19.33
+    },
+    {
+      "class": "2WD",
+      "final": "E Final",
+      "position": 4,
+      "car": 7,
+      "driver": "Sam Carson",
+      "laps": 14,
+      "total_seconds": 308.21,
+      "result_str": "14 / 308.21",
+      "average_lap": 22.01,
+      "best10": 20.82,
+      "best_lap": 18.31
+    },
+    {
+      "class": "2WD",
+      "final": "E Final",
+      "position": 5,
+      "car": 3,
+      "driver": "Dave Mills",
+      "laps": 14,
+      "total_seconds": 312.13,
+      "result_str": "14 / 312.13",
+      "average_lap": 22.29,
+      "best10": 20.79,
+      "best_lap": 18.47
+    },
+    {
+      "class": "2WD",
+      "final": "E Final",
+      "position": 6,
+      "car": 6,
+      "driver": "Seb Eaton",
+      "laps": 14,
+      "total_seconds": 322.8,
+      "result_str": "14 / 322.80",
+      "average_lap": 23.05,
+      "best10": 21.56,
+      "best_lap": 19.48
+    },
+    {
+      "class": "2WD",
+      "final": "E Final",
+      "position": 7,
+      "car": 4,
+      "driver": "Will Thompson",
+      "laps": 13,
+      "total_seconds": 308.9,
+      "result_str": "13 / 308.90",
+      "average_lap": 23.76,
+      "best10": 21.97,
+      "best_lap": 18.78
+    },
+    {
+      "class": "2WD",
+      "final": "D Final",
+      "position": 1,
+      "car": 1,
+      "driver": "David Attiwell",
+      "laps": 18,
+      "total_seconds": 320.92,
+      "result_str": "18 / 320.92",
+      "average_lap": 17.82,
+      "best10": 16.46,
+      "best_lap": 15.91
+    },
+    {
+      "class": "2WD",
+      "final": "D Final",
+      "position": 2,
+      "car": 3,
+      "driver": "Paul Duckmanton",
+      "laps": 17,
+      "total_seconds": 312.69,
+      "result_str": "17 / 312.69",
+      "average_lap": 18.39,
+      "best10": 17.21,
+      "best_lap": 16.77
+    },
+    {
+      "class": "2WD",
+      "final": "D Final",
+      "position": 3,
+      "car": 4,
+      "driver": "Ryan Eaton",
+      "laps": 17,
+      "total_seconds": 314.49,
+      "result_str": "17 / 314.49",
+      "average_lap": 18.49,
+      "best10": 17.38,
+      "best_lap": 16.94
+    },
+    {
+      "class": "2WD",
+      "final": "D Final",
+      "position": 4,
+      "car": 5,
+      "driver": "Martial Radford",
+      "laps": 16,
+      "total_seconds": 301.68,
+      "result_str": "16 / 301.68",
+      "average_lap": 18.85,
+      "best10": 17.65,
+      "best_lap": 16.81
+    },
+    {
+      "class": "2WD",
+      "final": "D Final",
+      "position": 5,
+      "car": 6,
+      "driver": "Mike Batte",
+      "laps": 16,
+      "total_seconds": 302.77,
+      "result_str": "16 / 302.77",
+      "average_lap": 18.92,
+      "best10": 17.43,
+      "best_lap": 17.08
+    },
+    {
+      "class": "2WD",
+      "final": "D Final",
+      "position": 6,
+      "car": 7,
+      "driver": "Carl Rowe",
+      "laps": 16,
+      "total_seconds": 308.07,
+      "result_str": "16 / 308.07",
+      "average_lap": 19.25,
+      "best10": 17.42,
+      "best_lap": 16.83
+    },
+    {
+      "class": "2WD",
+      "final": "D Final",
+      "position": 7,
+      "car": 8,
+      "driver": "Adam Mozes",
+      "laps": 15,
+      "total_seconds": 301.0,
+      "result_str": "15 / 301.00",
+      "average_lap": 20.06,
+      "best10": 18.99,
+      "best_lap": 17.65
+    },
+    {
+      "class": "2WD",
+      "final": "D Final",
+      "position": 8,
+      "car": 2,
+      "driver": "Alan Stocks",
+      "laps": 15,
+      "total_seconds": 303.26,
+      "result_str": "15 / 303.26",
+      "average_lap": 20.21,
+      "best10": 18.44,
+      "best_lap": 17.36
+    },
+    {
+      "class": "2WD",
+      "final": "C Final",
+      "position": 1,
+      "car": 2,
+      "driver": "Ricky Newcombe",
+      "laps": 18,
+      "total_seconds": 313.54,
+      "result_str": "18 / 313.54",
+      "average_lap": 17.41,
+      "best10": 17.0,
+      "best_lap": 16.55
+    },
+    {
+      "class": "2WD",
+      "final": "C Final",
+      "position": 2,
+      "car": 6,
+      "driver": "Edward Wenmouth",
+      "laps": 18,
+      "total_seconds": 315.19,
+      "result_str": "18 / 315.19",
+      "average_lap": 17.51,
+      "best10": 17.12,
+      "best_lap": 16.89
+    },
+    {
+      "class": "2WD",
+      "final": "C Final",
+      "position": 3,
+      "car": 3,
+      "driver": "Keith Jenkins",
+      "laps": 18,
+      "total_seconds": 315.95,
+      "result_str": "18 / 315.95",
+      "average_lap": 17.55,
+      "best10": 16.66,
+      "best_lap": 16.3
+    },
+    {
+      "class": "2WD",
+      "final": "C Final",
+      "position": 4,
+      "car": 5,
+      "driver": "Kev Dymond",
+      "laps": 17,
+      "total_seconds": 302.01,
+      "result_str": "17 / 302.01",
+      "average_lap": 17.76,
+      "best10": 16.97,
+      "best_lap": 16.63
+    },
+    {
+      "class": "2WD",
+      "final": "C Final",
+      "position": 5,
+      "car": 4,
+      "driver": "Jake Coombs",
+      "laps": 17,
+      "total_seconds": 311.03,
+      "result_str": "17 / 311.03",
+      "average_lap": 18.29,
+      "best10": 17.08,
+      "best_lap": 16.49
+    },
+    {
+      "class": "2WD",
+      "final": "C Final",
+      "position": 6,
+      "car": 8,
+      "driver": "Ashley Parry",
+      "laps": 17,
+      "total_seconds": 312.22,
+      "result_str": "17 / 312.22",
+      "average_lap": 18.36,
+      "best10": 16.84,
+      "best_lap": 16.2
+    },
+    {
+      "class": "2WD",
+      "final": "C Final",
+      "position": 7,
+      "car": 7,
+      "driver": "Mark Stocks",
+      "laps": 17,
+      "total_seconds": 316.69,
+      "result_str": "17 / 316.69",
+      "average_lap": 18.62,
+      "best10": 17.35,
+      "best_lap": 16.61
+    },
+    {
+      "class": "2WD",
+      "final": "C Final",
+      "position": 8,
+      "car": 1,
+      "driver": "Dave McCarthy",
+      "laps": 0,
+      "total_seconds": 0.0,
+      "result_str": "0 / 0.00",
+      "average_lap": null,
+      "best10": null,
+      "best_lap": null
+    },
+    {
+      "class": "2WD",
+      "final": "B Final",
+      "position": 1,
+      "car": 4,
+      "driver": "Terry Bates",
+      "laps": 19,
+      "total_seconds": 310.07,
+      "result_str": "19 / 310.07",
+      "average_lap": 16.31,
+      "best10": 16.05,
+      "best_lap": 15.69
+    },
+    {
+      "class": "2WD",
+      "final": "B Final",
+      "position": 2,
+      "car": 3,
+      "driver": "Chris Cooke",
+      "laps": 18,
+      "total_seconds": 306.36,
+      "result_str": "18 / 306.36",
+      "average_lap": 17.02,
+      "best10": 16.28,
+      "best_lap": 15.89
+    },
+    {
+      "class": "2WD",
+      "final": "B Final",
+      "position": 3,
+      "car": 1,
+      "driver": "Sam Brown",
+      "laps": 18,
+      "total_seconds": 308.12,
+      "result_str": "18 / 308.12",
+      "average_lap": 17.11,
+      "best10": 16.23,
+      "best_lap": 15.84
+    },
+    {
+      "class": "2WD",
+      "final": "B Final",
+      "position": 4,
+      "car": 6,
+      "driver": "Andy Leach",
+      "laps": 18,
+      "total_seconds": 309.65,
+      "result_str": "18 / 309.65",
+      "average_lap": 17.2,
+      "best10": 16.34,
+      "best_lap": 15.95
+    },
+    {
+      "class": "2WD",
+      "final": "B Final",
+      "position": 5,
+      "car": 2,
+      "driver": "Stuart Ball",
+      "laps": 17,
+      "total_seconds": 303.31,
+      "result_str": "17 / 303.31",
+      "average_lap": 17.84,
+      "best10": 16.37,
+      "best_lap": 15.85
+    },
+    {
+      "class": "2WD",
+      "final": "B Final",
+      "position": 6,
+      "car": 8,
+      "driver": "Harry Porter",
+      "laps": 17,
+      "total_seconds": 310.7,
+      "result_str": "17 / 310.70",
+      "average_lap": 18.27,
+      "best10": 16.54,
+      "best_lap": 15.82
+    },
+    {
+      "class": "2WD",
+      "final": "B Final",
+      "position": 7,
+      "car": 5,
+      "driver": "Michael Halsey",
+      "laps": 17,
+      "total_seconds": 312.56,
+      "result_str": "17 / 312.56",
+      "average_lap": 18.38,
+      "best10": 16.59,
+      "best_lap": 15.61
+    },
+    {
+      "class": "2WD",
+      "final": "B Final",
+      "position": 8,
+      "car": 7,
+      "driver": "Chris Law",
+      "laps": 17,
+      "total_seconds": 314.47,
+      "result_str": "17 / 314.47",
+      "average_lap": 18.49,
+      "best10": 17.24,
+      "best_lap": 16.38
+    },
+    {
+      "class": "2WD",
+      "final": "A Final",
+      "position": 1,
+      "car": 1,
+      "driver": "Jordan Newbery",
+      "laps": 20,
+      "total_seconds": 339.73,
+      "result_str": "20 / 339.73",
+      "average_lap": 16.98,
+      "best10": 15.47,
+      "best_lap": 15.26
+    },
+    {
+      "class": "2WD",
+      "final": "A Final",
+      "position": 2,
+      "car": 5,
+      "driver": "Paul Norris",
+      "laps": 19,
+      "total_seconds": 315.56,
+      "result_str": "19 / 315.56",
+      "average_lap": 16.6,
+      "best10": 15.5,
+      "best_lap": 15.25
+    },
+    {
+      "class": "2WD",
+      "final": "A Final",
+      "position": 3,
+      "car": 7,
+      "driver": "Paul Rose",
+      "laps": 18,
+      "total_seconds": 300.57,
+      "result_str": "18 / 300.57",
+      "average_lap": 16.69,
+      "best10": 15.85,
+      "best_lap": 15.4
+    },
+    {
+      "class": "2WD",
+      "final": "A Final",
+      "position": 4,
+      "car": 3,
+      "driver": "Gary Stocks",
+      "laps": 18,
+      "total_seconds": 305.11,
+      "result_str": "18 / 305.11",
+      "average_lap": 16.95,
+      "best10": 15.52,
+      "best_lap": 15.4
+    },
+    {
+      "class": "2WD",
+      "final": "A Final",
+      "position": 5,
+      "car": 2,
+      "driver": "Keith Halsey",
+      "laps": 18,
+      "total_seconds": 307.94,
+      "result_str": "18 / 307.94",
+      "average_lap": 17.1,
+      "best10": 15.71,
+      "best_lap": 15.32
+    },
+    {
+      "class": "2WD",
+      "final": "A Final",
+      "position": 6,
+      "car": 8,
+      "driver": "Jon Baker",
+      "laps": 18,
+      "total_seconds": 317.44,
+      "result_str": "18 / 317.44",
+      "average_lap": 17.63,
+      "best10": 16.29,
+      "best_lap": 15.47
+    },
+    {
+      "class": "2WD",
+      "final": "A Final",
+      "position": 7,
+      "car": 4,
+      "driver": "David Bueno",
+      "laps": 16,
+      "total_seconds": 260.55,
+      "result_str": "16 / 260.55",
+      "average_lap": 16.28,
+      "best10": 15.66,
+      "best_lap": 15.22
+    },
+    {
+      "class": "2WD",
+      "final": "A Final",
+      "position": 8,
+      "car": 6,
+      "driver": "Callum Mitchell",
+      "laps": 12,
+      "total_seconds": 233.94,
+      "result_str": "12 / 233.94",
+      "average_lap": 19.49,
+      "best10": 15.83,
+      "best_lap": 15.26
+    }
+  ],
+  "heats": [
+    {
+      "class": "Stadium Trucks",
+      "driver": "Mark Hicks",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 16,
+      "total_seconds": 312.61,
+      "best10": 18.97,
+      "best_lap": 18.32
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Edward Wenmouth",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 15,
+      "total_seconds": 290.15,
+      "best10": 18.0,
+      "best_lap": 17.06
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Terry Leach",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 15,
+      "total_seconds": 312.39,
+      "best10": 20.07,
+      "best_lap": 19.44
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Adam Bedford",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 15,
+      "total_seconds": 316.99,
+      "best10": 20.43,
+      "best_lap": 18.97
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Adam Mozes",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 14,
+      "total_seconds": 300.49,
+      "best10": 20.69,
+      "best_lap": 19.03
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Marc Biddiss",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 14,
+      "total_seconds": 309.3,
+      "best10": 21.07,
+      "best_lap": 20.33
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Mark Martin",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 13,
+      "total_seconds": 308.67,
+      "best10": 21.94,
+      "best_lap": 19.35
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Sean Buller",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 13,
+      "total_seconds": 313.17,
+      "best10": 22.44,
+      "best_lap": 19.28
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Jon Baker",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 16,
+      "total_seconds": 303.54,
+      "best10": 16.74,
+      "best_lap": 16.2
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Jake Coombs",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 16,
+      "total_seconds": 305.55,
+      "best10": 18.3,
+      "best_lap": 17.72
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Michael Julian",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 16,
+      "total_seconds": 312.12,
+      "best10": 18.29,
+      "best_lap": 17.46
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Barry Norris",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 16,
+      "total_seconds": 315.57,
+      "best10": 19.27,
+      "best_lap": 18.91
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Harry Davis",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 15,
+      "total_seconds": 300.45,
+      "best10": 19.03,
+      "best_lap": 18.37
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "David Attiwell",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 15,
+      "total_seconds": 302.14,
+      "best10": 18.22,
+      "best_lap": 17.23
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Luke Coombs",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 14,
+      "total_seconds": 302.44,
+      "best10": 20.83,
+      "best_lap": 19.48
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Tommy Gape",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 11,
+      "total_seconds": 204.85,
+      "best10": 18.12,
+      "best_lap": 17.55
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "John Howe",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 16,
+      "total_seconds": 310.94,
+      "best10": 18.91,
+      "best_lap": 18.37
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Carl Rowe",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 15,
+      "total_seconds": 300.22,
+      "best10": 19.06,
+      "best_lap": 18.45
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Haiden Hicks",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 14,
+      "total_seconds": 321.73,
+      "best10": 21.93,
+      "best_lap": 20.12
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Dave Mills",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 13,
+      "total_seconds": 307.61,
+      "best10": 22.11,
+      "best_lap": 19.81
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Simon White",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 13,
+      "total_seconds": 317.74,
+      "best10": 22.04,
+      "best_lap": 18.6
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Marcia Davis",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 11,
+      "total_seconds": 315.95,
+      "best10": 28.14,
+      "best_lap": 23.99
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Natasha Venn",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 9,
+      "total_seconds": 325.31,
+      "best10": null,
+      "best_lap": 30.83
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Mark Hicks",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 2,
+      "total_seconds": 53.47,
+      "best10": null,
+      "best_lap": 21.28
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Jordan Newbery",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 17,
+      "total_seconds": 307.08,
+      "best10": 16.86,
+      "best_lap": 16.32
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Bryan Burrows",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 17,
+      "total_seconds": 313.24,
+      "best10": 16.93,
+      "best_lap": 16.51
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Mark Stocks",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 16,
+      "total_seconds": 303.41,
+      "best10": 18.28,
+      "best_lap": 17.53
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Steve Hawkins",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 16,
+      "total_seconds": 307.26,
+      "best10": 18.33,
+      "best_lap": 17.85
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Paul Duckmanton",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 16,
+      "total_seconds": 308.59,
+      "best10": 18.01,
+      "best_lap": 17.44
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Alan Stocks",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 16,
+      "total_seconds": 312.4,
+      "best10": 18.13,
+      "best_lap": 17.22
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Dan Harding",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 15,
+      "total_seconds": 308.78,
+      "best10": 17.61,
+      "best_lap": 17.1
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Harry Davis",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 15,
+      "total_seconds": 316.49,
+      "best10": 18.84,
+      "best_lap": 18.32
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Chris Law",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 0,
+      "total_seconds": 0.0,
+      "best10": null,
+      "best_lap": null
+    },
+    {
+      "class": "4WD",
+      "driver": "Jon Baker",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 19,
+      "total_seconds": 308.75,
+      "best10": 15.66,
+      "best_lap": 15.51
+    },
+    {
+      "class": "4WD",
+      "driver": "Keith Halsey",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 19,
+      "total_seconds": 310.55,
+      "best10": 15.45,
+      "best_lap": 15.07
+    },
+    {
+      "class": "4WD",
+      "driver": "Adam Roulston",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 18,
+      "total_seconds": 306.62,
+      "best10": 16.42,
+      "best_lap": 15.98
+    },
+    {
+      "class": "4WD",
+      "driver": "Ricky Newcombe",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 17,
+      "total_seconds": 314.46,
+      "best10": 17.65,
+      "best_lap": 16.96
+    },
+    {
+      "class": "4WD",
+      "driver": "Ryan Eaton",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 16,
+      "total_seconds": 301.7,
+      "best10": 18.04,
+      "best_lap": 17.19
+    },
+    {
+      "class": "4WD",
+      "driver": "Matt Martin",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 16,
+      "total_seconds": 317.73,
+      "best10": 17.83,
+      "best_lap": 16.86
+    },
+    {
+      "class": "4WD",
+      "driver": "Michael Halsey",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 14,
+      "total_seconds": 317.87,
+      "best10": 21.28,
+      "best_lap": 18.56
+    },
+    {
+      "class": "2WD",
+      "driver": "Paul Duckmanton",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 16,
+      "total_seconds": 309.68,
+      "best10": 17.97,
+      "best_lap": 16.75
+    },
+    {
+      "class": "2WD",
+      "driver": "Mike Batte",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 16,
+      "total_seconds": 318.28,
+      "best10": 18.37,
+      "best_lap": 17.72
+    },
+    {
+      "class": "2WD",
+      "driver": "Martial Radford",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 14,
+      "total_seconds": 310.51,
+      "best10": 19.6,
+      "best_lap": 17.63
+    },
+    {
+      "class": "2WD",
+      "driver": "Matthew Jones",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 13,
+      "total_seconds": 317.86,
+      "best10": 22.53,
+      "best_lap": 18.15
+    },
+    {
+      "class": "2WD",
+      "driver": "Dave Mills",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 13,
+      "total_seconds": 321.51,
+      "best10": 22.33,
+      "best_lap": 19.33
+    },
+    {
+      "class": "2WD",
+      "driver": "Seb Eaton",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 12,
+      "total_seconds": 302.88,
+      "best10": 24.52,
+      "best_lap": 20.44
+    },
+    {
+      "class": "2WD",
+      "driver": "Sam Carson",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 12,
+      "total_seconds": 313.81,
+      "best10": 25.3,
+      "best_lap": 21.52
+    },
+    {
+      "class": "2WD",
+      "driver": "Will Thompson",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 10,
+      "total_seconds": 209.31,
+      "best10": 20.93,
+      "best_lap": 18.11
+    },
+    {
+      "class": "2WD",
+      "driver": "Kev Dymond",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 17,
+      "total_seconds": 311.84,
+      "best10": 17.35,
+      "best_lap": 16.66
+    },
+    {
+      "class": "2WD",
+      "driver": "Keith Jenkins",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 17,
+      "total_seconds": 312.86,
+      "best10": 17.15,
+      "best_lap": 16.85
+    },
+    {
+      "class": "2WD",
+      "driver": "Alan Stocks",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 16,
+      "total_seconds": 301.94,
+      "best10": 17.61,
+      "best_lap": 17.02
+    },
+    {
+      "class": "2WD",
+      "driver": "Carl Rowe",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 16,
+      "total_seconds": 314.82,
+      "best10": 18.45,
+      "best_lap": 17.66
+    },
+    {
+      "class": "2WD",
+      "driver": "Ryan Eaton",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 15,
+      "total_seconds": 302.21,
+      "best10": 19.43,
+      "best_lap": 17.76
+    },
+    {
+      "class": "2WD",
+      "driver": "Matt Martin",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 15,
+      "total_seconds": 306.39,
+      "best10": 18.49,
+      "best_lap": 17.08
+    },
+    {
+      "class": "2WD",
+      "driver": "Adam Mozes",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 15,
+      "total_seconds": 307.53,
+      "best10": 19.16,
+      "best_lap": 18.34
+    },
+    {
+      "class": "2WD",
+      "driver": "Paul Scrase",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 14,
+      "total_seconds": 304.99,
+      "best10": 18.83,
+      "best_lap": 16.78
+    },
+    {
+      "class": "2WD",
+      "driver": "Chris Cooke",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 18,
+      "total_seconds": 303.61,
+      "best10": 16.48,
+      "best_lap": 16.16
+    },
+    {
+      "class": "2WD",
+      "driver": "Chris Law",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 18,
+      "total_seconds": 315.62,
+      "best10": 16.79,
+      "best_lap": 16.16
+    },
+    {
+      "class": "2WD",
+      "driver": "Dave McCarthy",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 18,
+      "total_seconds": 317.67,
+      "best10": 17.33,
+      "best_lap": 17.08
+    },
+    {
+      "class": "2WD",
+      "driver": "Mark Stocks",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 17,
+      "total_seconds": 307.78,
+      "best10": 17.03,
+      "best_lap": 16.66
+    },
+    {
+      "class": "2WD",
+      "driver": "Edward Wenmouth",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 17,
+      "total_seconds": 309.36,
+      "best10": 17.4,
+      "best_lap": 16.99
+    },
+    {
+      "class": "2WD",
+      "driver": "Jake Coombs",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 16,
+      "total_seconds": 300.94,
+      "best10": 17.8,
+      "best_lap": 16.98
+    },
+    {
+      "class": "2WD",
+      "driver": "David Attiwell",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 15,
+      "total_seconds": 312.18,
+      "best10": 17.49,
+      "best_lap": 16.42
+    },
+    {
+      "class": "2WD",
+      "driver": "Ashley Parry",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 14,
+      "total_seconds": 304.0,
+      "best10": 17.78,
+      "best_lap": 16.64
+    },
+    {
+      "class": "2WD",
+      "driver": "Adam Roulston",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 18,
+      "total_seconds": 304.62,
+      "best10": 16.36,
+      "best_lap": 16.02
+    },
+    {
+      "class": "2WD",
+      "driver": "Paul Norris",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 18,
+      "total_seconds": 308.72,
+      "best10": 16.16,
+      "best_lap": 15.66
+    },
+    {
+      "class": "2WD",
+      "driver": "Harry Porter",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 18,
+      "total_seconds": 311.75,
+      "best10": 16.71,
+      "best_lap": 16.23
+    },
+    {
+      "class": "2WD",
+      "driver": "Andy Leach",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 18,
+      "total_seconds": 314.0,
+      "best10": 16.68,
+      "best_lap": 16.13
+    },
+    {
+      "class": "2WD",
+      "driver": "Jon Baker",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 18,
+      "total_seconds": 314.16,
+      "best10": 15.94,
+      "best_lap": 15.39
+    },
+    {
+      "class": "2WD",
+      "driver": "Ricky Newcombe",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 17,
+      "total_seconds": 305.88,
+      "best10": 17.23,
+      "best_lap": 16.52
+    },
+    {
+      "class": "2WD",
+      "driver": "Michael Halsey",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 17,
+      "total_seconds": 320.27,
+      "best10": 16.98,
+      "best_lap": 16.22
+    },
+    {
+      "class": "2WD",
+      "driver": "Gary Stocks",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 16,
+      "total_seconds": 261.12,
+      "best10": 16.12,
+      "best_lap": 15.88
+    },
+    {
+      "class": "2WD",
+      "driver": "Jordan Newbery",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 19,
+      "total_seconds": 301.26,
+      "best10": 15.54,
+      "best_lap": 15.22
+    },
+    {
+      "class": "2WD",
+      "driver": "David Bueno",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 18,
+      "total_seconds": 301.18,
+      "best10": 16.04,
+      "best_lap": 15.65
+    },
+    {
+      "class": "2WD",
+      "driver": "Paul Rose",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 18,
+      "total_seconds": 301.24,
+      "best10": 15.94,
+      "best_lap": 15.76
+    },
+    {
+      "class": "2WD",
+      "driver": "Keith Halsey",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 18,
+      "total_seconds": 301.46,
+      "best10": 16.03,
+      "best_lap": 15.78
+    },
+    {
+      "class": "2WD",
+      "driver": "Callum Mitchell",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 18,
+      "total_seconds": 301.54,
+      "best10": 15.9,
+      "best_lap": 15.36
+    },
+    {
+      "class": "2WD",
+      "driver": "Sam Brown",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 18,
+      "total_seconds": 303.5,
+      "best10": 16.09,
+      "best_lap": 15.68
+    },
+    {
+      "class": "2WD",
+      "driver": "Terry Bates",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 18,
+      "total_seconds": 305.59,
+      "best10": 16.43,
+      "best_lap": 15.84
+    },
+    {
+      "class": "2WD",
+      "driver": "Stuart Ball",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 15,
+      "total_seconds": 252.73,
+      "best10": 16.37,
+      "best_lap": 16.15
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Adam Bedford",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 15,
+      "total_seconds": 303.23,
+      "best10": 19.52,
+      "best_lap": 19.03
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Adam Mozes",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 15,
+      "total_seconds": 304.84,
+      "best10": 19.16,
+      "best_lap": 18.67
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Terry Leach",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 15,
+      "total_seconds": 319.15,
+      "best10": 20.07,
+      "best_lap": 19.26
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Marc Biddiss",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 14,
+      "total_seconds": 303.36,
+      "best10": 21.19,
+      "best_lap": 19.82
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Mark Hicks",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 14,
+      "total_seconds": 306.11,
+      "best10": 20.01,
+      "best_lap": 18.03
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Mark Martin",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 14,
+      "total_seconds": 318.09,
+      "best10": 21.47,
+      "best_lap": 20.65
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Sean Buller",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 13,
+      "total_seconds": 315.41,
+      "best10": 22.61,
+      "best_lap": 20.7
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Edward Wenmouth",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 8,
+      "total_seconds": 300.47,
+      "best10": null,
+      "best_lap": 17.68
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Jake Coombs",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 17,
+      "total_seconds": 310.36,
+      "best10": 17.73,
+      "best_lap": 17.19
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Jon Baker",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 17,
+      "total_seconds": 311.96,
+      "best10": 17.11,
+      "best_lap": 16.5
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Michael Julian",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 16,
+      "total_seconds": 302.11,
+      "best10": 17.54,
+      "best_lap": 17.3
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Harry Davis",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 16,
+      "total_seconds": 310.73,
+      "best10": 18.72,
+      "best_lap": 17.91
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Barry Norris",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 16,
+      "total_seconds": 316.25,
+      "best10": 18.9,
+      "best_lap": 18.29
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Luke Coombs",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 15,
+      "total_seconds": 320.85,
+      "best10": 19.62,
+      "best_lap": 18.45
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Tommy Gape",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 11,
+      "total_seconds": 306.15,
+      "best10": 22.51,
+      "best_lap": 18.15
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "David Attiwell",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 10,
+      "total_seconds": 212.9,
+      "best10": 21.29,
+      "best_lap": 18.01
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "John Howe",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 16,
+      "total_seconds": 311.27,
+      "best10": 19.06,
+      "best_lap": 18.63
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Carl Rowe",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 16,
+      "total_seconds": 313.05,
+      "best10": 18.74,
+      "best_lap": 18.21
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Dave Mills",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 14,
+      "total_seconds": 303.77,
+      "best10": 21.01,
+      "best_lap": 20.11
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Simon White",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 13,
+      "total_seconds": 313.68,
+      "best10": 22.57,
+      "best_lap": 18.86
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Marcia Davis",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 12,
+      "total_seconds": 304.42,
+      "best10": 24.82,
+      "best_lap": 23.2
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Natasha Venn",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 10,
+      "total_seconds": 302.28,
+      "best10": 30.22,
+      "best_lap": 26.67
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Haiden Hicks",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 7,
+      "total_seconds": 152.93,
+      "best10": null,
+      "best_lap": 19.51
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Mark Hicks",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 0,
+      "total_seconds": 0.0,
+      "best10": null,
+      "best_lap": null
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Bryan Burrows",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 18,
+      "total_seconds": 305.53,
+      "best10": 16.76,
+      "best_lap": 16.44
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Jordan Newbery",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 17,
+      "total_seconds": 300.32,
+      "best10": 16.74,
+      "best_lap": 16.29
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Dan Harding",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 17,
+      "total_seconds": 303.3,
+      "best10": 17.18,
+      "best_lap": 16.64
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Mark Stocks",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 17,
+      "total_seconds": 317.7,
+      "best10": 17.93,
+      "best_lap": 17.38
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Steve Hawkins",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 16,
+      "total_seconds": 310.55,
+      "best10": 18.79,
+      "best_lap": 18.11
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Paul Duckmanton",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 16,
+      "total_seconds": 310.92,
+      "best10": 17.83,
+      "best_lap": 17.24
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Alan Stocks",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 8,
+      "total_seconds": 162.27,
+      "best10": null,
+      "best_lap": 17.78
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Chris Law",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 4,
+      "total_seconds": 81.53,
+      "best10": null,
+      "best_lap": 18.69
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Harry Davis",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 2,
+      "total_seconds": 39.21,
+      "best10": null,
+      "best_lap": 19.45
+    },
+    {
+      "class": "4WD",
+      "driver": "Keith Halsey",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 19,
+      "total_seconds": 302.18,
+      "best10": 15.32,
+      "best_lap": 15.06
+    },
+    {
+      "class": "4WD",
+      "driver": "Michael Halsey",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 19,
+      "total_seconds": 316.09,
+      "best10": 16.08,
+      "best_lap": 15.47
+    },
+    {
+      "class": "4WD",
+      "driver": "Jon Baker",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 18,
+      "total_seconds": 302.04,
+      "best10": 15.67,
+      "best_lap": 15.44
+    },
+    {
+      "class": "4WD",
+      "driver": "Adam Roulston",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 18,
+      "total_seconds": 303.43,
+      "best10": 16.26,
+      "best_lap": 15.76
+    },
+    {
+      "class": "4WD",
+      "driver": "Ryan Eaton",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 18,
+      "total_seconds": 313.75,
+      "best10": 16.66,
+      "best_lap": 16.18
+    },
+    {
+      "class": "4WD",
+      "driver": "Ricky Newcombe",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 17,
+      "total_seconds": 311.41,
+      "best10": 16.76,
+      "best_lap": 16.32
+    },
+    {
+      "class": "4WD",
+      "driver": "Matt Martin",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 16,
+      "total_seconds": 304.56,
+      "best10": 17.85,
+      "best_lap": 16.93
+    },
+    {
+      "class": "2WD",
+      "driver": "Paul Duckmanton",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 17,
+      "total_seconds": 312.21,
+      "best10": 17.55,
+      "best_lap": 17.03
+    },
+    {
+      "class": "2WD",
+      "driver": "Martial Radford",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 17,
+      "total_seconds": 317.68,
+      "best10": 17.57,
+      "best_lap": 15.25
+    },
+    {
+      "class": "2WD",
+      "driver": "Mike Batte",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 16,
+      "total_seconds": 314.05,
+      "best10": 18.08,
+      "best_lap": 17.6
+    },
+    {
+      "class": "2WD",
+      "driver": "Dave Mills",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 14,
+      "total_seconds": 315.19,
+      "best10": 21.13,
+      "best_lap": 19.27
+    },
+    {
+      "class": "2WD",
+      "driver": "Seb Eaton",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 13,
+      "total_seconds": 303.37,
+      "best10": 22.11,
+      "best_lap": 19.42
+    },
+    {
+      "class": "2WD",
+      "driver": "Sam Carson",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 11,
+      "total_seconds": 271.03,
+      "best10": 23.75,
+      "best_lap": 20.11
+    },
+    {
+      "class": "2WD",
+      "driver": "Will Thompson",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 8,
+      "total_seconds": 176.91,
+      "best10": null,
+      "best_lap": 18.11
+    },
+    {
+      "class": "2WD",
+      "driver": "Matthew Jones",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 2,
+      "total_seconds": 42.63,
+      "best10": null,
+      "best_lap": 21.09
+    },
+    {
+      "class": "2WD",
+      "driver": "Kev Dymond",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 18,
+      "total_seconds": 315.36,
+      "best10": 17.21,
+      "best_lap": 16.77
+    },
+    {
+      "class": "2WD",
+      "driver": "Keith Jenkins",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 17,
+      "total_seconds": 313.63,
+      "best10": 17.29,
+      "best_lap": 16.84
+    },
+    {
+      "class": "2WD",
+      "driver": "Ryan Eaton",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 17,
+      "total_seconds": 316.01,
+      "best10": 17.68,
+      "best_lap": 17.27
+    },
+    {
+      "class": "2WD",
+      "driver": "Alan Stocks",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 17,
+      "total_seconds": 318.06,
+      "best10": 17.27,
+      "best_lap": 16.87
+    },
+    {
+      "class": "2WD",
+      "driver": "Carl Rowe",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 16,
+      "total_seconds": 306.79,
+      "best10": 17.74,
+      "best_lap": 17.04
+    },
+    {
+      "class": "2WD",
+      "driver": "Matt Martin",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 15,
+      "total_seconds": 300.85,
+      "best10": 18.48,
+      "best_lap": 17.49
+    },
+    {
+      "class": "2WD",
+      "driver": "Adam Mozes",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 15,
+      "total_seconds": 302.86,
+      "best10": 19.07,
+      "best_lap": 17.63
+    },
+    {
+      "class": "2WD",
+      "driver": "Paul Scrase",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 15,
+      "total_seconds": 306.03,
+      "best10": 18.49,
+      "best_lap": 16.8
+    },
+    {
+      "class": "2WD",
+      "driver": "Dave McCarthy",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 18,
+      "total_seconds": 313.53,
+      "best10": 16.79,
+      "best_lap": 16.4
+    },
+    {
+      "class": "2WD",
+      "driver": "Edward Wenmouth",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 17,
+      "total_seconds": 307.08,
+      "best10": 17.61,
+      "best_lap": 17.24
+    },
+    {
+      "class": "2WD",
+      "driver": "Jake Coombs",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 17,
+      "total_seconds": 307.63,
+      "best10": 17.08,
+      "best_lap": 16.36
+    },
+    {
+      "class": "2WD",
+      "driver": "Ashley Parry",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 17,
+      "total_seconds": 312.81,
+      "best10": 17.15,
+      "best_lap": 16.35
+    },
+    {
+      "class": "2WD",
+      "driver": "David Attiwell",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 17,
+      "total_seconds": 313.2,
+      "best10": 17.27,
+      "best_lap": 16.67
+    },
+    {
+      "class": "2WD",
+      "driver": "Chris Cooke",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 16,
+      "total_seconds": 306.74,
+      "best10": 16.82,
+      "best_lap": 16.24
+    },
+    {
+      "class": "2WD",
+      "driver": "Mark Stocks",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 16,
+      "total_seconds": 308.2,
+      "best10": 17.49,
+      "best_lap": 16.67
+    },
+    {
+      "class": "2WD",
+      "driver": "Chris Law",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 14,
+      "total_seconds": 259.7,
+      "best10": 17.21,
+      "best_lap": 16.42
+    },
+    {
+      "class": "2WD",
+      "driver": "Gary Stocks",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 19,
+      "total_seconds": 308.92,
+      "best10": 16.07,
+      "best_lap": 15.78
+    },
+    {
+      "class": "2WD",
+      "driver": "Paul Norris",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 18,
+      "total_seconds": 301.14,
+      "best10": 15.86,
+      "best_lap": 15.55
+    },
+    {
+      "class": "2WD",
+      "driver": "Jon Baker",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 18,
+      "total_seconds": 303.56,
+      "best10": 16.06,
+      "best_lap": 15.75
+    },
+    {
+      "class": "2WD",
+      "driver": "Adam Roulston",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 18,
+      "total_seconds": 308.74,
+      "best10": 16.24,
+      "best_lap": 15.93
+    },
+    {
+      "class": "2WD",
+      "driver": "Michael Halsey",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 18,
+      "total_seconds": 309.64,
+      "best10": 16.35,
+      "best_lap": 15.84
+    },
+    {
+      "class": "2WD",
+      "driver": "Harry Porter",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 18,
+      "total_seconds": 312.26,
+      "best10": 16.64,
+      "best_lap": 16.32
+    },
+    {
+      "class": "2WD",
+      "driver": "Ricky Newcombe",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 18,
+      "total_seconds": 314.28,
+      "best10": 16.68,
+      "best_lap": 16.22
+    },
+    {
+      "class": "2WD",
+      "driver": "Andy Leach",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 17,
+      "total_seconds": 311.34,
+      "best10": 16.91,
+      "best_lap": 16.22
+    },
+    {
+      "class": "2WD",
+      "driver": "Jordan Newbery",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 19,
+      "total_seconds": 300.73,
+      "best10": 15.59,
+      "best_lap": 15.31
+    },
+    {
+      "class": "2WD",
+      "driver": "Keith Halsey",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 19,
+      "total_seconds": 303.56,
+      "best10": 15.78,
+      "best_lap": 15.61
+    },
+    {
+      "class": "2WD",
+      "driver": "Callum Mitchell",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 19,
+      "total_seconds": 306.3,
+      "best10": 15.9,
+      "best_lap": 15.7
+    },
+    {
+      "class": "2WD",
+      "driver": "Paul Rose",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 19,
+      "total_seconds": 314.1,
+      "best10": 15.9,
+      "best_lap": 15.59
+    },
+    {
+      "class": "2WD",
+      "driver": "Sam Brown",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 19,
+      "total_seconds": 316.01,
+      "best10": 15.85,
+      "best_lap": 15.74
+    },
+    {
+      "class": "2WD",
+      "driver": "Stuart Ball",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 19,
+      "total_seconds": 321.11,
+      "best10": 15.82,
+      "best_lap": 15.38
+    },
+    {
+      "class": "2WD",
+      "driver": "David Bueno",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 18,
+      "total_seconds": 300.47,
+      "best10": 15.74,
+      "best_lap": 15.49
+    },
+    {
+      "class": "2WD",
+      "driver": "Terry Bates",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 18,
+      "total_seconds": 302.47,
+      "best10": 16.24,
+      "best_lap": 15.93
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Adam Mozes",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 16,
+      "total_seconds": 315.52,
+      "best10": 18.9,
+      "best_lap": 17.89
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Edward Wenmouth",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 16,
+      "total_seconds": 316.12,
+      "best10": 18.4,
+      "best_lap": 17.32
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Mark Hicks",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 15,
+      "total_seconds": 315.85,
+      "best10": 19.38,
+      "best_lap": 18.62
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Terry Leach",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 15,
+      "total_seconds": 318.58,
+      "best10": 20.23,
+      "best_lap": 19.39
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Adam Bedford",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 15,
+      "total_seconds": 320.03,
+      "best10": 19.62,
+      "best_lap": 18.25
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Marc Biddiss",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 14,
+      "total_seconds": 309.0,
+      "best10": 21.41,
+      "best_lap": 20.28
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Mark Martin",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 14,
+      "total_seconds": 317.85,
+      "best10": 21.24,
+      "best_lap": 19.52
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Sean Buller",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 13,
+      "total_seconds": 309.68,
+      "best10": 22.82,
+      "best_lap": 19.62
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Jon Baker",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 18,
+      "total_seconds": 314.33,
+      "best10": 16.65,
+      "best_lap": 16.27
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Jake Coombs",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 17,
+      "total_seconds": 307.22,
+      "best10": 17.58,
+      "best_lap": 16.79
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Michael Julian",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 17,
+      "total_seconds": 313.39,
+      "best10": 17.25,
+      "best_lap": 16.84
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Tommy Gape",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 16,
+      "total_seconds": 300.47,
+      "best10": 18.19,
+      "best_lap": 17.66
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Harry Davis",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 16,
+      "total_seconds": 312.29,
+      "best10": 18.41,
+      "best_lap": 17.81
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "David Attiwell",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 15,
+      "total_seconds": 313.17,
+      "best10": 18.47,
+      "best_lap": 16.64
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Luke Coombs",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 15,
+      "total_seconds": 313.58,
+      "best10": 18.47,
+      "best_lap": 17.96
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Barry Norris",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 14,
+      "total_seconds": 307.47,
+      "best10": 20.67,
+      "best_lap": 18.83
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Carl Rowe",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 16,
+      "total_seconds": 309.9,
+      "best10": 18.4,
+      "best_lap": 17.99
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "John Howe",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 16,
+      "total_seconds": 317.14,
+      "best10": 18.65,
+      "best_lap": 18.32
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Simon White",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 14,
+      "total_seconds": 311.5,
+      "best10": 20.99,
+      "best_lap": 19.64
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Dave Mills",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 13,
+      "total_seconds": 318.07,
+      "best10": 22.58,
+      "best_lap": 21.06
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Marcia Davis",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 11,
+      "total_seconds": 302.75,
+      "best10": 26.87,
+      "best_lap": 23.47
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Natasha Venn",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 9,
+      "total_seconds": 303.12,
+      "best10": null,
+      "best_lap": 27.71
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Haiden Hicks",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 0,
+      "total_seconds": 0.0,
+      "best10": null,
+      "best_lap": null
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Mark Hicks",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 0,
+      "total_seconds": 0.0,
+      "best10": null,
+      "best_lap": null
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Bryan Burrows",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 18,
+      "total_seconds": 312.25,
+      "best10": 16.87,
+      "best_lap": 16.45
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Paul Duckmanton",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 17,
+      "total_seconds": 303.78,
+      "best10": 17.62,
+      "best_lap": 17.39
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Dan Harding",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 17,
+      "total_seconds": 305.21,
+      "best10": 16.88,
+      "best_lap": 16.49
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Jordan Newbery",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 16,
+      "total_seconds": 302.46,
+      "best10": 17.21,
+      "best_lap": 16.71
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Mark Stocks",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 16,
+      "total_seconds": 312.39,
+      "best10": 17.83,
+      "best_lap": 17.02
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Alan Stocks",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 16,
+      "total_seconds": 315.91,
+      "best10": 18.49,
+      "best_lap": 17.26
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Steve Hawkins",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 16,
+      "total_seconds": 316.66,
+      "best10": 18.45,
+      "best_lap": 17.89
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Harry Davis",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 10,
+      "total_seconds": 196.49,
+      "best10": 19.64,
+      "best_lap": 18.48
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Chris Law",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 6,
+      "total_seconds": 118.01,
+      "best10": null,
+      "best_lap": 18.76
+    },
+    {
+      "class": "4WD",
+      "driver": "Keith Halsey",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 20,
+      "total_seconds": 313.2,
+      "best10": 15.33,
+      "best_lap": 15.2
+    },
+    {
+      "class": "4WD",
+      "driver": "Michael Halsey",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 19,
+      "total_seconds": 307.19,
+      "best10": 15.79,
+      "best_lap": 15.38
+    },
+    {
+      "class": "4WD",
+      "driver": "Jon Baker",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 18,
+      "total_seconds": 300.83,
+      "best10": 15.72,
+      "best_lap": 15.44
+    },
+    {
+      "class": "4WD",
+      "driver": "Adam Roulston",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 18,
+      "total_seconds": 309.08,
+      "best10": 16.12,
+      "best_lap": 15.66
+    },
+    {
+      "class": "4WD",
+      "driver": "Ricky Newcombe",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 18,
+      "total_seconds": 315.39,
+      "best10": 16.93,
+      "best_lap": 16.22
+    },
+    {
+      "class": "4WD",
+      "driver": "Ryan Eaton",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 16,
+      "total_seconds": 286.21,
+      "best10": 16.97,
+      "best_lap": 16.24
+    },
+    {
+      "class": "4WD",
+      "driver": "Matt Martin",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 16,
+      "total_seconds": 310.14,
+      "best10": 18.07,
+      "best_lap": 17.35
+    },
+    {
+      "class": "2WD",
+      "driver": "Paul Duckmanton",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 17,
+      "total_seconds": 307.63,
+      "best10": 17.02,
+      "best_lap": 16.68
+    },
+    {
+      "class": "2WD",
+      "driver": "Martial Radford",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 16,
+      "total_seconds": 303.4,
+      "best10": 17.82,
+      "best_lap": 17.05
+    },
+    {
+      "class": "2WD",
+      "driver": "Mike Batte",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 16,
+      "total_seconds": 309.24,
+      "best10": 17.83,
+      "best_lap": 16.56
+    },
+    {
+      "class": "2WD",
+      "driver": "Dave Mills",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 14,
+      "total_seconds": 309.75,
+      "best10": 20.02,
+      "best_lap": 18.82
+    },
+    {
+      "class": "2WD",
+      "driver": "Matthew Jones",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 14,
+      "total_seconds": 314.93,
+      "best10": 20.78,
+      "best_lap": 19.6
+    },
+    {
+      "class": "2WD",
+      "driver": "Seb Eaton",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 14,
+      "total_seconds": 319.98,
+      "best10": 21.84,
+      "best_lap": 20.34
+    },
+    {
+      "class": "2WD",
+      "driver": "Will Thompson",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 14,
+      "total_seconds": 329.73,
+      "best10": 21.52,
+      "best_lap": 19.04
+    },
+    {
+      "class": "2WD",
+      "driver": "Sam Carson",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 2,
+      "total_seconds": 87.07,
+      "best10": null,
+      "best_lap": 35.54
+    },
+    {
+      "class": "2WD",
+      "driver": "Keith Jenkins",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 18,
+      "total_seconds": 308.71,
+      "best10": 16.82,
+      "best_lap": 16.31
+    },
+    {
+      "class": "2WD",
+      "driver": "Kev Dymond",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 18,
+      "total_seconds": 317.95,
+      "best10": 17.13,
+      "best_lap": 16.67
+    },
+    {
+      "class": "2WD",
+      "driver": "Alan Stocks",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 17,
+      "total_seconds": 304.01,
+      "best10": 17.24,
+      "best_lap": 16.5
+    },
+    {
+      "class": "2WD",
+      "driver": "Ryan Eaton",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 16,
+      "total_seconds": 304.46,
+      "best10": 17.81,
+      "best_lap": 17.16
+    },
+    {
+      "class": "2WD",
+      "driver": "Adam Mozes",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 16,
+      "total_seconds": 305.7,
+      "best10": 17.74,
+      "best_lap": 17.26
+    },
+    {
+      "class": "2WD",
+      "driver": "Carl Rowe",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 16,
+      "total_seconds": 310.01,
+      "best10": 17.72,
+      "best_lap": 17.15
+    },
+    {
+      "class": "2WD",
+      "driver": "Matt Martin",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 16,
+      "total_seconds": 321.58,
+      "best10": 18.21,
+      "best_lap": 17.39
+    },
+    {
+      "class": "2WD",
+      "driver": "Paul Scrase",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 15,
+      "total_seconds": 313.97,
+      "best10": 18.85,
+      "best_lap": 17.25
+    },
+    {
+      "class": "2WD",
+      "driver": "Chris Law",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 18,
+      "total_seconds": 304.69,
+      "best10": 16.59,
+      "best_lap": 16.33
+    },
+    {
+      "class": "2WD",
+      "driver": "Chris Cooke",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 18,
+      "total_seconds": 309.07,
+      "best10": 16.31,
+      "best_lap": 15.47
+    },
+    {
+      "class": "2WD",
+      "driver": "Dave McCarthy",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 18,
+      "total_seconds": 315.58,
+      "best10": 16.69,
+      "best_lap": 16.38
+    },
+    {
+      "class": "2WD",
+      "driver": "David Attiwell",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 17,
+      "total_seconds": 304.96,
+      "best10": 16.93,
+      "best_lap": 16.57
+    },
+    {
+      "class": "2WD",
+      "driver": "Edward Wenmouth",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 16,
+      "total_seconds": 308.1,
+      "best10": 17.64,
+      "best_lap": 16.49
+    },
+    {
+      "class": "2WD",
+      "driver": "Ashley Parry",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 16,
+      "total_seconds": 309.01,
+      "best10": 17.08,
+      "best_lap": 16.49
+    },
+    {
+      "class": "2WD",
+      "driver": "Mark Stocks",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 15,
+      "total_seconds": 309.28,
+      "best10": 18.47,
+      "best_lap": 17.15
+    },
+    {
+      "class": "2WD",
+      "driver": "Jake Coombs",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 0,
+      "total_seconds": 0.0,
+      "best10": null,
+      "best_lap": null
+    },
+    {
+      "class": "2WD",
+      "driver": "Gary Stocks",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 19,
+      "total_seconds": 309.48,
+      "best10": 15.79,
+      "best_lap": 15.51
+    },
+    {
+      "class": "2WD",
+      "driver": "Jon Baker",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 19,
+      "total_seconds": 309.66,
+      "best10": 15.61,
+      "best_lap": 15.37
+    },
+    {
+      "class": "2WD",
+      "driver": "Paul Norris",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 19,
+      "total_seconds": 310.92,
+      "best10": 15.57,
+      "best_lap": 15.11
+    },
+    {
+      "class": "2WD",
+      "driver": "Andy Leach",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 18,
+      "total_seconds": 302.3,
+      "best10": 16.15,
+      "best_lap": 15.8
+    },
+    {
+      "class": "2WD",
+      "driver": "Michael Halsey",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 18,
+      "total_seconds": 307.77,
+      "best10": 16.16,
+      "best_lap": 15.45
+    },
+    {
+      "class": "2WD",
+      "driver": "Harry Porter",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 18,
+      "total_seconds": 309.58,
+      "best10": 16.37,
+      "best_lap": 16.06
+    },
+    {
+      "class": "2WD",
+      "driver": "Ricky Newcombe",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 17,
+      "total_seconds": 306.89,
+      "best10": 16.83,
+      "best_lap": 16.3
+    },
+    {
+      "class": "2WD",
+      "driver": "Adam Roulston",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 6,
+      "total_seconds": 103.19,
+      "best10": null,
+      "best_lap": 15.99
+    },
+    {
+      "class": "2WD",
+      "driver": "Keith Halsey",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 19,
+      "total_seconds": 303.38,
+      "best10": 15.66,
+      "best_lap": 15.37
+    },
+    {
+      "class": "2WD",
+      "driver": "Jordan Newbery",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 19,
+      "total_seconds": 312.04,
+      "best10": 15.53,
+      "best_lap": 15.06
+    },
+    {
+      "class": "2WD",
+      "driver": "David Bueno",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 19,
+      "total_seconds": 314.27,
+      "best10": 16.22,
+      "best_lap": 15.59
+    },
+    {
+      "class": "2WD",
+      "driver": "Paul Rose",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 19,
+      "total_seconds": 315.27,
+      "best10": 15.91,
+      "best_lap": 15.71
+    },
+    {
+      "class": "2WD",
+      "driver": "Stuart Ball",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 18,
+      "total_seconds": 301.25,
+      "best10": 16.18,
+      "best_lap": 15.51
+    },
+    {
+      "class": "2WD",
+      "driver": "Terry Bates",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 18,
+      "total_seconds": 305.05,
+      "best10": 16.14,
+      "best_lap": 15.83
+    },
+    {
+      "class": "2WD",
+      "driver": "Sam Brown",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 18,
+      "total_seconds": 313.85,
+      "best10": 15.9,
+      "best_lap": 15.24
+    },
+    {
+      "class": "2WD",
+      "driver": "Callum Mitchell",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 13,
+      "total_seconds": 222.25,
+      "best10": 16.43,
+      "best_lap": 15.37
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Edward Wenmouth",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 16,
+      "total_seconds": 307.08,
+      "best10": 18.31,
+      "best_lap": 17.74
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Mark Hicks",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 16,
+      "total_seconds": 312.2,
+      "best10": 18.83,
+      "best_lap": 18.33
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Adam Bedford",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 16,
+      "total_seconds": 315.1,
+      "best10": 19.26,
+      "best_lap": 18.93
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Adam Mozes",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 15,
+      "total_seconds": 302.08,
+      "best10": 18.83,
+      "best_lap": 18.18
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Marc Biddiss",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 15,
+      "total_seconds": 310.65,
+      "best10": 20.4,
+      "best_lap": 19.88
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Terry Leach",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 15,
+      "total_seconds": 312.24,
+      "best10": 20.25,
+      "best_lap": 19.44
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Sean Buller",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 14,
+      "total_seconds": 309.25,
+      "best10": 21.32,
+      "best_lap": 18.92
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Mark Martin",
+      "heat_title": "Race 1 - Stadium Trucks",
+      "laps": 13,
+      "total_seconds": 314.28,
+      "best10": 21.13,
+      "best_lap": 19.27
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Michael Julian",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 17,
+      "total_seconds": 300.07,
+      "best10": 17.11,
+      "best_lap": 16.77
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Jake Coombs",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 17,
+      "total_seconds": 307.09,
+      "best10": 17.31,
+      "best_lap": 16.91
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Jon Baker",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 17,
+      "total_seconds": 308.24,
+      "best10": 16.97,
+      "best_lap": 16.19
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Luke Coombs",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 16,
+      "total_seconds": 303.95,
+      "best10": 18.28,
+      "best_lap": 17.66
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Harry Davis",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 16,
+      "total_seconds": 314.86,
+      "best10": 18.1,
+      "best_lap": 17.82
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Tommy Gape",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 16,
+      "total_seconds": 317.67,
+      "best10": 18.24,
+      "best_lap": 17.49
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "David Attiwell",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 15,
+      "total_seconds": 305.83,
+      "best10": 17.77,
+      "best_lap": 16.93
+    },
+    {
+      "class": "Stadium Trucks",
+      "driver": "Barry Norris",
+      "heat_title": "Race 2 - Stadium Trucks",
+      "laps": 15,
+      "total_seconds": 307.82,
+      "best10": 19.14,
+      "best_lap": 18.19
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Carl Rowe",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 16,
+      "total_seconds": 315.94,
+      "best10": 18.8,
+      "best_lap": 17.95
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "John Howe",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 16,
+      "total_seconds": 324.12,
+      "best10": 19.06,
+      "best_lap": 18.64
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Haiden Hicks",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 15,
+      "total_seconds": 314.66,
+      "best10": 20.01,
+      "best_lap": 19.22
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Dave Mills",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 14,
+      "total_seconds": 320.44,
+      "best10": 22.03,
+      "best_lap": 19.66
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Simon White",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 13,
+      "total_seconds": 304.7,
+      "best10": 21.03,
+      "best_lap": 18.7
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Marcia Davis",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 12,
+      "total_seconds": 315.76,
+      "best10": 24.52,
+      "best_lap": 21.03
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Natasha Venn",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 9,
+      "total_seconds": 303.38,
+      "best10": null,
+      "best_lap": 26.61
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Mark Hicks",
+      "heat_title": "Race 3 - Vintage/Rear Motor",
+      "laps": 0,
+      "total_seconds": 0.0,
+      "best10": null,
+      "best_lap": null
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Jordan Newbery",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 18,
+      "total_seconds": 316.32,
+      "best10": 16.66,
+      "best_lap": 16.44
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Dan Harding",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 17,
+      "total_seconds": 301.07,
+      "best10": 16.77,
+      "best_lap": 16.39
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Mark Stocks",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 17,
+      "total_seconds": 307.6,
+      "best10": 17.78,
+      "best_lap": 17.53
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Bryan Burrows",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 17,
+      "total_seconds": 308.52,
+      "best10": 17.13,
+      "best_lap": 16.63
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Paul Duckmanton",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 16,
+      "total_seconds": 302.8,
+      "best10": 17.59,
+      "best_lap": 17.2
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Steve Hawkins",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 16,
+      "total_seconds": 305.18,
+      "best10": 18.21,
+      "best_lap": 17.69
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Alan Stocks",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 16,
+      "total_seconds": 314.75,
+      "best10": 18.67,
+      "best_lap": 18.17
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Harry Davis",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 15,
+      "total_seconds": 312.03,
+      "best10": 19.22,
+      "best_lap": 18.37
+    },
+    {
+      "class": "Vintage/Rear Motor",
+      "driver": "Chris Law",
+      "heat_title": "Race 4 - Vintage/Rear Motor",
+      "laps": 14,
+      "total_seconds": 316.45,
+      "best10": 19.11,
+      "best_lap": 18.05
+    },
+    {
+      "class": "4WD",
+      "driver": "Keith Halsey",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 20,
+      "total_seconds": 314.68,
+      "best10": 15.43,
+      "best_lap": 15.09
+    },
+    {
+      "class": "4WD",
+      "driver": "Jon Baker",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 18,
+      "total_seconds": 300.24,
+      "best10": 15.91,
+      "best_lap": 15.48
+    },
+    {
+      "class": "4WD",
+      "driver": "Ryan Eaton",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 18,
+      "total_seconds": 315.95,
+      "best10": 16.75,
+      "best_lap": 16.06
+    },
+    {
+      "class": "4WD",
+      "driver": "Ricky Newcombe",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 17,
+      "total_seconds": 305.4,
+      "best10": 16.93,
+      "best_lap": 16.25
+    },
+    {
+      "class": "4WD",
+      "driver": "Matt Martin",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 16,
+      "total_seconds": 315.72,
+      "best10": 18.62,
+      "best_lap": 17.38
+    },
+    {
+      "class": "4WD",
+      "driver": "Michael Halsey",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 9,
+      "total_seconds": 153.35,
+      "best10": null,
+      "best_lap": 15.78
+    },
+    {
+      "class": "4WD",
+      "driver": "Adam Roulston",
+      "heat_title": "Race 5 - 4WD",
+      "laps": 0,
+      "total_seconds": 0.0,
+      "best10": null,
+      "best_lap": null
+    },
+    {
+      "class": "2WD",
+      "driver": "Paul Duckmanton",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 17,
+      "total_seconds": 313.02,
+      "best10": 17.47,
+      "best_lap": 16.86
+    },
+    {
+      "class": "2WD",
+      "driver": "Mike Batte",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 17,
+      "total_seconds": 315.68,
+      "best10": 17.91,
+      "best_lap": 17.21
+    },
+    {
+      "class": "2WD",
+      "driver": "Martial Radford",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 16,
+      "total_seconds": 320.72,
+      "best10": 18.64,
+      "best_lap": 17.53
+    },
+    {
+      "class": "2WD",
+      "driver": "Will Thompson",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 14,
+      "total_seconds": 302.71,
+      "best10": 20.09,
+      "best_lap": 18.63
+    },
+    {
+      "class": "2WD",
+      "driver": "Seb Eaton",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 13,
+      "total_seconds": 301.25,
+      "best10": 21.8,
+      "best_lap": 19.8
+    },
+    {
+      "class": "2WD",
+      "driver": "Dave Mills",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 13,
+      "total_seconds": 318.82,
+      "best10": 21.93,
+      "best_lap": 18.83
+    },
+    {
+      "class": "2WD",
+      "driver": "Sam Carson",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 8,
+      "total_seconds": 195.8,
+      "best10": null,
+      "best_lap": 20.26
+    },
+    {
+      "class": "2WD",
+      "driver": "Matthew Jones",
+      "heat_title": "Race 6 - 2WD",
+      "laps": 3,
+      "total_seconds": 62.96,
+      "best10": null,
+      "best_lap": 19.95
+    },
+    {
+      "class": "2WD",
+      "driver": "Ryan Eaton",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 17,
+      "total_seconds": 307.87,
+      "best10": 17.17,
+      "best_lap": 16.72
+    },
+    {
+      "class": "2WD",
+      "driver": "Kev Dymond",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 17,
+      "total_seconds": 312.66,
+      "best10": 17.02,
+      "best_lap": 16.81
+    },
+    {
+      "class": "2WD",
+      "driver": "Paul Scrase",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 16,
+      "total_seconds": 301.29,
+      "best10": 17.88,
+      "best_lap": 17.02
+    },
+    {
+      "class": "2WD",
+      "driver": "Carl Rowe",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 16,
+      "total_seconds": 302.84,
+      "best10": 18.05,
+      "best_lap": 17.3
+    },
+    {
+      "class": "2WD",
+      "driver": "Alan Stocks",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 16,
+      "total_seconds": 303.25,
+      "best10": 17.81,
+      "best_lap": 17.18
+    },
+    {
+      "class": "2WD",
+      "driver": "Keith Jenkins",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 16,
+      "total_seconds": 308.75,
+      "best10": 17.81,
+      "best_lap": 16.17
+    },
+    {
+      "class": "2WD",
+      "driver": "Adam Mozes",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 16,
+      "total_seconds": 311.42,
+      "best10": 18.42,
+      "best_lap": 17.33
+    },
+    {
+      "class": "2WD",
+      "driver": "Matt Martin",
+      "heat_title": "Race 7 - 2WD",
+      "laps": 15,
+      "total_seconds": 315.07,
+      "best10": 18.6,
+      "best_lap": 17.75
+    },
+    {
+      "class": "2WD",
+      "driver": "Chris Cooke",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 18,
+      "total_seconds": 304.51,
+      "best10": 16.37,
+      "best_lap": 16.06
+    },
+    {
+      "class": "2WD",
+      "driver": "Chris Law",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 18,
+      "total_seconds": 305.61,
+      "best10": 16.49,
+      "best_lap": 15.92
+    },
+    {
+      "class": "2WD",
+      "driver": "Dave McCarthy",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 18,
+      "total_seconds": 309.92,
+      "best10": 16.61,
+      "best_lap": 16.32
+    },
+    {
+      "class": "2WD",
+      "driver": "Jake Coombs",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 18,
+      "total_seconds": 316.76,
+      "best10": 17.0,
+      "best_lap": 16.7
+    },
+    {
+      "class": "2WD",
+      "driver": "Ashley Parry",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 17,
+      "total_seconds": 300.11,
+      "best10": 16.75,
+      "best_lap": 16.26
+    },
+    {
+      "class": "2WD",
+      "driver": "David Attiwell",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 17,
+      "total_seconds": 301.24,
+      "best10": 16.78,
+      "best_lap": 16.17
+    },
+    {
+      "class": "2WD",
+      "driver": "Mark Stocks",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 17,
+      "total_seconds": 302.45,
+      "best10": 17.3,
+      "best_lap": 16.72
+    },
+    {
+      "class": "2WD",
+      "driver": "Edward Wenmouth",
+      "heat_title": "Race 8 - 2WD",
+      "laps": 13,
+      "total_seconds": 312.32,
+      "best10": 18.52,
+      "best_lap": 16.61
+    },
+    {
+      "class": "2WD",
+      "driver": "Paul Norris",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 19,
+      "total_seconds": 303.75,
+      "best10": 15.57,
+      "best_lap": 15.26
+    },
+    {
+      "class": "2WD",
+      "driver": "Gary Stocks",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 19,
+      "total_seconds": 303.96,
+      "best10": 15.72,
+      "best_lap": 15.49
+    },
+    {
+      "class": "2WD",
+      "driver": "Jon Baker",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 19,
+      "total_seconds": 309.06,
+      "best10": 15.49,
+      "best_lap": 15.14
+    },
+    {
+      "class": "2WD",
+      "driver": "Michael Halsey",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 19,
+      "total_seconds": 312.04,
+      "best10": 16.08,
+      "best_lap": 15.59
+    },
+    {
+      "class": "2WD",
+      "driver": "Harry Porter",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 18,
+      "total_seconds": 315.48,
+      "best10": 16.27,
+      "best_lap": 15.8
+    },
+    {
+      "class": "2WD",
+      "driver": "Ricky Newcombe",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 18,
+      "total_seconds": 316.36,
+      "best10": 16.41,
+      "best_lap": 15.94
+    },
+    {
+      "class": "2WD",
+      "driver": "Andy Leach",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 17,
+      "total_seconds": 301.07,
+      "best10": 16.36,
+      "best_lap": 15.82
+    },
+    {
+      "class": "2WD",
+      "driver": "Adam Roulston",
+      "heat_title": "Race 9 - 2WD",
+      "laps": 0,
+      "total_seconds": 0.0,
+      "best10": null,
+      "best_lap": null
+    },
+    {
+      "class": "2WD",
+      "driver": "Jordan Newbery",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 20,
+      "total_seconds": 312.53,
+      "best10": 15.21,
+      "best_lap": 14.89
+    },
+    {
+      "class": "2WD",
+      "driver": "Keith Halsey",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 20,
+      "total_seconds": 313.65,
+      "best10": 15.45,
+      "best_lap": 15.2
+    },
+    {
+      "class": "2WD",
+      "driver": "David Bueno",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 19,
+      "total_seconds": 307.05,
+      "best10": 15.72,
+      "best_lap": 15.29
+    },
+    {
+      "class": "2WD",
+      "driver": "Terry Bates",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 19,
+      "total_seconds": 313.35,
+      "best10": 15.91,
+      "best_lap": 15.53
+    },
+    {
+      "class": "2WD",
+      "driver": "Paul Rose",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 18,
+      "total_seconds": 302.15,
+      "best10": 15.78,
+      "best_lap": 15.57
+    },
+    {
+      "class": "2WD",
+      "driver": "Sam Brown",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 18,
+      "total_seconds": 311.57,
+      "best10": 16.29,
+      "best_lap": 15.63
+    },
+    {
+      "class": "2WD",
+      "driver": "Callum Mitchell",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 17,
+      "total_seconds": 273.61,
+      "best10": 15.39,
+      "best_lap": 15.05
+    },
+    {
+      "class": "2WD",
+      "driver": "Stuart Ball",
+      "heat_title": "Race 10 - 2WD",
+      "laps": 14,
+      "total_seconds": 227.46,
+      "best10": 16.03,
+      "best_lap": 15.6
+    }
+  ],
+  "stats": {
+    "total_finals": 78,
+    "total_heat_entries": 320
+  }
+}

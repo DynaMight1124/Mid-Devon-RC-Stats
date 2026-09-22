@@ -1,0 +1,164 @@
+{
+  "name": "Chris Harding",
+  "slug": "chris-harding",
+  "summary": {
+    "name": "Chris Harding",
+    "slug": "chris-harding",
+    "meetings_count": 4,
+    "attendance_pct": 22.2,
+    "total_laps": 511,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy",
+      "Stadium Trucks"
+    ],
+    "best_lap": 12.1,
+    "metronome": 3.07,
+    "badges_count": 1
+  },
+  "badges": [
+    {
+      "id": "multi_class",
+      "label": "Multi-Class",
+      "icon": "shuffle",
+      "desc": "Competes in multiple classes"
+    }
+  ],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 12.1,
+      "Stadium Trucks": 14.28
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 20,
+        "seconds": 304.12,
+        "result_str": "20 / 304.12",
+        "meeting_date": "17-Nov-2024"
+      },
+      "Stadium Trucks": {
+        "laps": 18,
+        "seconds": 300.47,
+        "result_str": "18 / 300.47",
+        "meeting_date": "07-Dec-2025"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "E Final",
+        "position": 6,
+        "rank": 46,
+        "meeting_date": "17-Nov-2024",
+        "meeting_title": "24/25 Winter Series Round 3"
+      },
+      "Stadium Trucks": {
+        "final": "B Final",
+        "position": 1,
+        "rank": 11,
+        "meeting_date": "07-Dec-2025",
+        "meeting_title": "25/26 Winter Series Round 3"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 33,
+      "Stadium Trucks": 11
+    },
+    "best10_per_class": {
+      "2WD Buggy": 12.85,
+      "Stadium Trucks": 14.95
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 18332,
+      "date": "01-Feb-2026",
+      "title": "25/26 Winter Series Round 4",
+      "season": "25/26",
+      "class": "Stadium Trucks",
+      "final": "B Final",
+      "position": 4,
+      "laps": 16,
+      "total_seconds": 333.23,
+      "best_lap": 14.77,
+      "average_lap": 20.82,
+      "best10": 15.3
+    },
+    {
+      "meeting_id": 18332,
+      "date": "01-Feb-2026",
+      "title": "25/26 Winter Series Round 4",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "E Final",
+      "position": 7,
+      "laps": 18,
+      "total_seconds": 305.57,
+      "best_lap": 13.81,
+      "average_lap": 16.97,
+      "best10": 14.42
+    },
+    {
+      "meeting_id": 18077,
+      "date": "07-Dec-2025",
+      "title": "25/26 Winter Series Round 3",
+      "season": "25/26",
+      "class": "Stadium Trucks",
+      "final": "B Final",
+      "position": 1,
+      "laps": 18,
+      "total_seconds": 300.47,
+      "best_lap": 15.42,
+      "average_lap": 16.69,
+      "best10": 16.07
+    },
+    {
+      "meeting_id": 18077,
+      "date": "07-Dec-2025",
+      "title": "25/26 Winter Series Round 3",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "E Final",
+      "position": 7,
+      "laps": 11,
+      "total_seconds": 189.36,
+      "best_lap": 15.22,
+      "average_lap": 17.21,
+      "best10": 16.57
+    },
+    {
+      "meeting_id": 13848,
+      "date": "01-Dec-2024",
+      "title": "24/25 Winter Series Round 4",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "E Final",
+      "position": 6,
+      "laps": 18,
+      "total_seconds": 301.92,
+      "best_lap": 13.51,
+      "average_lap": 16.77,
+      "best10": 13.85
+    },
+    {
+      "meeting_id": 13693,
+      "date": "17-Nov-2024",
+      "title": "24/25 Winter Series Round 3",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "E Final",
+      "position": 6,
+      "laps": 20,
+      "total_seconds": 304.12,
+      "best_lap": 12.52,
+      "average_lap": 15.21,
+      "best10": 13.19
+    }
+  ]
+}

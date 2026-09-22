@@ -1,0 +1,70 @@
+{
+  "name": "Jack Babb",
+  "slug": "jack-babb",
+  "summary": {
+    "name": "Jack Babb",
+    "slug": "jack-babb",
+    "meetings_count": 1,
+    "attendance_pct": 5.6,
+    "total_laps": 101,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 12.83,
+    "metronome": 1.59,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 12.83
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 21,
+        "seconds": 302.88,
+        "result_str": "21 / 302.88",
+        "meeting_date": "17-Nov-2024"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "E Final",
+        "position": 2,
+        "rank": 42,
+        "meeting_date": "17-Nov-2024",
+        "meeting_title": "24/25 Winter Series Round 3"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 37
+    },
+    "best10_per_class": {
+      "2WD Buggy": 13.15
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 13693,
+      "date": "17-Nov-2024",
+      "title": "24/25 Winter Series Round 3",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "E Final",
+      "position": 2,
+      "laps": 21,
+      "total_seconds": 302.88,
+      "best_lap": 12.83,
+      "average_lap": 14.42,
+      "best10": 13.15
+    }
+  ]
+}

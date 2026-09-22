@@ -1,0 +1,250 @@
+{
+  "name": "Lee Bond",
+  "slug": "lee-bond",
+  "summary": {
+    "name": "Lee Bond",
+    "slug": "lee-bond",
+    "meetings_count": 9,
+    "attendance_pct": 50.0,
+    "total_laps": 945,
+    "a_final_wins": 2,
+    "a_final_podiums": 7,
+    "a_final_appearances": 7,
+    "a_final_rate": 77.8,
+    "a_final_podium_rate": 100.0,
+    "a_final_avg_pos": 2.0,
+    "a_finals_by_class": {
+      "4WD Buggy": 6,
+      "Vintage / Rear Motor": 1
+    },
+    "tqs": 3,
+    "classes": [
+      "2WD Buggy",
+      "4WD Buggy",
+      "Vintage / Rear Motor"
+    ],
+    "best_lap": 11.73,
+    "metronome": 1.07,
+    "badges_count": 5
+  },
+  "badges": [
+    {
+      "id": "winner",
+      "label": "Race Winner",
+      "icon": "medal",
+      "desc": "Won an A-Final"
+    },
+    {
+      "id": "podium_master",
+      "label": "Podium Regular",
+      "icon": "award",
+      "desc": "5+ A-Final Podiums"
+    },
+    {
+      "id": "pole_king",
+      "label": "Pole King",
+      "icon": "target",
+      "desc": "2+ Top Qualifiers (TQ)"
+    },
+    {
+      "id": "multi_class",
+      "label": "Multi-Class",
+      "icon": "shuffle",
+      "desc": "Competes in multiple classes"
+    },
+    {
+      "id": "clean_sweep",
+      "label": "Clean Sweep",
+      "icon": "sparkles",
+      "desc": "Achieved TQ & Win at the same meeting"
+    }
+  ],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "4WD Buggy": 11.73,
+      "2WD Buggy": 12.84,
+      "Vintage / Rear Motor": 15.79
+    },
+    "best_runs_per_class": {
+      "4WD Buggy": {
+        "laps": 25,
+        "seconds": 308.4,
+        "result_str": "25 / 308.40",
+        "meeting_date": "17-Nov-2024"
+      },
+      "2WD Buggy": {
+        "laps": 22,
+        "seconds": 301.09,
+        "result_str": "22 / 301.09",
+        "meeting_date": "01-Feb-2026"
+      },
+      "Vintage / Rear Motor": {
+        "laps": 18,
+        "seconds": 310.25,
+        "result_str": "18 / 310.25",
+        "meeting_date": "01-Mar-2026"
+      }
+    },
+    "highest_finishes_per_class": {
+      "4WD Buggy": {
+        "final": "A Final",
+        "position": 1,
+        "rank": 1,
+        "meeting_date": "01-Dec-2024",
+        "meeting_title": "24/25 Winter Series Round 4"
+      },
+      "2WD Buggy": {
+        "final": "B Final",
+        "position": 4,
+        "rank": 14,
+        "meeting_date": "01-Feb-2026",
+        "meeting_title": "25/26 Winter Series Round 4"
+      },
+      "Vintage / Rear Motor": {
+        "final": "A Final",
+        "position": 2,
+        "rank": 2,
+        "meeting_date": "01-Mar-2026",
+        "meeting_title": "25/26 Winter Series Round 5"
+      }
+    },
+    "highest_quals_per_class": {
+      "4WD Buggy": 1,
+      "2WD Buggy": 11,
+      "Vintage / Rear Motor": 4
+    },
+    "best10_per_class": {
+      "4WD Buggy": 11.88,
+      "2WD Buggy": 13.06,
+      "Vintage / Rear Motor": 16.2
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 18948,
+      "date": "01-Mar-2026",
+      "title": "25/26 Winter Series Round 5",
+      "season": "25/26",
+      "class": "Vintage / Rear Motor",
+      "final": "A Final",
+      "position": 2,
+      "laps": 18,
+      "total_seconds": 310.25,
+      "best_lap": 16.1,
+      "average_lap": 17.23,
+      "best10": 16.45
+    },
+    {
+      "meeting_id": 18332,
+      "date": "01-Feb-2026",
+      "title": "25/26 Winter Series Round 4",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "B Final",
+      "position": 4,
+      "laps": 22,
+      "total_seconds": 301.09,
+      "best_lap": 12.84,
+      "average_lap": 13.68,
+      "best10": 13.06
+    },
+    {
+      "meeting_id": 14766,
+      "date": "02-Mar-2025",
+      "title": "24/25 Winter Series Round 7",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "B Final",
+      "position": 8,
+      "laps": 8,
+      "total_seconds": 129.37,
+      "best_lap": 13.75,
+      "average_lap": 16.17,
+      "best10": null
+    },
+    {
+      "meeting_id": 14449,
+      "date": "02-Feb-2025",
+      "title": "24/25 Winter Series Round 6",
+      "season": "24/25",
+      "class": "4WD Buggy",
+      "final": "A Final",
+      "position": 3,
+      "laps": 24,
+      "total_seconds": 310.54,
+      "best_lap": 11.9,
+      "average_lap": 12.94,
+      "best10": 12.17
+    },
+    {
+      "meeting_id": 14185,
+      "date": "05-Jan-2025",
+      "title": "24/25 Winter Series Round 5",
+      "season": "24/25",
+      "class": "4WD Buggy",
+      "final": "A Final",
+      "position": 1,
+      "laps": 20,
+      "total_seconds": 312.94,
+      "best_lap": 15.05,
+      "average_lap": 15.65,
+      "best10": 15.38
+    },
+    {
+      "meeting_id": 13848,
+      "date": "01-Dec-2024",
+      "title": "24/25 Winter Series Round 4",
+      "season": "24/25",
+      "class": "4WD Buggy",
+      "final": "A Final",
+      "position": 1,
+      "laps": 23,
+      "total_seconds": 311.05,
+      "best_lap": 12.81,
+      "average_lap": 13.52,
+      "best10": 13.08
+    },
+    {
+      "meeting_id": 13693,
+      "date": "17-Nov-2024",
+      "title": "24/25 Winter Series Round 3",
+      "season": "24/25",
+      "class": "4WD Buggy",
+      "final": "A Final",
+      "position": 3,
+      "laps": 25,
+      "total_seconds": 308.4,
+      "best_lap": 11.74,
+      "average_lap": 12.34,
+      "best10": 11.9
+    },
+    {
+      "meeting_id": 13539,
+      "date": "03-Nov-2024",
+      "title": "24/25 Winter Series Round 2",
+      "season": "24/25",
+      "class": "4WD Buggy",
+      "final": "A Final",
+      "position": 2,
+      "laps": 20,
+      "total_seconds": 305.13,
+      "best_lap": 14.1,
+      "average_lap": 15.26,
+      "best10": 14.68
+    },
+    {
+      "meeting_id": 13348,
+      "date": "13-Oct-2024",
+      "title": "24/25 Winter Series Round 1",
+      "season": "24/25",
+      "class": "4WD Buggy",
+      "final": "A Final",
+      "position": 2,
+      "laps": 19,
+      "total_seconds": 301.46,
+      "best_lap": 14.73,
+      "average_lap": 15.87,
+      "best10": 15.08
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "name": "Matt Porter",
+  "slug": "matt-porter",
+  "summary": {
+    "name": "Matt Porter",
+    "slug": "matt-porter",
+    "meetings_count": 4,
+    "attendance_pct": 22.2,
+    "total_laps": 312,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 4,
+    "a_final_rate": 100.0,
+    "a_final_podium_rate": 0.0,
+    "a_final_avg_pos": 6.8,
+    "a_finals_by_class": {
+      "4WD Buggy": 4
+    },
+    "tqs": 0,
+    "classes": [
+      "4WD Buggy"
+    ],
+    "best_lap": 12.98,
+    "metronome": 2.57,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "4WD Buggy": 12.98
+    },
+    "best_runs_per_class": {
+      "4WD Buggy": {
+        "laps": 19,
+        "seconds": 312.33,
+        "result_str": "19 / 312.33",
+        "meeting_date": "01-Dec-2024"
+      }
+    },
+    "highest_finishes_per_class": {
+      "4WD Buggy": {
+        "final": "A Final",
+        "position": 5,
+        "rank": 5,
+        "meeting_date": "02-Mar-2025",
+        "meeting_title": "24/25 Winter Series Round 7"
+      }
+    },
+    "highest_quals_per_class": {
+      "4WD Buggy": 5
+    },
+    "best10_per_class": {
+      "4WD Buggy": 13.69
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 14766,
+      "date": "02-Mar-2025",
+      "title": "24/25 Winter Series Round 7",
+      "season": "24/25",
+      "class": "4WD Buggy",
+      "final": "A Final",
+      "position": 5,
+      "laps": 18,
+      "total_seconds": 311.51,
+      "best_lap": 15.22,
+      "average_lap": 17.31,
+      "best10": 15.73
+    },
+    {
+      "meeting_id": 14449,
+      "date": "02-Feb-2025",
+      "title": "24/25 Winter Series Round 6",
+      "season": "24/25",
+      "class": "4WD Buggy",
+      "final": "A Final",
+      "position": 8,
+      "laps": 0,
+      "total_seconds": 0.0,
+      "best_lap": null,
+      "average_lap": null,
+      "best10": null
+    },
+    {
+      "meeting_id": 14185,
+      "date": "05-Jan-2025",
+      "title": "24/25 Winter Series Round 5",
+      "season": "24/25",
+      "class": "4WD Buggy",
+      "final": "A Final",
+      "position": 7,
+      "laps": 16,
+      "total_seconds": 305.05,
+      "best_lap": 16.28,
+      "average_lap": 19.07,
+      "best10": 17.21
+    },
+    {
+      "meeting_id": 13848,
+      "date": "01-Dec-2024",
+      "title": "24/25 Winter Series Round 4",
+      "season": "24/25",
+      "class": "4WD Buggy",
+      "final": "A Final",
+      "position": 7,
+      "laps": 19,
+      "total_seconds": 312.33,
+      "best_lap": 13.62,
+      "average_lap": 16.44,
+      "best10": 14.07
+    }
+  ]
+}

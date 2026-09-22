@@ -1,0 +1,70 @@
+{
+  "name": "Karl Grey",
+  "slug": "karl-grey",
+  "summary": {
+    "name": "Karl Grey",
+    "slug": "karl-grey",
+    "meetings_count": 1,
+    "attendance_pct": 5.6,
+    "total_laps": 34,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 17.79,
+    "metronome": 7.64,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 17.79
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 12,
+        "seconds": 315.73,
+        "result_str": "12 / 315.73",
+        "meeting_date": "03-Mar-2024"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "E Final",
+        "position": 4,
+        "rank": 44,
+        "meeting_date": "03-Mar-2024",
+        "meeting_title": "23/24 Winter Series Round 6"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 36
+    },
+    "best10_per_class": {
+      "2WD Buggy": 20.35
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 10898,
+      "date": "03-Mar-2024",
+      "title": "23/24 Winter Series Round 6",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "E Final",
+      "position": 4,
+      "laps": 12,
+      "total_seconds": 315.73,
+      "best_lap": 18.67,
+      "average_lap": 26.31,
+      "best10": 22.69
+    }
+  ]
+}

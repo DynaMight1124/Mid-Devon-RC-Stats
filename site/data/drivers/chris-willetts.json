@@ -1,0 +1,95 @@
+{
+  "name": "Chris Willetts",
+  "slug": "chris-willetts",
+  "summary": {
+    "name": "Chris Willetts",
+    "slug": "chris-willetts",
+    "meetings_count": 2,
+    "attendance_pct": 11.1,
+    "total_laps": 247,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy",
+      "4WD Buggy"
+    ],
+    "best_lap": 12.16,
+    "metronome": 1.93,
+    "badges_count": 1
+  },
+  "badges": [
+    {
+      "id": "multi_class",
+      "label": "Multi-Class",
+      "icon": "shuffle",
+      "desc": "Competes in multiple classes"
+    }
+  ],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 12.32,
+      "4WD Buggy": 12.16
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 19,
+        "seconds": 300.55,
+        "result_str": "19 / 300.55",
+        "meeting_date": "03-Nov-2024"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "B Final",
+        "position": 8,
+        "rank": 18,
+        "meeting_date": "13-Oct-2024",
+        "meeting_title": "24/25 Winter Series Round 1"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 16,
+      "4WD Buggy": 8
+    },
+    "best10_per_class": {
+      "2WD Buggy": 12.53,
+      "4WD Buggy": 12.81
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 13539,
+      "date": "03-Nov-2024",
+      "title": "24/25 Winter Series Round 2",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "C Final",
+      "position": 1,
+      "laps": 19,
+      "total_seconds": 300.55,
+      "best_lap": 14.31,
+      "average_lap": 15.82,
+      "best10": 14.89
+    },
+    {
+      "meeting_id": 13348,
+      "date": "13-Oct-2024",
+      "title": "24/25 Winter Series Round 1",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "B Final",
+      "position": 8,
+      "laps": 16,
+      "total_seconds": 284.1,
+      "best_lap": 15.42,
+      "average_lap": 17.76,
+      "best10": 16.08
+    }
+  ]
+}

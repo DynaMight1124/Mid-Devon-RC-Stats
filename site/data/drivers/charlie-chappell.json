@@ -1,0 +1,84 @@
+{
+  "name": "Charlie Chappell",
+  "slug": "charlie-chappell",
+  "summary": {
+    "name": "Charlie Chappell",
+    "slug": "charlie-chappell",
+    "meetings_count": 2,
+    "attendance_pct": 11.1,
+    "total_laps": 179,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 13.07,
+    "metronome": 1.79,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 13.07
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 21,
+        "seconds": 315.17,
+        "result_str": "21 / 315.17",
+        "meeting_date": "17-Nov-2024"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "E Final",
+        "position": 1,
+        "rank": 41,
+        "meeting_date": "13-Oct-2024",
+        "meeting_title": "24/25 Winter Series Round 1"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 39
+    },
+    "best10_per_class": {
+      "2WD Buggy": 13.47
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 13693,
+      "date": "17-Nov-2024",
+      "title": "24/25 Winter Series Round 3",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "E Final",
+      "position": 4,
+      "laps": 21,
+      "total_seconds": 315.17,
+      "best_lap": 13.07,
+      "average_lap": 15.01,
+      "best10": 13.47
+    },
+    {
+      "meeting_id": 13348,
+      "date": "13-Oct-2024",
+      "title": "24/25 Winter Series Round 1",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "E Final",
+      "position": 1,
+      "laps": 17,
+      "total_seconds": 309.34,
+      "best_lap": 16.56,
+      "average_lap": 18.2,
+      "best10": 17.05
+    }
+  ]
+}

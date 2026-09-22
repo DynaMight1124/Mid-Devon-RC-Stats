@@ -1,0 +1,84 @@
+{
+  "name": "Oli WeAreAE Davies",
+  "slug": "oli-weareae-davies",
+  "summary": {
+    "name": "Oli WeAreAE Davies",
+    "slug": "oli-weareae-davies",
+    "meetings_count": 2,
+    "attendance_pct": 11.1,
+    "total_laps": 209,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 12.69,
+    "metronome": 0.9,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 12.69
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 22,
+        "seconds": 302.96,
+        "result_str": "22 / 302.96",
+        "meeting_date": "02-Feb-2025"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "B Final",
+        "position": 3,
+        "rank": 13,
+        "meeting_date": "03-Mar-2024",
+        "meeting_title": "23/24 Winter Series Round 6"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 14
+    },
+    "best10_per_class": {
+      "2WD Buggy": 13.02
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 14449,
+      "date": "02-Feb-2025",
+      "title": "24/25 Winter Series Round 6",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "D Final",
+      "position": 1,
+      "laps": 22,
+      "total_seconds": 302.96,
+      "best_lap": 12.69,
+      "average_lap": 13.77,
+      "best10": 13.02
+    },
+    {
+      "meeting_id": 10898,
+      "date": "03-Mar-2024",
+      "title": "23/24 Winter Series Round 6",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "B Final",
+      "position": 3,
+      "laps": 21,
+      "total_seconds": 302.31,
+      "best_lap": 13.69,
+      "average_lap": 14.4,
+      "best10": 14.01
+    }
+  ]
+}

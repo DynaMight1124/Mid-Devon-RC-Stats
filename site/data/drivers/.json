@@ -1,0 +1,40 @@
+{
+  "name": "Steven Farrell",
+  "slug": "",
+  "summary": {
+    "name": "Steven Farrell",
+    "slug": "",
+    "meetings_count": 0,
+    "attendance_pct": 0.0,
+    "total_laps": 38,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 13.54,
+    "metronome": null,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 13.54
+    },
+    "best_runs_per_class": {},
+    "highest_finishes_per_class": {},
+    "highest_quals_per_class": {
+      "2WD Buggy": 39
+    },
+    "best10_per_class": {
+      "2WD Buggy": 14.06
+    }
+  },
+  "timeline": []
+}

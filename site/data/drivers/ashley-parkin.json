@@ -1,0 +1,70 @@
+{
+  "name": "Ashley Parkin",
+  "slug": "ashley-parkin",
+  "summary": {
+    "name": "Ashley Parkin",
+    "slug": "ashley-parkin",
+    "meetings_count": 1,
+    "attendance_pct": 5.6,
+    "total_laps": 101,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 13.76,
+    "metronome": 1.6,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 13.76
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 20,
+        "seconds": 307.16,
+        "result_str": "20 / 307.16",
+        "meeting_date": "02-Mar-2025"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "B Final",
+        "position": 6,
+        "rank": 16,
+        "meeting_date": "02-Mar-2025",
+        "meeting_title": "24/25 Winter Series Round 7"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 16
+    },
+    "best10_per_class": {
+      "2WD Buggy": 14.02
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 14766,
+      "date": "02-Mar-2025",
+      "title": "24/25 Winter Series Round 7",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "B Final",
+      "position": 6,
+      "laps": 20,
+      "total_seconds": 307.16,
+      "best_lap": 13.76,
+      "average_lap": 15.36,
+      "best10": 14.12
+    }
+  ]
+}

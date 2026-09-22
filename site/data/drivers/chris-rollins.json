@@ -1,0 +1,70 @@
+{
+  "name": "Chris Rollins",
+  "slug": "chris-rollins",
+  "summary": {
+    "name": "Chris Rollins",
+    "slug": "chris-rollins",
+    "meetings_count": 1,
+    "attendance_pct": 5.6,
+    "total_laps": 100,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 13.38,
+    "metronome": 0.95,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 13.38
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 21,
+        "seconds": 300.96,
+        "result_str": "21 / 300.96",
+        "meeting_date": "03-Mar-2024"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "B Final",
+        "position": 2,
+        "rank": 12,
+        "meeting_date": "03-Mar-2024",
+        "meeting_title": "23/24 Winter Series Round 6"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 13
+    },
+    "best10_per_class": {
+      "2WD Buggy": 13.65
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 10898,
+      "date": "03-Mar-2024",
+      "title": "23/24 Winter Series Round 6",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "B Final",
+      "position": 2,
+      "laps": 21,
+      "total_seconds": 300.96,
+      "best_lap": 13.38,
+      "average_lap": 14.33,
+      "best10": 13.65
+    }
+  ]
+}

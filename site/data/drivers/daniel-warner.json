@@ -1,0 +1,86 @@
+{
+  "name": "Daniel Warner",
+  "slug": "daniel-warner",
+  "summary": {
+    "name": "Daniel Warner",
+    "slug": "daniel-warner",
+    "meetings_count": 2,
+    "attendance_pct": 11.1,
+    "total_laps": 178,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 2,
+    "a_final_rate": 100.0,
+    "a_final_podium_rate": 0.0,
+    "a_final_avg_pos": 5.0,
+    "a_finals_by_class": {
+      "Vintage / Rear Motor": 2
+    },
+    "tqs": 0,
+    "classes": [
+      "Vintage / Rear Motor"
+    ],
+    "best_lap": 14.53,
+    "metronome": 0.92,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "Vintage / Rear Motor": 14.53
+    },
+    "best_runs_per_class": {
+      "Vintage / Rear Motor": {
+        "laps": 19,
+        "seconds": 303.48,
+        "result_str": "19 / 303.48",
+        "meeting_date": "04-Feb-2024"
+      }
+    },
+    "highest_finishes_per_class": {
+      "Vintage / Rear Motor": {
+        "final": "A Final",
+        "position": 4,
+        "rank": 4,
+        "meeting_date": "05-Nov-2023",
+        "meeting_title": "23/24 Winter Series Round 2"
+      }
+    },
+    "highest_quals_per_class": {
+      "Vintage / Rear Motor": 7
+    },
+    "best10_per_class": {
+      "Vintage / Rear Motor": 14.98
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 10579,
+      "date": "04-Feb-2024",
+      "title": "23/24 Winter Series Round 5",
+      "season": "23/24",
+      "class": "Vintage / Rear Motor",
+      "final": "A Final",
+      "position": 6,
+      "laps": 19,
+      "total_seconds": 303.48,
+      "best_lap": 14.9,
+      "average_lap": 15.97,
+      "best10": 15.2
+    },
+    {
+      "meeting_id": 9716,
+      "date": "05-Nov-2023",
+      "title": "23/24 Winter Series Round 2",
+      "season": "23/24",
+      "class": "Vintage / Rear Motor",
+      "final": "A Final",
+      "position": 4,
+      "laps": 17,
+      "total_seconds": 308.41,
+      "best_lap": 17.38,
+      "average_lap": 18.14,
+      "best10": 17.56
+    }
+  ]
+}

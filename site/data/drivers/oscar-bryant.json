@@ -1,0 +1,70 @@
+{
+  "name": "Oscar Bryant",
+  "slug": "oscar-bryant",
+  "summary": {
+    "name": "Oscar Bryant",
+    "slug": "oscar-bryant",
+    "meetings_count": 1,
+    "attendance_pct": 5.6,
+    "total_laps": 88,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 13.75,
+    "metronome": 2.5,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 13.75
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 19,
+        "seconds": 316.32,
+        "result_str": "19 / 316.32",
+        "meeting_date": "01-Feb-2026"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "F Final",
+        "position": 1,
+        "rank": 51,
+        "meeting_date": "01-Feb-2026",
+        "meeting_title": "25/26 Winter Series Round 4"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 41
+    },
+    "best10_per_class": {
+      "2WD Buggy": 14.56
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 18332,
+      "date": "01-Feb-2026",
+      "title": "25/26 Winter Series Round 4",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "F Final",
+      "position": 1,
+      "laps": 19,
+      "total_seconds": 316.32,
+      "best_lap": 14.14,
+      "average_lap": 16.64,
+      "best10": 14.85
+    }
+  ]
+}

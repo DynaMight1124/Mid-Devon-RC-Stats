@@ -1,0 +1,70 @@
+{
+  "name": "Chris Kite",
+  "slug": "chris-kite",
+  "summary": {
+    "name": "Chris Kite",
+    "slug": "chris-kite",
+    "meetings_count": 1,
+    "attendance_pct": 5.6,
+    "total_laps": 60,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 17.12,
+    "metronome": 4.0,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 17.12
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 9,
+        "seconds": 190.11,
+        "result_str": "9 / 190.11",
+        "meeting_date": "01-Feb-2026"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "F Final",
+        "position": 6,
+        "rank": 56,
+        "meeting_date": "01-Feb-2026",
+        "meeting_title": "25/26 Winter Series Round 4"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 46
+    },
+    "best10_per_class": {
+      "2WD Buggy": 19.25
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 18332,
+      "date": "01-Feb-2026",
+      "title": "25/26 Winter Series Round 4",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "F Final",
+      "position": 6,
+      "laps": 9,
+      "total_seconds": 190.11,
+      "best_lap": 17.12,
+      "average_lap": 21.12,
+      "best10": null
+    }
+  ]
+}

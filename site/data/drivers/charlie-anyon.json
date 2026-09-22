@@ -1,0 +1,84 @@
+{
+  "name": "Charlie Anyon",
+  "slug": "charlie-anyon",
+  "summary": {
+    "name": "Charlie Anyon",
+    "slug": "charlie-anyon",
+    "meetings_count": 2,
+    "attendance_pct": 11.1,
+    "total_laps": 203,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 12.46,
+    "metronome": 0.88,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 12.46
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 23,
+        "seconds": 311.17,
+        "result_str": "23 / 311.17",
+        "meeting_date": "01-Feb-2026"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "B Final",
+        "position": 1,
+        "rank": 11,
+        "meeting_date": "01-Mar-2026",
+        "meeting_title": "25/26 Winter Series Round 5"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 9
+    },
+    "best10_per_class": {
+      "2WD Buggy": 12.9
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 18948,
+      "date": "01-Mar-2026",
+      "title": "25/26 Winter Series Round 5",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "B Final",
+      "position": 1,
+      "laps": 20,
+      "total_seconds": 307.01,
+      "best_lap": 14.65,
+      "average_lap": 15.35,
+      "best10": 15.09
+    },
+    {
+      "meeting_id": 18332,
+      "date": "01-Feb-2026",
+      "title": "25/26 Winter Series Round 4",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "B Final",
+      "position": 3,
+      "laps": 23,
+      "total_seconds": 311.17,
+      "best_lap": 12.46,
+      "average_lap": 13.52,
+      "best10": 12.9
+    }
+  ]
+}

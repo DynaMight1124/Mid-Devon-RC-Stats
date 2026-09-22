@@ -1,0 +1,180 @@
+{
+  "name": "Martial Radford",
+  "slug": "martial-radford",
+  "summary": {
+    "name": "Martial Radford",
+    "slug": "martial-radford",
+    "meetings_count": 5,
+    "attendance_pct": 27.8,
+    "total_laps": 598,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 1,
+    "a_final_rate": 20.0,
+    "a_final_podium_rate": 0.0,
+    "a_final_avg_pos": 5.0,
+    "a_finals_by_class": {
+      "Vintage / Rear Motor": 1
+    },
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy",
+      "Vintage / Rear Motor"
+    ],
+    "best_lap": 13.05,
+    "metronome": 1.84,
+    "badges_count": 1
+  },
+  "badges": [
+    {
+      "id": "multi_class",
+      "label": "Multi-Class",
+      "icon": "shuffle",
+      "desc": "Competes in multiple classes"
+    }
+  ],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 13.05,
+      "Vintage / Rear Motor": 14.42
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 21,
+        "seconds": 300.26,
+        "result_str": "21 / 300.26",
+        "meeting_date": "01-Feb-2026"
+      },
+      "Vintage / Rear Motor": {
+        "laps": 19,
+        "seconds": 304.16,
+        "result_str": "19 / 304.16",
+        "meeting_date": "01-Feb-2026"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "D Final",
+        "position": 4,
+        "rank": 34,
+        "meeting_date": "02-Nov-2025",
+        "meeting_title": "25/26 Winter Series Round 2"
+      },
+      "Vintage / Rear Motor": {
+        "final": "A Final",
+        "position": 5,
+        "rank": 5,
+        "meeting_date": "01-Mar-2026",
+        "meeting_title": "25/26 Winter Series Round 5"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 28,
+      "Vintage / Rear Motor": 8
+    },
+    "best10_per_class": {
+      "2WD Buggy": 13.44,
+      "Vintage / Rear Motor": 14.64
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 18948,
+      "date": "01-Mar-2026",
+      "title": "25/26 Winter Series Round 5",
+      "season": "25/26",
+      "class": "Vintage / Rear Motor",
+      "final": "A Final",
+      "position": 5,
+      "laps": 17,
+      "total_seconds": 301.78,
+      "best_lap": 16.74,
+      "average_lap": 17.75,
+      "best10": 16.91
+    },
+    {
+      "meeting_id": 18948,
+      "date": "01-Mar-2026",
+      "title": "25/26 Winter Series Round 5",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "D Final",
+      "position": 8,
+      "laps": 1,
+      "total_seconds": 20.44,
+      "best_lap": null,
+      "average_lap": 20.44,
+      "best10": null
+    },
+    {
+      "meeting_id": 18332,
+      "date": "01-Feb-2026",
+      "title": "25/26 Winter Series Round 4",
+      "season": "25/26",
+      "class": "Vintage / Rear Motor",
+      "final": "B Final",
+      "position": 4,
+      "laps": 19,
+      "total_seconds": 304.16,
+      "best_lap": 14.42,
+      "average_lap": 16.0,
+      "best10": 14.64
+    },
+    {
+      "meeting_id": 18332,
+      "date": "01-Feb-2026",
+      "title": "25/26 Winter Series Round 4",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "D Final",
+      "position": 4,
+      "laps": 21,
+      "total_seconds": 300.26,
+      "best_lap": 13.05,
+      "average_lap": 14.29,
+      "best10": 13.44
+    },
+    {
+      "meeting_id": 18077,
+      "date": "07-Dec-2025",
+      "title": "25/26 Winter Series Round 3",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "D Final",
+      "position": 8,
+      "laps": 19,
+      "total_seconds": 310.34,
+      "best_lap": 13.95,
+      "average_lap": 16.33,
+      "best10": 14.61
+    },
+    {
+      "meeting_id": 17667,
+      "date": "02-Nov-2025",
+      "title": "25/26 Winter Series Round 2",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "D Final",
+      "position": 4,
+      "laps": 16,
+      "total_seconds": 301.68,
+      "best_lap": 16.81,
+      "average_lap": 18.85,
+      "best10": 17.65
+    },
+    {
+      "meeting_id": 17348,
+      "date": "05-Oct-2025",
+      "title": "25/26 Winter Series Round 1",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "D Final",
+      "position": 8,
+      "laps": 16,
+      "total_seconds": 300.98,
+      "best_lap": 16.02,
+      "average_lap": 18.81,
+      "best10": 17.52
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Steve Ashton",
+  "slug": "steve-ashton",
+  "summary": {
+    "name": "Steve Ashton",
+    "slug": "steve-ashton",
+    "meetings_count": 3,
+    "attendance_pct": 16.7,
+    "total_laps": 276,
+    "a_final_wins": 1,
+    "a_final_podiums": 1,
+    "a_final_appearances": 3,
+    "a_final_rate": 100.0,
+    "a_final_podium_rate": 33.3,
+    "a_final_avg_pos": 4.7,
+    "a_finals_by_class": {
+      "2WD Buggy": 3
+    },
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 12.43,
+    "metronome": 0.81,
+    "badges_count": 1
+  },
+  "badges": [
+    {
+      "id": "winner",
+      "label": "Race Winner",
+      "icon": "medal",
+      "desc": "Won an A-Final"
+    }
+  ],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 12.43
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 23,
+        "seconds": 311.58,
+        "result_str": "23 / 311.58",
+        "meeting_date": "01-Dec-2024"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "A Final",
+        "position": 1,
+        "rank": 1,
+        "meeting_date": "07-Jan-2024",
+        "meeting_title": "23/24 Winter Series Round 4"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 5
+    },
+    "best10_per_class": {
+      "2WD Buggy": 12.71
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 14185,
+      "date": "05-Jan-2025",
+      "title": "24/25 Winter Series Round 5",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "A Final",
+      "position": 6,
+      "laps": 19,
+      "total_seconds": 300.0,
+      "best_lap": 14.64,
+      "average_lap": 15.79,
+      "best10": 14.96
+    },
+    {
+      "meeting_id": 13848,
+      "date": "01-Dec-2024",
+      "title": "24/25 Winter Series Round 4",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "A Final",
+      "position": 7,
+      "laps": 23,
+      "total_seconds": 311.58,
+      "best_lap": 12.81,
+      "average_lap": 13.55,
+      "best10": 13.06
+    },
+    {
+      "meeting_id": 10313,
+      "date": "07-Jan-2024",
+      "title": "23/24 Winter Series Round 4",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "A Final",
+      "position": 1,
+      "laps": 21,
+      "total_seconds": 308.31,
+      "best_lap": 14.13,
+      "average_lap": 14.68,
+      "best10": 14.34
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Dominic Eaton",
+  "slug": "dominic-eaton",
+  "summary": {
+    "name": "Dominic Eaton",
+    "slug": "dominic-eaton",
+    "meetings_count": 1,
+    "attendance_pct": 5.6,
+    "total_laps": 30,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 30.28,
+    "metronome": 5.96,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 30.28
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 8,
+        "seconds": 302.31,
+        "result_str": "8 / 302.31",
+        "meeting_date": "02-Mar-2025"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "E Final",
+        "position": 8,
+        "rank": 48,
+        "meeting_date": "02-Mar-2025",
+        "meeting_title": "24/25 Winter Series Round 7"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 41
+    },
+    "best10_per_class": {}
+  },
+  "timeline": [
+    {
+      "meeting_id": 14766,
+      "date": "02-Mar-2025",
+      "title": "24/25 Winter Series Round 7",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "E Final",
+      "position": 8,
+      "laps": 8,
+      "total_seconds": 302.31,
+      "best_lap": 31.83,
+      "average_lap": 37.79,
+      "best10": null
+    }
+  ]
+}

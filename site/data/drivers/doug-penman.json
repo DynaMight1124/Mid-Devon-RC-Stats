@@ -1,0 +1,122 @@
+{
+  "name": "Doug Penman",
+  "slug": "doug-penman",
+  "summary": {
+    "name": "Doug Penman",
+    "slug": "doug-penman",
+    "meetings_count": 2,
+    "attendance_pct": 11.1,
+    "total_laps": 230,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy",
+      "Stadium Trucks"
+    ],
+    "best_lap": 15.79,
+    "metronome": 2.83,
+    "badges_count": 1
+  },
+  "badges": [
+    {
+      "id": "multi_class",
+      "label": "Multi-Class",
+      "icon": "shuffle",
+      "desc": "Competes in multiple classes"
+    }
+  ],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 15.82,
+      "Stadium Trucks": 15.79
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 18,
+        "seconds": 309.38,
+        "result_str": "18 / 309.38",
+        "meeting_date": "02-Feb-2025"
+      },
+      "Stadium Trucks": {
+        "laps": 17,
+        "seconds": 313.24,
+        "result_str": "17 / 313.24",
+        "meeting_date": "02-Feb-2025"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "E Final",
+        "position": 5,
+        "rank": 45,
+        "meeting_date": "03-Nov-2024",
+        "meeting_title": "24/25 Winter Series Round 2"
+      },
+      "Stadium Trucks": {
+        "final": "B Final",
+        "position": 4,
+        "rank": 14,
+        "meeting_date": "02-Feb-2025",
+        "meeting_title": "24/25 Winter Series Round 6"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 38,
+      "Stadium Trucks": 12
+    },
+    "best10_per_class": {
+      "2WD Buggy": 16.34,
+      "Stadium Trucks": 16.49
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 14449,
+      "date": "02-Feb-2025",
+      "title": "24/25 Winter Series Round 6",
+      "season": "24/25",
+      "class": "Stadium Trucks",
+      "final": "B Final",
+      "position": 4,
+      "laps": 17,
+      "total_seconds": 313.24,
+      "best_lap": 16.74,
+      "average_lap": 18.43,
+      "best10": 17.15
+    },
+    {
+      "meeting_id": 14449,
+      "date": "02-Feb-2025",
+      "title": "24/25 Winter Series Round 6",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "F Final",
+      "position": 1,
+      "laps": 18,
+      "total_seconds": 309.38,
+      "best_lap": 16.0,
+      "average_lap": 17.19,
+      "best10": 16.34
+    },
+    {
+      "meeting_id": 13539,
+      "date": "03-Nov-2024",
+      "title": "24/25 Winter Series Round 2",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "E Final",
+      "position": 5,
+      "laps": 13,
+      "total_seconds": 316.21,
+      "best_lap": 18.71,
+      "average_lap": 24.32,
+      "best10": 22.86
+    }
+  ]
+}

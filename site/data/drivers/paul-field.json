@@ -1,0 +1,100 @@
+{
+  "name": "Paul Field",
+  "slug": "paul-field",
+  "summary": {
+    "name": "Paul Field",
+    "slug": "paul-field",
+    "meetings_count": 3,
+    "attendance_pct": 16.7,
+    "total_laps": 313,
+    "a_final_wins": 0,
+    "a_final_podiums": 2,
+    "a_final_appearances": 3,
+    "a_final_rate": 100.0,
+    "a_final_podium_rate": 66.7,
+    "a_final_avg_pos": 3.7,
+    "a_finals_by_class": {
+      "2WD Buggy": 3
+    },
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 13.06,
+    "metronome": 0.9,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 13.06
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 22,
+        "seconds": 314.33,
+        "result_str": "22 / 314.33",
+        "meeting_date": "01-Oct-2023"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "A Final",
+        "position": 2,
+        "rank": 2,
+        "meeting_date": "01-Oct-2023",
+        "meeting_title": "23/24 Winter Series Round 1"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 2
+    },
+    "best10_per_class": {
+      "2WD Buggy": 13.43
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 10313,
+      "date": "07-Jan-2024",
+      "title": "23/24 Winter Series Round 4",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "A Final",
+      "position": 2,
+      "laps": 21,
+      "total_seconds": 309.53,
+      "best_lap": 14.38,
+      "average_lap": 14.74,
+      "best10": 14.5
+    },
+    {
+      "meeting_id": 9716,
+      "date": "05-Nov-2023",
+      "title": "23/24 Winter Series Round 2",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "A Final",
+      "position": 7,
+      "laps": 19,
+      "total_seconds": 306.84,
+      "best_lap": 14.8,
+      "average_lap": 16.15,
+      "best10": 15.24
+    },
+    {
+      "meeting_id": 9404,
+      "date": "01-Oct-2023",
+      "title": "23/24 Winter Series Round 1",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "A Final",
+      "position": 2,
+      "laps": 22,
+      "total_seconds": 314.33,
+      "best_lap": 13.29,
+      "average_lap": 14.29,
+      "best10": 13.64
+    }
+  ]
+}

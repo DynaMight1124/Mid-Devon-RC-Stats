@@ -1,0 +1,70 @@
+{
+  "name": "Hans Jolivet",
+  "slug": "hans-jolivet",
+  "summary": {
+    "name": "Hans Jolivet",
+    "slug": "hans-jolivet",
+    "meetings_count": 1,
+    "attendance_pct": 5.6,
+    "total_laps": 84,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 15.21,
+    "metronome": 1.72,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 15.21
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 18,
+        "seconds": 309.31,
+        "result_str": "18 / 309.31",
+        "meeting_date": "01-Oct-2023"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "D Final",
+        "position": 4,
+        "rank": 34,
+        "meeting_date": "01-Oct-2023",
+        "meeting_title": "23/24 Winter Series Round 1"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 30
+    },
+    "best10_per_class": {
+      "2WD Buggy": 15.83
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 9404,
+      "date": "01-Oct-2023",
+      "title": "23/24 Winter Series Round 1",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "D Final",
+      "position": 4,
+      "laps": 18,
+      "total_seconds": 309.31,
+      "best_lap": 15.46,
+      "average_lap": 17.18,
+      "best10": 15.94
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Elliott Broom",
+  "slug": "elliott-broom",
+  "summary": {
+    "name": "Elliott Broom",
+    "slug": "elliott-broom",
+    "meetings_count": 1,
+    "attendance_pct": 5.6,
+    "total_laps": 77,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 15.97,
+    "metronome": 4.49,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 15.97
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 15,
+        "seconds": 311.72,
+        "result_str": "15 / 311.72",
+        "meeting_date": "05-Nov-2023"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "E Final",
+        "position": 8,
+        "rank": 48,
+        "meeting_date": "05-Nov-2023",
+        "meeting_title": "23/24 Winter Series Round 2"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 35
+    },
+    "best10_per_class": {
+      "2WD Buggy": 16.68
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 9716,
+      "date": "05-Nov-2023",
+      "title": "23/24 Winter Series Round 2",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "E Final",
+      "position": 8,
+      "laps": 15,
+      "total_seconds": 311.72,
+      "best_lap": 16.29,
+      "average_lap": 20.78,
+      "best10": 17.38
+    }
+  ]
+}

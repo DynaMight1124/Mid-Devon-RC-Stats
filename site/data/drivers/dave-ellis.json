@@ -1,0 +1,84 @@
+{
+  "name": "Dave Ellis",
+  "slug": "dave-ellis",
+  "summary": {
+    "name": "Dave Ellis",
+    "slug": "dave-ellis",
+    "meetings_count": 2,
+    "attendance_pct": 11.1,
+    "total_laps": 162,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 15.6,
+    "metronome": 2.47,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 15.6
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 17,
+        "seconds": 305.32,
+        "result_str": "17 / 305.32",
+        "meeting_date": "01-Oct-2023"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "D Final",
+        "position": 5,
+        "rank": 35,
+        "meeting_date": "01-Oct-2023",
+        "meeting_title": "23/24 Winter Series Round 1"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 31
+    },
+    "best10_per_class": {
+      "2WD Buggy": 16.36
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 9716,
+      "date": "05-Nov-2023",
+      "title": "23/24 Winter Series Round 2",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "D Final",
+      "position": 6,
+      "laps": 17,
+      "total_seconds": 313.09,
+      "best_lap": 15.85,
+      "average_lap": 18.42,
+      "best10": 16.65
+    },
+    {
+      "meeting_id": 9404,
+      "date": "01-Oct-2023",
+      "title": "23/24 Winter Series Round 1",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "D Final",
+      "position": 5,
+      "laps": 17,
+      "total_seconds": 305.32,
+      "best_lap": 15.6,
+      "average_lap": 17.96,
+      "best10": 16.52
+    }
+  ]
+}

@@ -1,0 +1,823 @@
+[
+  {
+    "id": 18948,
+    "date": "01-Mar-2026",
+    "title": "25/26 Winter Series Round 5",
+    "season": "25/26",
+    "drivers_count": 49,
+    "total_laps": 6141,
+    "races_count": 368,
+    "winners": {
+      "Stadium Trucks": {
+        "driver": "Daniel Hurrell",
+        "laps": 19,
+        "seconds": 305.07,
+        "result": "19 / 305.07"
+      },
+      "Vintage / Rear Motor": {
+        "driver": "Keith Halsey",
+        "laps": 18,
+        "seconds": 309.99,
+        "result": "18 / 309.99"
+      },
+      "4WD Buggy": {
+        "driver": "Michael Halsey",
+        "laps": 19,
+        "seconds": 304.3,
+        "result": "19 / 304.30"
+      },
+      "2WD Buggy": {
+        "driver": "Maxim Cook",
+        "laps": 21,
+        "seconds": 309.28,
+        "result": "21 / 309.28"
+      }
+    },
+    "tqs": {
+      "Stadium Trucks": "Daniel Hurrell",
+      "Vintage / Rear Motor": "Jordan Newbery",
+      "4WD Buggy": "Michael Halsey",
+      "2WD Buggy": "Maxim Cook"
+    },
+    "fastest_lap": {
+      "time": 14.09,
+      "driver": "Maxim Cook",
+      "class": "2WD Buggy"
+    }
+  },
+  {
+    "id": 18332,
+    "date": "01-Feb-2026",
+    "title": "25/26 Winter Series Round 4",
+    "season": "25/26",
+    "drivers_count": 54,
+    "total_laps": 7539,
+    "races_count": 390,
+    "winners": {
+      "Stadium Trucks": {
+        "driver": "David Attiwell",
+        "laps": 21,
+        "seconds": 304.05,
+        "result": "21 / 304.05"
+      },
+      "Vintage / Rear Motor": {
+        "driver": "Jordan Newbery",
+        "laps": 23,
+        "seconds": 311.42,
+        "result": "23 / 311.42"
+      },
+      "4WD Buggy": {
+        "driver": "Ricky Newcombe",
+        "laps": 22,
+        "seconds": 304.13,
+        "result": "22 / 304.13"
+      },
+      "2WD Buggy": {
+        "driver": "Jordan Newbery",
+        "laps": 24,
+        "seconds": 311.31,
+        "result": "24 / 311.31"
+      }
+    },
+    "tqs": {
+      "Stadium Trucks": "Keith Halsey",
+      "Vintage / Rear Motor": "Jordan Newbery",
+      "4WD Buggy": "Ricky Newcombe",
+      "2WD Buggy": "Maxim Cook"
+    },
+    "fastest_lap": {
+      "time": 11.77,
+      "driver": "Maxim Cook",
+      "class": "2WD Buggy"
+    }
+  },
+  {
+    "id": 18077,
+    "date": "07-Dec-2025",
+    "title": "25/26 Winter Series Round 3",
+    "season": "25/26",
+    "drivers_count": 56,
+    "total_laps": 7365,
+    "races_count": 399,
+    "winners": {
+      "Stadium Trucks": {
+        "driver": "Harry Porter",
+        "laps": 20,
+        "seconds": 310.88,
+        "result": "20 / 310.88"
+      },
+      "Vintage / Rear Motor": {
+        "driver": "Dan Harding",
+        "laps": 21,
+        "seconds": 311.37,
+        "result": "21 / 311.37"
+      },
+      "4WD Buggy": {
+        "driver": "Keith Halsey",
+        "laps": 22,
+        "seconds": 303.43,
+        "result": "22 / 303.43"
+      },
+      "2WD Buggy": {
+        "driver": "Martin Owen",
+        "laps": 22,
+        "seconds": 300.29,
+        "result": "22 / 300.29"
+      }
+    },
+    "tqs": {
+      "Stadium Trucks": "Simon Mills",
+      "Vintage / Rear Motor": "Bryan Burrows",
+      "4WD Buggy": "Keith Halsey",
+      "2WD Buggy": "Jordan Newbery"
+    },
+    "fastest_lap": {
+      "time": 12.81,
+      "driver": "Jordan Newbery",
+      "class": "2WD Buggy"
+    }
+  },
+  {
+    "id": 17667,
+    "date": "02-Nov-2025",
+    "title": "25/26 Winter Series Round 2",
+    "season": "25/26",
+    "drivers_count": 59,
+    "total_laps": 6045,
+    "races_count": 398,
+    "winners": {
+      "Stadium Trucks": {
+        "driver": "Jon Baker",
+        "laps": 18,
+        "seconds": 309.71,
+        "result": "18 / 309.71"
+      },
+      "Vintage / Rear Motor": {
+        "driver": "Jordan Newbery",
+        "laps": 18,
+        "seconds": 307.45,
+        "result": "18 / 307.45"
+      },
+      "4WD Buggy": {
+        "driver": "Keith Halsey",
+        "laps": 20,
+        "seconds": 309.84,
+        "result": "20 / 309.84"
+      },
+      "2WD Buggy": {
+        "driver": "Jordan Newbery",
+        "laps": 20,
+        "seconds": 339.73,
+        "result": "20 / 339.73"
+      }
+    },
+    "tqs": {
+      "Stadium Trucks": "Jon Baker",
+      "Vintage / Rear Motor": "Bryan Burrows",
+      "4WD Buggy": "Keith Halsey",
+      "2WD Buggy": "Jordan Newbery"
+    },
+    "fastest_lap": {
+      "time": 14.89,
+      "driver": "Jordan Newbery",
+      "class": "2WD Buggy"
+    }
+  },
+  {
+    "id": 17348,
+    "date": "05-Oct-2025",
+    "title": "25/26 Winter Series Round 1",
+    "season": "25/26",
+    "drivers_count": 49,
+    "total_laps": 5779,
+    "races_count": 337,
+    "winners": {
+      "Vintage / Rear Motor": {
+        "driver": "Bryan Burrows",
+        "laps": 20,
+        "seconds": 307.31,
+        "result": "20 / 307.31"
+      },
+      "Stadium Trucks": {
+        "driver": "David Attiwell",
+        "laps": 19,
+        "seconds": 315.9,
+        "result": "19 / 315.90"
+      },
+      "4WD Buggy": {
+        "driver": "Jordan Newbery",
+        "laps": 22,
+        "seconds": 301.46,
+        "result": "22 / 301.46"
+      },
+      "2WD Buggy": {
+        "driver": "Maxim Cook",
+        "laps": 22,
+        "seconds": 306.82,
+        "result": "22 / 306.82"
+      }
+    },
+    "tqs": {
+      "Vintage / Rear Motor": "Bryan Burrows",
+      "Stadium Trucks": "Michael Julian",
+      "4WD Buggy": "Jordan Newbery",
+      "2WD Buggy": "Maxim Cook"
+    },
+    "fastest_lap": {
+      "time": 13.26,
+      "driver": "Jordan Newbery",
+      "class": "4WD Buggy"
+    }
+  },
+  {
+    "id": 14766,
+    "date": "02-Mar-2025",
+    "title": "24/25 Winter Series Round 7",
+    "season": "24/25",
+    "drivers_count": 51,
+    "total_laps": 5914,
+    "races_count": 346,
+    "winners": {
+      "Stadium Trucks": {
+        "driver": "Jake Coombs",
+        "laps": 19,
+        "seconds": 310.22,
+        "result": "19 / 310.22"
+      },
+      "4WD Buggy": {
+        "driver": "Jordan Newbery",
+        "laps": 22,
+        "seconds": 312.11,
+        "result": "22 / 312.11"
+      },
+      "Vintage / Rear Motor": {
+        "driver": "Phil Chapman",
+        "laps": 19,
+        "seconds": 300.37,
+        "result": "19 / 300.37"
+      },
+      "2WD Buggy": {
+        "driver": "Dan Harding",
+        "laps": 22,
+        "seconds": 304.28,
+        "result": "22 / 304.28"
+      }
+    },
+    "tqs": {
+      "Stadium Trucks": "Nathan Jarvis",
+      "4WD Buggy": "Jordan Newbery",
+      "Vintage / Rear Motor": "Phil Chapman",
+      "2WD Buggy": "Dan Harding"
+    },
+    "fastest_lap": {
+      "time": 13.23,
+      "driver": "Jordan Newbery",
+      "class": "2WD Buggy"
+    }
+  },
+  {
+    "id": 14449,
+    "date": "02-Feb-2025",
+    "title": "24/25 Winter Series Round 6",
+    "season": "24/25",
+    "drivers_count": 60,
+    "total_laps": 7657,
+    "races_count": 399,
+    "winners": {
+      "4WD Buggy": {
+        "driver": "Jon Baker",
+        "laps": 25,
+        "seconds": 311.05,
+        "result": "25 / 311.05"
+      },
+      "Stadium Trucks": {
+        "driver": "David Attiwell",
+        "laps": 21,
+        "seconds": 303.54,
+        "result": "21 / 303.54"
+      },
+      "Vintage / Rear Motor": {
+        "driver": "Jordan Newbery",
+        "laps": 23,
+        "seconds": 308.72,
+        "result": "23 / 308.72"
+      },
+      "2WD Buggy": {
+        "driver": "Martin Owen",
+        "laps": 25,
+        "seconds": 307.19,
+        "result": "25 / 307.19"
+      }
+    },
+    "tqs": {
+      "4WD Buggy": "Lee Bond",
+      "Stadium Trucks": "David Attiwell",
+      "Vintage / Rear Motor": "Jordan Newbery",
+      "2WD Buggy": "Maxim Cook"
+    },
+    "fastest_lap": {
+      "time": 11.48,
+      "driver": "Maxim Cook",
+      "class": "2WD Buggy"
+    }
+  },
+  {
+    "id": 14185,
+    "date": "05-Jan-2025",
+    "title": "24/25 Winter Series Round 5",
+    "season": "24/25",
+    "drivers_count": 63,
+    "total_laps": 6796,
+    "races_count": 413,
+    "winners": {
+      "Vintage / Rear Motor": {
+        "driver": "Jordan Newbery",
+        "laps": 19,
+        "seconds": 313.69,
+        "result": "19 / 313.69"
+      },
+      "4WD Buggy": {
+        "driver": "Lee Bond",
+        "laps": 20,
+        "seconds": 312.94,
+        "result": "20 / 312.94"
+      },
+      "Stadium Trucks": {
+        "driver": "Jake Coombs",
+        "laps": 17,
+        "seconds": 302.41,
+        "result": "17 / 302.41"
+      },
+      "2WD Buggy": {
+        "driver": "Martin Owen",
+        "laps": 21,
+        "seconds": 314.03,
+        "result": "21 / 314.03"
+      }
+    },
+    "tqs": {
+      "Vintage / Rear Motor": "Jordan Newbery",
+      "4WD Buggy": "Lee Bond",
+      "Stadium Trucks": "David Attiwell",
+      "2WD Buggy": "Martin Owen"
+    },
+    "fastest_lap": {
+      "time": 13.78,
+      "driver": "Erin Bond",
+      "class": "2WD Buggy"
+    }
+  },
+  {
+    "id": 13848,
+    "date": "01-Dec-2024",
+    "title": "24/25 Winter Series Round 4",
+    "season": "24/25",
+    "drivers_count": 54,
+    "total_laps": 7147,
+    "races_count": 370,
+    "winners": {
+      "Stadium Trucks": {
+        "driver": "Jake Coombs",
+        "laps": 20,
+        "seconds": 304.0,
+        "result": "20 / 304.00"
+      },
+      "4WD Buggy": {
+        "driver": "Lee Bond",
+        "laps": 23,
+        "seconds": 311.05,
+        "result": "23 / 311.05"
+      },
+      "Vintage / Rear Motor": {
+        "driver": "Jordan Newbery",
+        "laps": 22,
+        "seconds": 312.84,
+        "result": "22 / 312.84"
+      },
+      "2WD Buggy": {
+        "driver": "Maxim Cook",
+        "laps": 24,
+        "seconds": 305.96,
+        "result": "24 / 305.96"
+      }
+    },
+    "tqs": {
+      "Stadium Trucks": "Michael Julian",
+      "4WD Buggy": "Lee Bond",
+      "Vintage / Rear Motor": "Jordan Newbery",
+      "2WD Buggy": "Maxim Cook"
+    },
+    "fastest_lap": {
+      "time": 12.07,
+      "driver": "Maxim Cook",
+      "class": "2WD Buggy"
+    }
+  },
+  {
+    "id": 13693,
+    "date": "17-Nov-2024",
+    "title": "24/25 Winter Series Round 3",
+    "season": "24/25",
+    "drivers_count": 52,
+    "total_laps": 7061,
+    "races_count": 351,
+    "winners": {
+      "Vintage / Rear Motor": {
+        "driver": "Alan Stocks",
+        "laps": 21,
+        "seconds": 303.42,
+        "result": "21 / 303.42"
+      },
+      "4WD Buggy": {
+        "driver": "Jordan Newbery",
+        "laps": 25,
+        "seconds": 300.66,
+        "result": "25 / 300.66"
+      },
+      "Stadium Trucks": {
+        "driver": "Nathan Jarvis",
+        "laps": 21,
+        "seconds": 306.09,
+        "result": "21 / 306.09"
+      },
+      "2WD Buggy": {
+        "driver": "Maxim Cook",
+        "laps": 25,
+        "seconds": 305.72,
+        "result": "25 / 305.72"
+      }
+    },
+    "tqs": {
+      "Vintage / Rear Motor": "Chris Law",
+      "4WD Buggy": "Jordan Newbery",
+      "Stadium Trucks": "Nathan Jarvis",
+      "2WD Buggy": "Ollie Davies"
+    },
+    "fastest_lap": {
+      "time": 11.13,
+      "driver": "Jordan Newbery",
+      "class": "4WD Buggy"
+    }
+  },
+  {
+    "id": 13539,
+    "date": "03-Nov-2024",
+    "title": "24/25 Winter Series Round 2",
+    "season": "24/25",
+    "drivers_count": 47,
+    "total_laps": 5650,
+    "races_count": 334,
+    "winners": {
+      "Stadium Trucks": {
+        "driver": "Nathan Jarvis",
+        "laps": 17,
+        "seconds": 300.36,
+        "result": "17 / 300.36"
+      },
+      "4WD Buggy": {
+        "driver": "Liam Galvin",
+        "laps": 21,
+        "seconds": 306.39,
+        "result": "21 / 306.39"
+      },
+      "Vintage / Rear Motor": {
+        "driver": "Jordan Newbery",
+        "laps": 20,
+        "seconds": 315.48,
+        "result": "20 / 315.48"
+      },
+      "2WD Buggy": {
+        "driver": "Liam Galvin",
+        "laps": 21,
+        "seconds": 305.17,
+        "result": "21 / 305.17"
+      }
+    },
+    "tqs": {
+      "Stadium Trucks": "Jake Coombs",
+      "4WD Buggy": "Liam Galvin",
+      "Vintage / Rear Motor": "Jordan Newbery",
+      "2WD Buggy": "Liam Galvin"
+    },
+    "fastest_lap": {
+      "time": 13.34,
+      "driver": "Liam Galvin",
+      "class": "2WD Buggy"
+    }
+  },
+  {
+    "id": 13348,
+    "date": "13-Oct-2024",
+    "title": "24/25 Winter Series Round 1",
+    "season": "24/25",
+    "drivers_count": 52,
+    "total_laps": 5720,
+    "races_count": 345,
+    "winners": {
+      "4WD Buggy": {
+        "driver": "Liam Galvin",
+        "laps": 20,
+        "seconds": 309.18,
+        "result": "20 / 309.18"
+      },
+      "Stadium Trucks": {
+        "driver": "Nathan Jarvis",
+        "laps": 16,
+        "seconds": 302.92,
+        "result": "16 / 302.92"
+      },
+      "Vintage / Rear Motor": {
+        "driver": "Jordan Newbery",
+        "laps": 19,
+        "seconds": 300.97,
+        "result": "19 / 300.97"
+      },
+      "2WD Buggy": {
+        "driver": "Josh Graham",
+        "laps": 21,
+        "seconds": 307.95,
+        "result": "21 / 307.95"
+      }
+    },
+    "tqs": {
+      "4WD Buggy": "Liam Galvin",
+      "Stadium Trucks": "Nathan Jarvis",
+      "Vintage / Rear Motor": "Jordan Newbery",
+      "2WD Buggy": "Josh Graham"
+    },
+    "fastest_lap": {
+      "time": 13.96,
+      "driver": "Josh Graham",
+      "class": "2WD Buggy"
+    }
+  },
+  {
+    "id": 10898,
+    "date": "03-Mar-2024",
+    "title": "23/24 Winter Series Round 6",
+    "season": "23/24",
+    "drivers_count": 46,
+    "total_laps": 4994,
+    "races_count": 275,
+    "winners": {
+      "Stadium Trucks": {
+        "driver": "Gavin Knight",
+        "laps": 21,
+        "seconds": 312.2,
+        "result": "21 / 312.20"
+      },
+      "4WD Buggy": {
+        "driver": "Keith Halsey",
+        "laps": 22,
+        "seconds": 312.18,
+        "result": "22 / 312.18"
+      },
+      "Vintage / Rear Motor": {
+        "driver": "Dan Harding",
+        "laps": 21,
+        "seconds": 304.84,
+        "result": "21 / 304.84"
+      },
+      "2WD Buggy": {
+        "driver": "Martin Owen",
+        "laps": 23,
+        "seconds": 304.33,
+        "result": "23 / 304.33"
+      }
+    },
+    "tqs": {
+      "Stadium Trucks": "Gavin Knight",
+      "4WD Buggy": "Keith Halsey",
+      "Vintage / Rear Motor": "Dan Harding",
+      "2WD Buggy": "Martin Owen"
+    },
+    "fastest_lap": {
+      "time": 12.34,
+      "driver": "Liam Galvin",
+      "class": "2WD Buggy"
+    }
+  },
+  {
+    "id": 10579,
+    "date": "04-Feb-2024",
+    "title": "23/24 Winter Series Round 5",
+    "season": "23/24",
+    "drivers_count": 50,
+    "total_laps": 6144,
+    "races_count": 325,
+    "winners": {
+      "Vintage / Rear Motor": {
+        "driver": "Dan Harding",
+        "laps": 21,
+        "seconds": 300.96,
+        "result": "21 / 300.96"
+      },
+      "4WD Buggy": {
+        "driver": "Keith Halsey",
+        "laps": 21,
+        "seconds": 306.57,
+        "result": "21 / 306.57"
+      },
+      "Stadium Trucks": {
+        "driver": "Michael Halsey",
+        "laps": 19,
+        "seconds": 310.48,
+        "result": "19 / 310.48"
+      },
+      "2WD Buggy": {
+        "driver": "Liam Galvin",
+        "laps": 24,
+        "seconds": 308.87,
+        "result": "24 / 308.87"
+      }
+    },
+    "tqs": {
+      "Vintage / Rear Motor": "Dan Harding",
+      "4WD Buggy": "Keith Halsey",
+      "Stadium Trucks": "Jake Coombs",
+      "2WD Buggy": "Liam Galvin"
+    },
+    "fastest_lap": {
+      "time": 11.18,
+      "driver": "Andrew Stone-Wright",
+      "class": "Stadium Trucks"
+    }
+  },
+  {
+    "id": 10313,
+    "date": "07-Jan-2024",
+    "title": "23/24 Winter Series Round 4",
+    "season": "23/24",
+    "drivers_count": 47,
+    "total_laps": 4582,
+    "races_count": 275,
+    "winners": {
+      "Vintage / Rear Motor": {
+        "driver": "Gavin Knight",
+        "laps": 17,
+        "seconds": 305.81,
+        "result": "17 / 305.81"
+      },
+      "Stadium Trucks": {
+        "driver": "Keith Halsey",
+        "laps": 19,
+        "seconds": 310.25,
+        "result": "19 / 310.25"
+      },
+      "4WD Buggy": {
+        "driver": "Jamie Freeman",
+        "laps": 19,
+        "seconds": 302.83,
+        "result": "19 / 302.83"
+      },
+      "2WD Buggy": {
+        "driver": "Steve Ashton",
+        "laps": 21,
+        "seconds": 308.31,
+        "result": "21 / 308.31"
+      }
+    },
+    "tqs": {
+      "Vintage / Rear Motor": "Gavin Knight",
+      "Stadium Trucks": "Keith Halsey",
+      "4WD Buggy": "Jamie Freeman",
+      "2WD Buggy": "Maxim Cook"
+    },
+    "fastest_lap": {
+      "time": 13.84,
+      "driver": "Gavin Knight",
+      "class": "Vintage / Rear Motor"
+    }
+  },
+  {
+    "id": 10013,
+    "date": "03-Dec-2023",
+    "title": "23/24 Winter Series Round 3",
+    "season": "23/24",
+    "drivers_count": 45,
+    "total_laps": 4280,
+    "races_count": 265,
+    "winners": {
+      "4WD Buggy": {
+        "driver": "Jamie Freeman",
+        "laps": 19,
+        "seconds": 315.65,
+        "result": "19 / 315.65"
+      },
+      "Vintage / Rear Motor": {
+        "driver": "Stuart Ball",
+        "laps": 17,
+        "seconds": 305.07,
+        "result": "17 / 305.07"
+      },
+      "Stadium Trucks": {
+        "driver": "Keith Halsey",
+        "laps": 17,
+        "seconds": 306.79,
+        "result": "17 / 306.79"
+      },
+      "2WD Buggy": {
+        "driver": "Callum Mitchell",
+        "laps": 20,
+        "seconds": 312.6,
+        "result": "20 / 312.60"
+      }
+    },
+    "tqs": {
+      "4WD Buggy": "Jamie Freeman",
+      "Vintage / Rear Motor": "Gavin Knight",
+      "Stadium Trucks": "Keith Halsey",
+      "2WD Buggy": "Callum Mitchell"
+    },
+    "fastest_lap": {
+      "time": 14.6,
+      "driver": "Callum Mitchell",
+      "class": "2WD Buggy"
+    }
+  },
+  {
+    "id": 9716,
+    "date": "05-Nov-2023",
+    "title": "23/24 Winter Series Round 2",
+    "season": "23/24",
+    "drivers_count": 56,
+    "total_laps": 5590,
+    "races_count": 340,
+    "winners": {
+      "4WD Buggy": {
+        "driver": "Martin Williams",
+        "laps": 18,
+        "seconds": 306.16,
+        "result": "18 / 306.16"
+      },
+      "Vintage / Rear Motor": {
+        "driver": "Dan Harding",
+        "laps": 18,
+        "seconds": 304.03,
+        "result": "18 / 304.03"
+      },
+      "Stadium Trucks": {
+        "driver": "Keith Halsey",
+        "laps": 19,
+        "seconds": 321.06,
+        "result": "19 / 321.06"
+      },
+      "2WD Buggy": {
+        "driver": "Josh Graham",
+        "laps": 21,
+        "seconds": 311.57,
+        "result": "21 / 311.57"
+      }
+    },
+    "tqs": {
+      "4WD Buggy": "Martin Williams",
+      "Vintage / Rear Motor": "Bryan Burrows",
+      "Stadium Trucks": "Keith Halsey",
+      "2WD Buggy": "Callum Mitchell"
+    },
+    "fastest_lap": {
+      "time": 13.86,
+      "driver": "Harry Mears",
+      "class": "2WD Buggy"
+    }
+  },
+  {
+    "id": 9404,
+    "date": "01-Oct-2023",
+    "title": "23/24 Winter Series Round 1",
+    "season": "23/24",
+    "drivers_count": 42,
+    "total_laps": 4357,
+    "races_count": 245,
+    "winners": {
+      "Stadium Trucks": {
+        "driver": "Keith Halsey",
+        "laps": 21,
+        "seconds": 314.45,
+        "result": "21 / 314.45"
+      },
+      "Vintage / Rear Motor": {
+        "driver": "Dan Harding",
+        "laps": 20,
+        "seconds": 301.42,
+        "result": "20 / 301.42"
+      },
+      "2WD Buggy": {
+        "driver": "Josh Graham",
+        "laps": 23,
+        "seconds": 305.4,
+        "result": "23 / 305.40"
+      }
+    },
+    "tqs": {
+      "Stadium Trucks": "Keith Halsey",
+      "Vintage / Rear Motor": "Dan Harding",
+      "2WD Buggy": "Josh Graham"
+    },
+    "fastest_lap": {
+      "time": 12.77,
+      "driver": "Josh Graham",
+      "class": "2WD Buggy"
+    }
+  }
+]

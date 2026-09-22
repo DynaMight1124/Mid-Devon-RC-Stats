@@ -1,0 +1,72 @@
+{
+  "name": "Luke Goodfellow",
+  "slug": "luke-goodfellow",
+  "summary": {
+    "name": "Luke Goodfellow",
+    "slug": "luke-goodfellow",
+    "meetings_count": 1,
+    "attendance_pct": 5.6,
+    "total_laps": 70,
+    "a_final_wins": 0,
+    "a_final_podiums": 1,
+    "a_final_appearances": 1,
+    "a_final_rate": 100.0,
+    "a_final_podium_rate": 100.0,
+    "a_final_avg_pos": 3.0,
+    "a_finals_by_class": {
+      "Stadium Trucks": 1
+    },
+    "tqs": 0,
+    "classes": [
+      "Stadium Trucks"
+    ],
+    "best_lap": 18.16,
+    "metronome": 2.86,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "Stadium Trucks": 18.16
+    },
+    "best_runs_per_class": {
+      "Stadium Trucks": {
+        "laps": 16,
+        "seconds": 336.33,
+        "result_str": "16 / 336.33",
+        "meeting_date": "03-Dec-2023"
+      }
+    },
+    "highest_finishes_per_class": {
+      "Stadium Trucks": {
+        "final": "A Final",
+        "position": 3,
+        "rank": 3,
+        "meeting_date": "03-Dec-2023",
+        "meeting_title": "23/24 Winter Series Round 3"
+      }
+    },
+    "highest_quals_per_class": {
+      "Stadium Trucks": 6
+    },
+    "best10_per_class": {
+      "Stadium Trucks": 19.02
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 10013,
+      "date": "03-Dec-2023",
+      "title": "23/24 Winter Series Round 3",
+      "season": "23/24",
+      "class": "Stadium Trucks",
+      "final": "A Final",
+      "position": 3,
+      "laps": 16,
+      "total_seconds": 336.33,
+      "best_lap": 18.16,
+      "average_lap": 21.02,
+      "best10": 19.02
+    }
+  ]
+}

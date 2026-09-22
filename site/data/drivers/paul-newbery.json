@@ -1,0 +1,70 @@
+{
+  "name": "Paul Newbery",
+  "slug": "paul-newbery",
+  "summary": {
+    "name": "Paul Newbery",
+    "slug": "paul-newbery",
+    "meetings_count": 1,
+    "attendance_pct": 5.6,
+    "total_laps": 74,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "Vintage / Rear Motor"
+    ],
+    "best_lap": 17.99,
+    "metronome": 1.67,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "Vintage / Rear Motor": 17.99
+    },
+    "best_runs_per_class": {
+      "Vintage / Rear Motor": {
+        "laps": 15,
+        "seconds": 309.97,
+        "result_str": "15 / 309.97",
+        "meeting_date": "05-Nov-2023"
+      }
+    },
+    "highest_finishes_per_class": {
+      "Vintage / Rear Motor": {
+        "final": "B Final",
+        "position": 2,
+        "rank": 12,
+        "meeting_date": "05-Nov-2023",
+        "meeting_title": "23/24 Winter Series Round 2"
+      }
+    },
+    "highest_quals_per_class": {
+      "Vintage / Rear Motor": 10
+    },
+    "best10_per_class": {
+      "Vintage / Rear Motor": 19.43
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 9716,
+      "date": "05-Nov-2023",
+      "title": "23/24 Winter Series Round 2",
+      "season": "23/24",
+      "class": "Vintage / Rear Motor",
+      "final": "B Final",
+      "position": 2,
+      "laps": 15,
+      "total_seconds": 309.97,
+      "best_lap": 18.99,
+      "average_lap": 20.66,
+      "best10": 19.91
+    }
+  ]
+}

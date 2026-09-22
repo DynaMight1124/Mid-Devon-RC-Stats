@@ -1,0 +1,100 @@
+{
+  "name": "Paul Norris",
+  "slug": "paul-norris",
+  "summary": {
+    "name": "Paul Norris",
+    "slug": "paul-norris",
+    "meetings_count": 3,
+    "attendance_pct": 16.7,
+    "total_laps": 362,
+    "a_final_wins": 0,
+    "a_final_podiums": 1,
+    "a_final_appearances": 2,
+    "a_final_rate": 66.7,
+    "a_final_podium_rate": 50.0,
+    "a_final_avg_pos": 4.5,
+    "a_finals_by_class": {
+      "2WD Buggy": 2
+    },
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 13.33,
+    "metronome": 2.16,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 13.33
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 20,
+        "seconds": 306.74,
+        "result_str": "20 / 306.74",
+        "meeting_date": "07-Dec-2025"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "A Final",
+        "position": 2,
+        "rank": 2,
+        "meeting_date": "02-Nov-2025",
+        "meeting_title": "25/26 Winter Series Round 2"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 5
+    },
+    "best10_per_class": {
+      "2WD Buggy": 13.58
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 18077,
+      "date": "07-Dec-2025",
+      "title": "25/26 Winter Series Round 3",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "A Final",
+      "position": 7,
+      "laps": 20,
+      "total_seconds": 306.74,
+      "best_lap": 13.33,
+      "average_lap": 15.33,
+      "best10": 13.68
+    },
+    {
+      "meeting_id": 17667,
+      "date": "02-Nov-2025",
+      "title": "25/26 Winter Series Round 2",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "A Final",
+      "position": 2,
+      "laps": 19,
+      "total_seconds": 315.56,
+      "best_lap": 15.25,
+      "average_lap": 16.6,
+      "best10": 15.5
+    },
+    {
+      "meeting_id": 17348,
+      "date": "05-Oct-2025",
+      "title": "25/26 Winter Series Round 1",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "B Final",
+      "position": 8,
+      "laps": 18,
+      "total_seconds": 314.76,
+      "best_lap": 14.36,
+      "average_lap": 17.48,
+      "best10": 15.07
+    }
+  ]
+}

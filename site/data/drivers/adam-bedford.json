@@ -1,0 +1,70 @@
+{
+  "name": "Adam Bedford",
+  "slug": "adam-bedford",
+  "summary": {
+    "name": "Adam Bedford",
+    "slug": "adam-bedford",
+    "meetings_count": 1,
+    "attendance_pct": 5.6,
+    "total_laps": 76,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "Stadium Trucks"
+    ],
+    "best_lap": 18.25,
+    "metronome": 2.03,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "Stadium Trucks": 18.25
+    },
+    "best_runs_per_class": {
+      "Stadium Trucks": {
+        "laps": 15,
+        "seconds": 313.95,
+        "result_str": "15 / 313.95",
+        "meeting_date": "02-Nov-2025"
+      }
+    },
+    "highest_finishes_per_class": {
+      "Stadium Trucks": {
+        "final": "B Final",
+        "position": 3,
+        "rank": 13,
+        "meeting_date": "02-Nov-2025",
+        "meeting_title": "25/26 Winter Series Round 2"
+      }
+    },
+    "highest_quals_per_class": {
+      "Stadium Trucks": 11
+    },
+    "best10_per_class": {
+      "Stadium Trucks": 19.26
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 17667,
+      "date": "02-Nov-2025",
+      "title": "25/26 Winter Series Round 2",
+      "season": "25/26",
+      "class": "Stadium Trucks",
+      "final": "B Final",
+      "position": 3,
+      "laps": 15,
+      "total_seconds": 313.95,
+      "best_lap": 18.9,
+      "average_lap": 20.93,
+      "best10": 19.5
+    }
+  ]
+}

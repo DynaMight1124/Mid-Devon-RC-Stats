@@ -1,0 +1,128 @@
+{
+  "name": "Steve Hawkins",
+  "slug": "steve-hawkins",
+  "summary": {
+    "name": "Steve Hawkins",
+    "slug": "steve-hawkins",
+    "meetings_count": 5,
+    "attendance_pct": 27.8,
+    "total_laps": 434,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 4,
+    "a_final_rate": 80.0,
+    "a_final_podium_rate": 0.0,
+    "a_final_avg_pos": 5.5,
+    "a_finals_by_class": {
+      "Vintage / Rear Motor": 4
+    },
+    "tqs": 0,
+    "classes": [
+      "Vintage / Rear Motor"
+    ],
+    "best_lap": 14.38,
+    "metronome": 1.67,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "Vintage / Rear Motor": 14.38
+    },
+    "best_runs_per_class": {
+      "Vintage / Rear Motor": {
+        "laps": 20,
+        "seconds": 315.72,
+        "result_str": "20 / 315.72",
+        "meeting_date": "03-Mar-2024"
+      }
+    },
+    "highest_finishes_per_class": {
+      "Vintage / Rear Motor": {
+        "final": "A Final",
+        "position": 4,
+        "rank": 4,
+        "meeting_date": "03-Mar-2024",
+        "meeting_title": "23/24 Winter Series Round 6"
+      }
+    },
+    "highest_quals_per_class": {
+      "Vintage / Rear Motor": 4
+    },
+    "best10_per_class": {
+      "Vintage / Rear Motor": 15.06
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 18077,
+      "date": "07-Dec-2025",
+      "title": "25/26 Winter Series Round 3",
+      "season": "25/26",
+      "class": "Vintage / Rear Motor",
+      "final": "B Final",
+      "position": 4,
+      "laps": 18,
+      "total_seconds": 308.18,
+      "best_lap": 15.18,
+      "average_lap": 17.12,
+      "best10": 15.99
+    },
+    {
+      "meeting_id": 17667,
+      "date": "02-Nov-2025",
+      "title": "25/26 Winter Series Round 2",
+      "season": "25/26",
+      "class": "Vintage / Rear Motor",
+      "final": "A Final",
+      "position": 4,
+      "laps": 17,
+      "total_seconds": 317.0,
+      "best_lap": 17.67,
+      "average_lap": 18.64,
+      "best10": 18.07
+    },
+    {
+      "meeting_id": 10898,
+      "date": "03-Mar-2024",
+      "title": "23/24 Winter Series Round 6",
+      "season": "23/24",
+      "class": "Vintage / Rear Motor",
+      "final": "A Final",
+      "position": 4,
+      "laps": 20,
+      "total_seconds": 315.72,
+      "best_lap": 14.38,
+      "average_lap": 15.79,
+      "best10": 15.06
+    },
+    {
+      "meeting_id": 10579,
+      "date": "04-Feb-2024",
+      "title": "23/24 Winter Series Round 5",
+      "season": "23/24",
+      "class": "Vintage / Rear Motor",
+      "final": "A Final",
+      "position": 7,
+      "laps": 19,
+      "total_seconds": 304.27,
+      "best_lap": 14.6,
+      "average_lap": 16.01,
+      "best10": 15.16
+    },
+    {
+      "meeting_id": 9716,
+      "date": "05-Nov-2023",
+      "title": "23/24 Winter Series Round 2",
+      "season": "23/24",
+      "class": "Vintage / Rear Motor",
+      "final": "A Final",
+      "position": 7,
+      "laps": 16,
+      "total_seconds": 312.16,
+      "best_lap": 16.87,
+      "average_lap": 19.51,
+      "best10": 17.67
+    }
+  ]
+}

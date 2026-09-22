@@ -1,0 +1,70 @@
+{
+  "name": "Oli Davies Snr",
+  "slug": "oli-davies-snr",
+  "summary": {
+    "name": "Oli Davies Snr",
+    "slug": "oli-davies-snr",
+    "meetings_count": 1,
+    "attendance_pct": 5.6,
+    "total_laps": 97,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 14.28,
+    "metronome": 1.35,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 14.28
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 19,
+        "seconds": 301.8,
+        "result_str": "19 / 301.80",
+        "meeting_date": "02-Mar-2025"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "C Final",
+        "position": 5,
+        "rank": 25,
+        "meeting_date": "02-Mar-2025",
+        "meeting_title": "24/25 Winter Series Round 7"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 19
+    },
+    "best10_per_class": {
+      "2WD Buggy": 14.77
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 14766,
+      "date": "02-Mar-2025",
+      "title": "24/25 Winter Series Round 7",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "C Final",
+      "position": 5,
+      "laps": 19,
+      "total_seconds": 301.8,
+      "best_lap": 14.53,
+      "average_lap": 15.88,
+      "best10": 14.78
+    }
+  ]
+}

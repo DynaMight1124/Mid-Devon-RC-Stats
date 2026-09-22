@@ -1,0 +1,112 @@
+{
+  "name": "Dave McCarthy",
+  "slug": "dave-mccarthy",
+  "summary": {
+    "name": "Dave McCarthy",
+    "slug": "dave-mccarthy",
+    "meetings_count": 4,
+    "attendance_pct": 22.2,
+    "total_laps": 362,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 13.21,
+    "metronome": 0.92,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 13.21
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 21,
+        "seconds": 302.32,
+        "result_str": "21 / 302.32",
+        "meeting_date": "01-Feb-2026"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "C Final",
+        "position": 2,
+        "rank": 22,
+        "meeting_date": "05-Oct-2025",
+        "meeting_title": "25/26 Winter Series Round 1"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 18
+    },
+    "best10_per_class": {
+      "2WD Buggy": 13.59
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 18948,
+      "date": "01-Mar-2026",
+      "title": "25/26 Winter Series Round 5",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "D Final",
+      "position": 1,
+      "laps": 19,
+      "total_seconds": 311.97,
+      "best_lap": 15.71,
+      "average_lap": 16.41,
+      "best10": 16.06
+    },
+    {
+      "meeting_id": 18332,
+      "date": "01-Feb-2026",
+      "title": "25/26 Winter Series Round 4",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "C Final",
+      "position": 6,
+      "laps": 21,
+      "total_seconds": 302.32,
+      "best_lap": 13.37,
+      "average_lap": 14.39,
+      "best10": 13.66
+    },
+    {
+      "meeting_id": 17667,
+      "date": "02-Nov-2025",
+      "title": "25/26 Winter Series Round 2",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "C Final",
+      "position": 8,
+      "laps": 0,
+      "total_seconds": 0.0,
+      "best_lap": null,
+      "average_lap": null,
+      "best10": null
+    },
+    {
+      "meeting_id": 17348,
+      "date": "05-Oct-2025",
+      "title": "25/26 Winter Series Round 1",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "C Final",
+      "position": 2,
+      "laps": 20,
+      "total_seconds": 305.05,
+      "best_lap": 14.21,
+      "average_lap": 15.25,
+      "best10": 14.69
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Jamie Freeman",
+  "slug": "jamie-freeman",
+  "summary": {
+    "name": "Jamie Freeman",
+    "slug": "jamie-freeman",
+    "meetings_count": 2,
+    "attendance_pct": 11.1,
+    "total_laps": 187,
+    "a_final_wins": 2,
+    "a_final_podiums": 2,
+    "a_final_appearances": 2,
+    "a_final_rate": 100.0,
+    "a_final_podium_rate": 100.0,
+    "a_final_avg_pos": 1.0,
+    "a_finals_by_class": {
+      "4WD Buggy": 2
+    },
+    "tqs": 2,
+    "classes": [
+      "4WD Buggy"
+    ],
+    "best_lap": 14.95,
+    "metronome": 1.0,
+    "badges_count": 3
+  },
+  "badges": [
+    {
+      "id": "winner",
+      "label": "Race Winner",
+      "icon": "medal",
+      "desc": "Won an A-Final"
+    },
+    {
+      "id": "pole_king",
+      "label": "Pole King",
+      "icon": "target",
+      "desc": "2+ Top Qualifiers (TQ)"
+    },
+    {
+      "id": "clean_sweep",
+      "label": "Clean Sweep",
+      "icon": "sparkles",
+      "desc": "Achieved TQ & Win at the same meeting"
+    }
+  ],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "4WD Buggy": 14.95
+    },
+    "best_runs_per_class": {
+      "4WD Buggy": {
+        "laps": 19,
+        "seconds": 302.83,
+        "result_str": "19 / 302.83",
+        "meeting_date": "07-Jan-2024"
+      }
+    },
+    "highest_finishes_per_class": {
+      "4WD Buggy": {
+        "final": "A Final",
+        "position": 1,
+        "rank": 1,
+        "meeting_date": "03-Dec-2023",
+        "meeting_title": "23/24 Winter Series Round 3"
+      }
+    },
+    "highest_quals_per_class": {
+      "4WD Buggy": 1
+    },
+    "best10_per_class": {
+      "4WD Buggy": 15.14
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 10313,
+      "date": "07-Jan-2024",
+      "title": "23/24 Winter Series Round 4",
+      "season": "23/24",
+      "class": "4WD Buggy",
+      "final": "A Final",
+      "position": 1,
+      "laps": 19,
+      "total_seconds": 302.83,
+      "best_lap": 15.02,
+      "average_lap": 15.94,
+      "best10": 15.45
+    },
+    {
+      "meeting_id": 10013,
+      "date": "03-Dec-2023",
+      "title": "23/24 Winter Series Round 3",
+      "season": "23/24",
+      "class": "4WD Buggy",
+      "final": "A Final",
+      "position": 1,
+      "laps": 19,
+      "total_seconds": 315.65,
+      "best_lap": 15.53,
+      "average_lap": 16.61,
+      "best10": 16.03
+    }
+  ]
+}

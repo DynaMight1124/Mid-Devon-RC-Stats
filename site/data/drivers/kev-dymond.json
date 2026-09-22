@@ -1,0 +1,394 @@
+{
+  "name": "Kev Dymond",
+  "slug": "kev-dymond",
+  "summary": {
+    "name": "Kev Dymond",
+    "slug": "kev-dymond",
+    "meetings_count": 12,
+    "attendance_pct": 66.7,
+    "total_laps": 1801,
+    "a_final_wins": 0,
+    "a_final_podiums": 1,
+    "a_final_appearances": 8,
+    "a_final_rate": 66.7,
+    "a_final_podium_rate": 12.5,
+    "a_final_avg_pos": 4.6,
+    "a_finals_by_class": {
+      "Vintage / Rear Motor": 6,
+      "4WD Buggy": 2
+    },
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy",
+      "4WD Buggy",
+      "Vintage / Rear Motor"
+    ],
+    "best_lap": 13.69,
+    "metronome": 1.9,
+    "badges_count": 1
+  },
+  "badges": [
+    {
+      "id": "multi_class",
+      "label": "Multi-Class",
+      "icon": "shuffle",
+      "desc": "Competes in multiple classes"
+    }
+  ],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 13.69,
+      "Vintage / Rear Motor": 13.88,
+      "4WD Buggy": 14.49
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 20,
+        "seconds": 300.59,
+        "result_str": "20 / 300.59",
+        "meeting_date": "04-Feb-2024"
+      },
+      "Vintage / Rear Motor": {
+        "laps": 20,
+        "seconds": 313.38,
+        "result_str": "20 / 313.38",
+        "meeting_date": "04-Feb-2024"
+      },
+      "4WD Buggy": {
+        "laps": 19,
+        "seconds": 309.99,
+        "result_str": "19 / 309.99",
+        "meeting_date": "03-Nov-2024"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "B Final",
+        "position": 6,
+        "rank": 16,
+        "meeting_date": "04-Feb-2024",
+        "meeting_title": "23/24 Winter Series Round 5"
+      },
+      "Vintage / Rear Motor": {
+        "final": "A Final",
+        "position": 3,
+        "rank": 3,
+        "meeting_date": "07-Jan-2024",
+        "meeting_title": "23/24 Winter Series Round 4"
+      },
+      "4WD Buggy": {
+        "final": "A Final",
+        "position": 4,
+        "rank": 4,
+        "meeting_date": "03-Nov-2024",
+        "meeting_title": "24/25 Winter Series Round 2"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 15,
+      "Vintage / Rear Motor": 2,
+      "4WD Buggy": 3
+    },
+    "best10_per_class": {
+      "2WD Buggy": 14.04,
+      "Vintage / Rear Motor": 14.57,
+      "4WD Buggy": 15.34
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 18077,
+      "date": "07-Dec-2025",
+      "title": "25/26 Winter Series Round 3",
+      "season": "25/26",
+      "class": "Vintage / Rear Motor",
+      "final": "B Final",
+      "position": 5,
+      "laps": 17,
+      "total_seconds": 311.86,
+      "best_lap": 15.91,
+      "average_lap": 18.34,
+      "best10": 16.42
+    },
+    {
+      "meeting_id": 18077,
+      "date": "07-Dec-2025",
+      "title": "25/26 Winter Series Round 3",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "D Final",
+      "position": 5,
+      "laps": 19,
+      "total_seconds": 304.03,
+      "best_lap": 14.19,
+      "average_lap": 16.0,
+      "best10": 14.75
+    },
+    {
+      "meeting_id": 17667,
+      "date": "02-Nov-2025",
+      "title": "25/26 Winter Series Round 2",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "C Final",
+      "position": 4,
+      "laps": 17,
+      "total_seconds": 302.01,
+      "best_lap": 16.63,
+      "average_lap": 17.76,
+      "best10": 16.97
+    },
+    {
+      "meeting_id": 17348,
+      "date": "05-Oct-2025",
+      "title": "25/26 Winter Series Round 1",
+      "season": "25/26",
+      "class": "2WD Buggy",
+      "final": "D Final",
+      "position": 2,
+      "laps": 18,
+      "total_seconds": 300.38,
+      "best_lap": 15.36,
+      "average_lap": 16.68,
+      "best10": 15.85
+    },
+    {
+      "meeting_id": 14185,
+      "date": "05-Jan-2025",
+      "title": "24/25 Winter Series Round 5",
+      "season": "24/25",
+      "class": "Vintage / Rear Motor",
+      "final": "A Final",
+      "position": 4,
+      "laps": 17,
+      "total_seconds": 312.44,
+      "best_lap": 17.1,
+      "average_lap": 18.38,
+      "best10": 17.55
+    },
+    {
+      "meeting_id": 14185,
+      "date": "05-Jan-2025",
+      "title": "24/25 Winter Series Round 5",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "C Final",
+      "position": 5,
+      "laps": 19,
+      "total_seconds": 314.52,
+      "best_lap": 15.58,
+      "average_lap": 16.55,
+      "best10": 15.96
+    },
+    {
+      "meeting_id": 13539,
+      "date": "03-Nov-2024",
+      "title": "24/25 Winter Series Round 2",
+      "season": "24/25",
+      "class": "4WD Buggy",
+      "final": "A Final",
+      "position": 4,
+      "laps": 19,
+      "total_seconds": 309.99,
+      "best_lap": 15.23,
+      "average_lap": 16.32,
+      "best10": 15.63
+    },
+    {
+      "meeting_id": 13539,
+      "date": "03-Nov-2024",
+      "title": "24/25 Winter Series Round 2",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "C Final",
+      "position": 4,
+      "laps": 18,
+      "total_seconds": 306.22,
+      "best_lap": 15.61,
+      "average_lap": 17.01,
+      "best10": 15.85
+    },
+    {
+      "meeting_id": 13348,
+      "date": "13-Oct-2024",
+      "title": "24/25 Winter Series Round 1",
+      "season": "24/25",
+      "class": "4WD Buggy",
+      "final": "A Final",
+      "position": 5,
+      "laps": 18,
+      "total_seconds": 305.12,
+      "best_lap": 15.7,
+      "average_lap": 16.95,
+      "best10": 15.92
+    },
+    {
+      "meeting_id": 13348,
+      "date": "13-Oct-2024",
+      "title": "24/25 Winter Series Round 1",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "C Final",
+      "position": 8,
+      "laps": 17,
+      "total_seconds": 311.85,
+      "best_lap": 16.04,
+      "average_lap": 18.34,
+      "best10": 16.85
+    },
+    {
+      "meeting_id": 10898,
+      "date": "03-Mar-2024",
+      "title": "23/24 Winter Series Round 6",
+      "season": "23/24",
+      "class": "Vintage / Rear Motor",
+      "final": "A Final",
+      "position": 7,
+      "laps": 17,
+      "total_seconds": 314.07,
+      "best_lap": 15.61,
+      "average_lap": 18.47,
+      "best10": 16.73
+    },
+    {
+      "meeting_id": 10898,
+      "date": "03-Mar-2024",
+      "title": "23/24 Winter Series Round 6",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "B Final",
+      "position": 8,
+      "laps": 19,
+      "total_seconds": 312.43,
+      "best_lap": 14.01,
+      "average_lap": 16.44,
+      "best10": 14.61
+    },
+    {
+      "meeting_id": 10579,
+      "date": "04-Feb-2024",
+      "title": "23/24 Winter Series Round 5",
+      "season": "23/24",
+      "class": "Vintage / Rear Motor",
+      "final": "A Final",
+      "position": 5,
+      "laps": 20,
+      "total_seconds": 313.38,
+      "best_lap": 14.64,
+      "average_lap": 15.67,
+      "best10": 14.83
+    },
+    {
+      "meeting_id": 10579,
+      "date": "04-Feb-2024",
+      "title": "23/24 Winter Series Round 5",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "B Final",
+      "position": 6,
+      "laps": 20,
+      "total_seconds": 300.59,
+      "best_lap": 14.24,
+      "average_lap": 15.03,
+      "best10": 14.44
+    },
+    {
+      "meeting_id": 10313,
+      "date": "07-Jan-2024",
+      "title": "23/24 Winter Series Round 4",
+      "season": "23/24",
+      "class": "Vintage / Rear Motor",
+      "final": "A Final",
+      "position": 3,
+      "laps": 17,
+      "total_seconds": 313.52,
+      "best_lap": 16.53,
+      "average_lap": 18.44,
+      "best10": 17.08
+    },
+    {
+      "meeting_id": 10313,
+      "date": "07-Jan-2024",
+      "title": "23/24 Winter Series Round 4",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "C Final",
+      "position": 2,
+      "laps": 19,
+      "total_seconds": 314.51,
+      "best_lap": 15.48,
+      "average_lap": 16.55,
+      "best10": 15.87
+    },
+    {
+      "meeting_id": 10013,
+      "date": "03-Dec-2023",
+      "title": "23/24 Winter Series Round 3",
+      "season": "23/24",
+      "class": "Vintage / Rear Motor",
+      "final": "A Final",
+      "position": 4,
+      "laps": 13,
+      "total_seconds": 315.52,
+      "best_lap": 17.24,
+      "average_lap": 24.27,
+      "best10": 19.29
+    },
+    {
+      "meeting_id": 10013,
+      "date": "03-Dec-2023",
+      "title": "23/24 Winter Series Round 3",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "D Final",
+      "position": 2,
+      "laps": 17,
+      "total_seconds": 307.54,
+      "best_lap": 16.5,
+      "average_lap": 18.09,
+      "best10": 17.22
+    },
+    {
+      "meeting_id": 9716,
+      "date": "05-Nov-2023",
+      "title": "23/24 Winter Series Round 2",
+      "season": "23/24",
+      "class": "Vintage / Rear Motor",
+      "final": "A Final",
+      "position": 5,
+      "laps": 17,
+      "total_seconds": 313.19,
+      "best_lap": 16.51,
+      "average_lap": 18.42,
+      "best10": 18.17
+    },
+    {
+      "meeting_id": 9716,
+      "date": "05-Nov-2023",
+      "title": "23/24 Winter Series Round 2",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "C Final",
+      "position": 7,
+      "laps": 16,
+      "total_seconds": 302.57,
+      "best_lap": 15.88,
+      "average_lap": 18.91,
+      "best10": 17.07
+    },
+    {
+      "meeting_id": 9404,
+      "date": "01-Oct-2023",
+      "title": "23/24 Winter Series Round 1",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "C Final",
+      "position": 3,
+      "laps": 19,
+      "total_seconds": 300.96,
+      "best_lap": 14.58,
+      "average_lap": 15.84,
+      "best10": 15.15
+    }
+  ]
+}

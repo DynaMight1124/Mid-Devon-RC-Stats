@@ -1,0 +1,70 @@
+{
+  "name": "Wayne James",
+  "slug": "wayne-james",
+  "summary": {
+    "name": "Wayne James",
+    "slug": "wayne-james",
+    "meetings_count": 1,
+    "attendance_pct": 5.6,
+    "total_laps": 77,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 16.54,
+    "metronome": 3.44,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 16.54
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 15,
+        "seconds": 303.6,
+        "result_str": "15 / 303.60",
+        "meeting_date": "03-Dec-2023"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "D Final",
+        "position": 8,
+        "rank": 38,
+        "meeting_date": "03-Dec-2023",
+        "meeting_title": "23/24 Winter Series Round 3"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 28
+    },
+    "best10_per_class": {
+      "2WD Buggy": 17.79
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 10013,
+      "date": "03-Dec-2023",
+      "title": "23/24 Winter Series Round 3",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "D Final",
+      "position": 8,
+      "laps": 15,
+      "total_seconds": 303.6,
+      "best_lap": 16.8,
+      "average_lap": 20.24,
+      "best10": 18.35
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Nick Cochrane",
+  "slug": "nick-cochrane",
+  "summary": {
+    "name": "Nick Cochrane",
+    "slug": "nick-cochrane",
+    "meetings_count": 2,
+    "attendance_pct": 11.1,
+    "total_laps": 191,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 14.01,
+    "metronome": 1.58,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 14.01
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 20,
+        "seconds": 304.04,
+        "result_str": "20 / 304.04",
+        "meeting_date": "03-Mar-2024"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "C Final",
+        "position": 3,
+        "rank": 23,
+        "meeting_date": "03-Mar-2024",
+        "meeting_title": "23/24 Winter Series Round 6"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 18
+    },
+    "best10_per_class": {
+      "2WD Buggy": 14.2
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 10898,
+      "date": "03-Mar-2024",
+      "title": "23/24 Winter Series Round 6",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "C Final",
+      "position": 3,
+      "laps": 20,
+      "total_seconds": 304.04,
+      "best_lap": 14.11,
+      "average_lap": 15.2,
+      "best10": 14.36
+    },
+    {
+      "meeting_id": 10579,
+      "date": "04-Feb-2024",
+      "title": "23/24 Winter Series Round 5",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "E Final",
+      "position": 2,
+      "laps": 19,
+      "total_seconds": 314.88,
+      "best_lap": 14.49,
+      "average_lap": 16.57,
+      "best10": 15.06
+    }
+  ]
+}

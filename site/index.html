@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RC Results & Analytics Hub</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <!-- Top Motorsport Navigation Header -->
+  <header>
+    <div class="nav-container">
+      <a href="#dashboard" class="brand" onclick="App.switchTab('dashboard')">
+        <div class="brand-icon">RC</div>
+        <div class="brand-text">
+          <h1 id="header-club-name">Mid Devon RC Raceway</h1>
+          <p id="header-tagline">Results & Analytics Hub</p>
+        </div>
+      </a>
+
+      <nav class="main-nav">
+        <button class="nav-btn active" data-tab="dashboard">
+          📊 Dashboard
+        </button>
+        <button class="nav-btn" data-tab="drivers">
+          🏎️ Drivers
+        </button>
+        <button class="nav-btn" data-tab="classes">
+          🏆 Hall of Fame
+        </button>
+        <button class="nav-btn" data-tab="h2h">
+          ⚔️ Head-to-Head
+        </button>
+        <button class="nav-btn" data-tab="meetings">
+          📅 Meetings
+        </button>
+      </nav>
+
+      <div id="header-actions" style="display: flex; align-items: center; gap: 0.75rem;">
+        <span class="badge badge-green" style="font-size: 0.75rem;">● LIVE DATA</span>
+        <a id="header-results-link" href="https://www.rc-results.com" target="_blank" rel="noopener" 
+           class="nav-btn" style="background: rgba(255,255,255,0.06); font-size: 0.8rem; padding: 0.4rem 0.8rem;">
+          RC-Results ↗
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="content-area">
+
+    <!-- 1. DASHBOARD PANEL -->
+    <section id="tab-dashboard" class="section-panel active">
+      
+      <!-- Core KPIs Grid -->
+      <div class="superlatives-grid">
+        <div class="stat-card">
+          <div class="stat-header">
+            <span class="stat-label">Total Meetings</span>
+            <span class="stat-icon">📅</span>
+          </div>
+          <div id="stat-total-meetings" class="stat-value tabular-nums">-</div>
+          <div class="stat-subtitle">Recorded in championship history</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-header">
+            <span class="stat-label">Registered Drivers</span>
+            <span class="stat-icon">🏎️</span>
+          </div>
+          <div id="stat-total-drivers" class="stat-value tabular-nums">-</div>
+          <div class="stat-subtitle">Unique racers competed</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-header">
+            <span class="stat-label">Total Laps Driven</span>
+            <span class="stat-icon">🔄</span>
+          </div>
+          <div id="stat-total-laps" class="stat-value tabular-nums" style="color: var(--color-primary);">-</div>
+          <div class="stat-subtitle">Turned across all heats & finals</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-header">
+            <span class="stat-label">Races Completed</span>
+            <span class="stat-icon">🏁</span>
+          </div>
+          <div id="stat-total-races" class="stat-value tabular-nums">-</div>
+          <div class="stat-subtitle">Qualifying heats & finals run</div>
+        </div>
+      </div>
+
+      <!-- Superlatives Banner ("The Record Books") -->
+      <h3 style="font-size: 1.15rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; color: #fff; margin-bottom: 1rem;">
+        🌟 Club Superlatives & Record Days
+      </h3>
+      <div class="superlatives-grid" style="margin-bottom: 2.5rem;">
+        <div class="stat-card superlative-card">
+          <div class="stat-header">
+            <span class="stat-label" style="color: #38bdf8;">Busiest Meeting</span>
+            <span>🔥</span>
+          </div>
+          <div id="sup-busiest-val" class="stat-value tabular-nums">-</div>
+          <div id="sup-busiest-meta" class="stat-subtitle">-</div>
+          <span class="superlative-highlight">Peak Club Attendance</span>
+        </div>
+
+        <div class="stat-card superlative-card">
+          <div class="stat-header">
+            <span class="stat-label" style="color: #38bdf8;">Most Laps in a Day</span>
+            <span>⚡</span>
+          </div>
+          <div id="sup-laps-val" class="stat-value tabular-nums">-</div>
+          <div id="sup-laps-meta" class="stat-subtitle">-</div>
+          <span class="superlative-highlight">Most Action-Packed Day</span>
+        </div>
+
+        <div class="stat-card superlative-card">
+          <div class="stat-header">
+            <span class="stat-label" style="color: #38bdf8;">Closest Finish</span>
+            <span>⏱️</span>
+          </div>
+          <div id="sup-closest-val" class="stat-value tabular-nums">-</div>
+          <div id="sup-closest-meta" class="stat-subtitle">-</div>
+          <span class="superlative-highlight">Nail-Biter Margin</span>
+        </div>
+      </div>
+
+      <!-- A-Final Leaders & Recent Action -->
+      <div class="charts-grid" style="margin-bottom: 2rem;">
+        <div class="chart-container">
+          <div class="chart-header">
+            <div class="chart-title">⭐ A-Final Elite Racers</div>
+            <span class="badge badge-winner">Top 8 Finalists</span>
+          </div>
+          <div id="dashboard-afinal-leaders">
+            <!-- Populated via app.js -->
+          </div>
+        </div>
+
+        <div class="chart-container">
+          <div class="chart-header">
+            <div class="chart-title">🏁 Recent Meeting Winners</div>
+            <span class="badge badge-blue">Latest Action</span>
+          </div>
+          <div id="dashboard-recent-winners">
+            <!-- Populated via app.js -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Interactive Charts Grid -->
+      <div class="charts-grid">
+        <div class="chart-container">
+          <div class="chart-header">
+            <div class="chart-title">📈 Attendance & Racers Over Time</div>
+            <span class="badge badge-gray">All Meetings</span>
+          </div>
+          <div class="chart-wrapper">
+            <canvas id="chart-attendance"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-container">
+          <div class="chart-header">
+            <div class="chart-title">🚗 Class Popularity Share</div>
+            <span class="badge badge-gray">Total Entries</span>
+          </div>
+          <div class="chart-wrapper">
+            <canvas id="chart-classes"></canvas>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- 2. DRIVERS PANEL -->
+    <section id="tab-drivers" class="section-panel">
+      <div class="controls-bar">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="driver-search" class="search-input" placeholder="Search racers by name...">
+        </div>
+
+        <div class="filter-group">
+          <select id="driver-class-filter" class="filter-select">
+            <option value="">All Classes</option>
+          </select>
+
+          <select id="driver-sort-filter" class="filter-select">
+            <option value="wins">Sort by A-Final Wins</option>
+            <option value="afinals">Sort by A-Finals Made</option>
+            <option value="afinal_rate">Sort by A-Final Rate (%)</option>
+            <option value="podiums">Sort by Podiums</option>
+            <option value="laps">Sort by Total Laps</option>
+            <option value="attendance">Sort by Attendance %</option>
+            <option value="name">Sort Alphabetically</option>
+          </select>
+
+          <span id="drivers-count-display" style="font-size: 0.85rem; color: var(--text-dim); margin-left: 0.5rem;">
+            Loading...
+          </span>
+        </div>
+      </div>
+
+      <!-- Drivers Table -->
+      <div class="table-responsive">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Driver & Classes</th>
+              <th>Status</th>
+              <th>A-Finals</th>
+              <th>A-Final Rate</th>
+              <th>Wins</th>
+              <th>Podiums</th>
+              <th>Meetings</th>
+              <th>Total Laps</th>
+            </tr>
+          </thead>
+          <tbody id="drivers-table-body">
+            <!-- Populated via app.js -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 3. CLASS HALL OF FAME PANEL -->
+    <section id="tab-classes" class="section-panel">
+      <!-- Class Selector Tabs -->
+      <div id="class-tabs-bar" style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem;">
+        <!-- Injected via app.js -->
+      </div>
+
+      <!-- Class Content Area -->
+      <div id="class-content-area">
+        <!-- Injected via app.js -->
+      </div>
+    </section>
+
+    <!-- 4. HEAD-TO-HEAD PANEL -->
+    <section id="tab-h2h" class="section-panel">
+      <div class="h2h-selector-card">
+        <h2 style="font-size: 1.6rem; font-weight: 900; color: #fff; margin-bottom: 0.4rem;">
+          ⚔️ Head-to-Head Rivalry Comparison
+        </h2>
+        <p style="color: var(--text-muted); font-size: 0.9rem;">
+          Select any two racers to compare direct race results, win rates, and lap differentials.
+        </p>
+
+        <div class="h2h-pickers">
+          <select id="h2h-driver-a" class="filter-select" style="min-width: 240px; font-size: 1rem; padding: 0.75rem 1rem;">
+            <option value="">-- Driver A --</option>
+          </select>
+          
+          <div class="vs-badge">VS</div>
+
+          <select id="h2h-driver-b" class="filter-select" style="min-width: 240px; font-size: 1rem; padding: 0.75rem 1rem;">
+            <option value="">-- Driver B --</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- H2H Results Container -->
+      <div id="h2h-results-container">
+        <!-- Injected via h2h.js -->
+      </div>
+    </section>
+
+    <!-- 5. MEETINGS ARCHIVE PANEL -->
+    <section id="tab-meetings" class="section-panel">
+      <div class="controls-bar">
+        <div>
+          <h2 style="font-size: 1.3rem; font-weight: 800; color: #fff;">📅 Championship Meetings Archive</h2>
+          <p style="color: var(--text-dim); font-size: 0.85rem;">Browse all meetings, race summaries, and class winners.</p>
+        </div>
+        <div>
+          <select id="meeting-season-filter" class="filter-select">
+            <option value="">All Seasons</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="meetings-cards-grid" class="superlatives-grid" style="grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));">
+        <!-- Injected via app.js -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- DRIVER DETAIL MODAL -->
+  <div id="driver-modal" class="modal-overlay">
+    <div class="modal-box">
+      <div class="modal-header">
+        <span class="stat-label">Driver Profile & Analytics</span>
+        <button class="modal-close">&times;</button>
+      </div>
+      <div id="modal-driver-content" class="modal-body">
+        <!-- Populated dynamically via app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- MEETING DETAIL MODAL -->
+  <div id="meeting-modal" class="modal-overlay">
+    <div class="modal-box" style="max-width: 750px;">
+      <div class="modal-header">
+        <span class="stat-label">Meeting Overview</span>
+        <button class="modal-close">&times;</button>
+      </div>
+      <div id="modal-meeting-content" class="modal-body">
+        <!-- Populated dynamically via app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div style="max-width: 1350px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+      <div id="footer-club-info">
+        <b>Mid Devon RC Raceway</b> &bull; Indoor Off-Road &bull; Mid Devon, UK
+      </div>
+      <div>
+        Data sourced directly from <a href="https://www.rc-results.com" target="_blank" rel="noopener">rc-results.com</a> &bull; Hosted on GitHub Pages
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application Scripts -->
+  <script src="js/charts.js"></script>
+  <script src="js/h2h.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

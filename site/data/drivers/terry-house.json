@@ -1,0 +1,98 @@
+{
+  "name": "Terry House",
+  "slug": "terry-house",
+  "summary": {
+    "name": "Terry House",
+    "slug": "terry-house",
+    "meetings_count": 3,
+    "attendance_pct": 16.7,
+    "total_laps": 287,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 12.9,
+    "metronome": 1.47,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 12.9
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 21,
+        "seconds": 301.62,
+        "result_str": "21 / 301.62",
+        "meeting_date": "17-Nov-2024"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "C Final",
+        "position": 8,
+        "rank": 28,
+        "meeting_date": "17-Nov-2024",
+        "meeting_title": "24/25 Winter Series Round 3"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 24
+    },
+    "best10_per_class": {
+      "2WD Buggy": 13.18
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 13693,
+      "date": "17-Nov-2024",
+      "title": "24/25 Winter Series Round 3",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "C Final",
+      "position": 8,
+      "laps": 21,
+      "total_seconds": 301.62,
+      "best_lap": 12.91,
+      "average_lap": 14.36,
+      "best10": 13.18
+    },
+    {
+      "meeting_id": 13539,
+      "date": "03-Nov-2024",
+      "title": "24/25 Winter Series Round 2",
+      "season": "24/25",
+      "class": "2WD Buggy",
+      "final": "D Final",
+      "position": 2,
+      "laps": 18,
+      "total_seconds": 301.32,
+      "best_lap": 15.92,
+      "average_lap": 16.74,
+      "best10": 16.24
+    },
+    {
+      "meeting_id": 10898,
+      "date": "03-Mar-2024",
+      "title": "23/24 Winter Series Round 6",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "D Final",
+      "position": 4,
+      "laps": 19,
+      "total_seconds": 311.54,
+      "best_lap": 14.27,
+      "average_lap": 16.4,
+      "best10": 14.94
+    }
+  ]
+}

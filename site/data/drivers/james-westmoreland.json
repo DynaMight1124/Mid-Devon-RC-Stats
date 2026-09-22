@@ -1,0 +1,100 @@
+{
+  "name": "James Westmoreland",
+  "slug": "james-westmoreland",
+  "summary": {
+    "name": "James Westmoreland",
+    "slug": "james-westmoreland",
+    "meetings_count": 3,
+    "attendance_pct": 16.7,
+    "total_laps": 308,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 1,
+    "a_final_rate": 33.3,
+    "a_final_podium_rate": 0.0,
+    "a_final_avg_pos": 4.0,
+    "a_finals_by_class": {
+      "2WD Buggy": 1
+    },
+    "tqs": 0,
+    "classes": [
+      "2WD Buggy"
+    ],
+    "best_lap": 13.1,
+    "metronome": 1.1,
+    "badges_count": 0
+  },
+  "badges": [],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "2WD Buggy": 13.1
+    },
+    "best_runs_per_class": {
+      "2WD Buggy": {
+        "laps": 22,
+        "seconds": 309.71,
+        "result_str": "22 / 309.71",
+        "meeting_date": "04-Feb-2024"
+      }
+    },
+    "highest_finishes_per_class": {
+      "2WD Buggy": {
+        "final": "A Final",
+        "position": 4,
+        "rank": 4,
+        "meeting_date": "01-Oct-2023",
+        "meeting_title": "23/24 Winter Series Round 1"
+      }
+    },
+    "highest_quals_per_class": {
+      "2WD Buggy": 8
+    },
+    "best10_per_class": {
+      "2WD Buggy": 13.36
+    }
+  },
+  "timeline": [
+    {
+      "meeting_id": 10579,
+      "date": "04-Feb-2024",
+      "title": "23/24 Winter Series Round 5",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "B Final",
+      "position": 1,
+      "laps": 22,
+      "total_seconds": 309.71,
+      "best_lap": 13.1,
+      "average_lap": 14.08,
+      "best10": 13.36
+    },
+    {
+      "meeting_id": 10313,
+      "date": "07-Jan-2024",
+      "title": "23/24 Winter Series Round 4",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "B Final",
+      "position": 4,
+      "laps": 19,
+      "total_seconds": 307.08,
+      "best_lap": 14.75,
+      "average_lap": 16.16,
+      "best10": 15.04
+    },
+    {
+      "meeting_id": 9404,
+      "date": "01-Oct-2023",
+      "title": "23/24 Winter Series Round 1",
+      "season": "23/24",
+      "class": "2WD Buggy",
+      "final": "A Final",
+      "position": 4,
+      "laps": 21,
+      "total_seconds": 307.17,
+      "best_lap": 13.71,
+      "average_lap": 14.63,
+      "best10": 14.0
+    }
+  ]
+}
