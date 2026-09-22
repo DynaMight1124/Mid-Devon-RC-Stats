@@ -1,0 +1,51 @@
+{
+  "name": "Mark Taylor",
+  "slug": "mark-taylor",
+  "summary": {
+    "name": "Mark Taylor",
+    "slug": "mark-taylor",
+    "meetings_count": 1,
+    "attendance_pct": 5.6,
+    "total_laps": 116,
+    "a_final_wins": 0,
+    "a_final_podiums": 0,
+    "a_final_appearances": 0,
+    "a_final_rate": 0.0,
+    "a_final_podium_rate": 0,
+    "a_final_avg_pos": null,
+    "a_finals_by_class": {},
+    "tqs": 0,
+    "classes": [
+      "4WD Buggy",
+      "Vintage / Rear Motor"
+    ],
+    "best_lap": 16.61,
+    "metronome": null,
+    "badges_count": 1
+  },
+  "badges": [
+    {
+      "id": "multi_class",
+      "label": "Multi-Class",
+      "icon": "shuffle",
+      "desc": "Competes in multiple classes"
+    }
+  ],
+  "personal_bests": {
+    "best_laps_per_class": {
+      "Vintage / Rear Motor": 17.39,
+      "4WD Buggy": 16.61
+    },
+    "best_runs_per_class": {},
+    "highest_finishes_per_class": {},
+    "highest_quals_per_class": {
+      "Vintage / Rear Motor": 5,
+      "4WD Buggy": 8
+    },
+    "best10_per_class": {
+      "Vintage / Rear Motor": 17.71,
+      "4WD Buggy": 17.17
+    }
+  },
+  "timeline": []
+}

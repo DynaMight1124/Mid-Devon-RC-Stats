@@ -14,6 +14,7 @@ import json
 import re
 import time
 import argparse
+from html import unescape
 from typing import Dict, List, Optional, Any
 import requests
 
@@ -51,7 +52,8 @@ def save_meetings_index(index_data: Dict[str, Any]):
         json.dump(index_data, f, indent=2)
 
 def clean_html(text: str) -> str:
-    return re.sub(r'<[^>]+>', '', text).strip()
+    cleaned = re.sub(r'<[^>]+>', '', text)
+    return unescape(cleaned).strip()
 
 def parse_time_str(time_str: str) -> Optional[float]:
     """Parse lap time string like '14.47' into float seconds."""
@@ -192,8 +194,9 @@ class RCResultsScraper:
         for section_title, table_html in sections:
             # e.g. "Stadium Trucks - A Final" or "2WD - B Final"
             parts = section_title.strip().split(" - ")
-            class_name = parts[0].strip() if len(parts) > 1 else section_title.strip()
-            final_name = parts[1].strip() if len(parts) > 1 else "A Final"
+            raw_class = parts[0].strip() if len(parts) > 1 else section_title.strip()
+            class_name = unescape(raw_class).strip()
+            final_name = unescape(parts[1].strip()) if len(parts) > 1 else "A Final"
             
             rows = re.findall(r'<tr>(.*?)</tr>', table_html, re.DOTALL)
             for r in rows:
@@ -238,16 +241,8 @@ class RCResultsScraper:
             
             # e.g. "Race 7 - 2wd - A Final"
             parts = race_title.split(" - ")
-            class_name = parts[1].strip() if len(parts) >= 2 else "Open"
-            final_name = parts[2].strip() if len(parts) >= 3 else "A Final"
-            
-            # Standardize class name casing
-            if class_name.lower() == "2wd":
-                class_name = "2WD"
-            elif class_name.lower() == "4wd":
-                class_name = "4WD"
-            elif "vintage" in class_name.lower():
-                class_name = "Vintage/Rear Motor"
+            class_name = unescape(parts[1].strip()) if len(parts) >= 2 else "Open"
+            final_name = unescape(parts[2].strip()) if len(parts) >= 3 else "A Final"
             
             html = resp.text
             rows = re.findall(r'<tr>(.*?)</tr>', html, re.DOTALL)
@@ -293,13 +288,7 @@ class RCResultsScraper:
         
         quals = []
         for section_title, table_html in sections:
-            class_name = section_title.strip()
-            if class_name.lower() == "2wd":
-                class_name = "2WD"
-            elif class_name.lower() == "4wd":
-                class_name = "4WD"
-            elif "vintage" in class_name.lower():
-                class_name = "Vintage/Rear Motor"
+            class_name = unescape(section_title.strip())
 
             rows = re.findall(r'<tr>(.*?)</tr>', table_html, re.DOTALL)
             for r in rows:
@@ -335,13 +324,7 @@ class RCResultsScraper:
             
             # e.g. "Race 6 - 2WD"
             parts = race_title.split(" - ")
-            class_name = parts[1].strip() if len(parts) >= 2 else "Open"
-            if class_name.lower() == "2wd":
-                class_name = "2WD"
-            elif class_name.lower() == "4wd":
-                class_name = "4WD"
-            elif "vintage" in class_name.lower():
-                class_name = "Vintage/Rear Motor"
+            class_name = unescape(parts[1].strip()) if len(parts) >= 2 else "Open"
 
             html = resp.text
             rows = re.findall(r'<tr>(.*?)</tr>', html, re.DOTALL)
@@ -371,7 +354,22 @@ class RCResultsScraper:
         return heats
 
 
-def run_scraper(mode: str = "incremental", specific_id: Optional[int] = None):
+def clean_raw_data():
+    """Remove all meeting_*.json files from raw_data directory."""
+    if os.path.exists(RAW_DATA_DIR):
+        count = 0
+        for f in os.listdir(RAW_DATA_DIR):
+            if f.startswith("meeting_") and f.endswith(".json"):
+                try:
+                    os.remove(os.path.join(RAW_DATA_DIR, f))
+                    count += 1
+                except OSError as e:
+                    print(f"[Scraper] Warning: could not delete {f}: {e}")
+        if count > 0:
+            print(f"[Scraper] Purged {count} old raw meeting file(s) from {RAW_DATA_DIR}")
+
+
+def run_scraper(mode: str = "incremental", specific_id: Optional[int] = None, clean: bool = False):
     config = load_config()
     venue_id = config.get("venueId", 1119)
     scraper = RCResultsScraper(venue_id)
@@ -379,6 +377,37 @@ def run_scraper(mode: str = "incremental", specific_id: Optional[int] = None):
     os.makedirs(RAW_DATA_DIR, exist_ok=True)
     index = load_meetings_index()
     scraped_map = index.get("scraped_meetings", {})
+    last_venue_id = index.get("venue_id")
+
+    # If index does not explicitly record venue_id yet, infer from existing meeting files
+    if last_venue_id is None and os.path.exists(RAW_DATA_DIR):
+        for f in os.listdir(RAW_DATA_DIR):
+            if f.startswith("meeting_") and f.endswith(".json"):
+                try:
+                    with open(os.path.join(RAW_DATA_DIR, f), "r", encoding="utf-8") as mf:
+                        mdata = json.load(mf)
+                        if "venue_id" in mdata:
+                            last_venue_id = mdata["venue_id"]
+                            break
+                except Exception:
+                    pass
+
+    venue_changed = (last_venue_id is not None and last_venue_id != venue_id)
+    if clean or venue_changed:
+        if venue_changed:
+            print(f"[Scraper] Detected venue change from {last_venue_id} to {venue_id}!")
+            print(f"[Scraper] Automatically cleaning previous club data to prevent cross-contamination...")
+        elif clean:
+            print(f"[Scraper] Clean requested. Purging raw data for venue {venue_id}...")
+        
+        clean_raw_data()
+        scraped_map = {}
+        index = {"venue_id": venue_id, "scraped_meetings": {}}
+        save_meetings_index(index)
+    else:
+        if index.get("venue_id") != venue_id:
+            index["venue_id"] = venue_id
+            save_meetings_index(index)
 
     if specific_id:
         meetings_to_scrape = [{"meetingId": specific_id, "date": "Manual", "title": f"Meeting {specific_id}"}]
@@ -414,6 +443,7 @@ def run_scraper(mode: str = "incremental", specific_id: Optional[int] = None):
                 "title": title,
                 "scraped_at": meeting_data["scraped_at"]
             }
+            index["venue_id"] = venue_id
             index["scraped_meetings"] = scraped_map
             save_meetings_index(index)
             print(f"[Scraper] Successfully saved {file_path}")
@@ -429,8 +459,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="RC-Results Scraper")
     parser.add_argument("--full", action="store_true", help="Scrape all historical meetings")
     parser.add_argument("--incremental", action="store_true", help="Only scrape new meetings (default)")
+    parser.add_argument("--clean", action="store_true", help="Clean raw_data and index before scraping")
     parser.add_argument("--meeting-id", type=int, help="Scrape a single specific meeting ID")
     args = parser.parse_args()
 
     mode = "full" if args.full else "incremental"
-    run_scraper(mode=mode, specific_id=args.meeting_id)
+    run_scraper(mode=mode, specific_id=args.meeting_id, clean=args.clean)

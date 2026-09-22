@@ -116,6 +116,9 @@ Any RC racing club using `rc-results.com` can adopt this dashboard in less than 
    python scraper/scraper.py --full
    python scraper/aggregator.py
    ```
+   > [!TIP]
+   > **Automatic Clean & Club Isolation**: When you change `venueId` in `club_config.json`, `scraper.py` automatically detects the venue switch and purges all previous club data from `raw_data/` and `docs/data/drivers/`. You can also pass `--clean` (`python scraper/scraper.py --full --clean`) at any time to force a clean slate. Data from different clubs will never be merged.
+
 4. Commit and push your changes to GitHub. Your club's analytics dashboard is now live and will stay updated automatically!
 
 ---

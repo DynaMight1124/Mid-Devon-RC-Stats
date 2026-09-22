@@ -4,13 +4,13 @@
   "summary": {
     "name": "Paul Norris",
     "slug": "paul-norris",
-    "meetings_count": 3,
-    "attendance_pct": 16.7,
+    "meetings_count": 4,
+    "attendance_pct": 22.2,
     "total_laps": 362,
     "a_final_wins": 0,
     "a_final_podiums": 1,
     "a_final_appearances": 2,
-    "a_final_rate": 66.7,
+    "a_final_rate": 50.0,
     "a_final_podium_rate": 50.0,
     "a_final_avg_pos": 4.5,
     "a_finals_by_class": {

@@ -14,6 +14,7 @@ import os
 import sys
 import json
 import re
+from html import unescape
 from collections import defaultdict
 from typing import Dict, List, Any, Optional
 
@@ -45,14 +46,33 @@ def extract_season(meeting_title: str, date_str: str) -> str:
         return f"{yr-1}/{yr}"
     return "Open"
 
-def normalize_class_name(raw_name: str) -> str:
-    name = raw_name.strip()
+def normalize_class_name(raw_name: str, class_aliases: Optional[Dict[str, str]] = None) -> str:
+    if not raw_name:
+        return "Open"
+    name = unescape(raw_name).strip()
+    # Strip leading/trailing angle brackets if present e.g. <Trucks + 4wd> -> Trucks + 4wd
+    if name.startswith('<') and name.endswith('>'):
+        name = name[1:-1].strip()
+    name = re.sub(r'\s+', ' ', name).strip()
+
+    # 1. Custom club-configured aliases from club_config.json
+    if class_aliases:
+        if name in class_aliases:
+            return class_aliases[name]
+        nl = name.lower()
+        for k, v in class_aliases.items():
+            if k.lower() == nl:
+                return v
+
+    # 2. General smart defaults
     nl = name.lower()
-    if nl == "2wd":
+    if nl in ("2wd", "2 wd", "2wd buggy"):
         return "2WD Buggy"
-    if nl == "4wd":
+    if nl in ("4wd", "4 wd", "4wd buggy"):
         return "4WD Buggy"
-    if "stadium" in nl or "truck" in nl:
+    if "stadium" in nl or ("truck" in nl and "4wd" not in nl):
+        return "Stadium Trucks"
+    if "truck" in nl and "4wd" in nl:
         return "Stadium Trucks"
     if "vintage" in nl or "rear" in nl:
         return "Vintage / Rear Motor"
@@ -79,6 +99,7 @@ def final_rank_order(final_name: str, position: Any) -> int:
 class StatsAggregator:
     def __init__(self):
         self.config = load_config()
+        self.class_aliases = self.config.get("classAliases", {})
         self.raw_meetings = []
         self.drivers = defaultdict(lambda: {
             "name": "",
@@ -124,14 +145,24 @@ class StatsAggregator:
         files = [f for f in os.listdir(RAW_DATA_DIR) if f.startswith("meeting_") and f.endswith(".json")]
         print(f"[Aggregator] Loading {len(files)} raw meeting files...")
         
+        venue_id = self.config.get("venueId")
+        skipped_venue_count = 0
+
         for f in files:
             path = os.path.join(RAW_DATA_DIR, f)
             with open(path, "r", encoding="utf-8") as jf:
                 try:
                     data = json.load(jf)
+                    m_venue = data.get("venue_id")
+                    if venue_id and m_venue and m_venue != venue_id:
+                        skipped_venue_count += 1
+                        continue
                     self.raw_meetings.append(data)
                 except Exception as e:
                     print(f"[Aggregator] Error reading {path}: {e}")
+
+        if skipped_venue_count > 0:
+            print(f"[Aggregator] Notice: Skipped {skipped_venue_count} meeting file(s) from different venue(s).")
 
         # Sort meetings chronologically (by meeting ID or date)
         self.raw_meetings.sort(key=lambda m: m["id"])
@@ -161,7 +192,7 @@ class StatsAggregator:
                 driver_name = q["driver"].strip()
                 if not driver_name:
                     continue
-                cls_name = normalize_class_name(q["class"])
+                cls_name = normalize_class_name(q["class"], self.class_aliases)
                 q_pos = safe_int_pos(q["position"])
                 meeting_drivers.add(driver_name)
                 
@@ -181,7 +212,7 @@ class StatsAggregator:
                 driver_name = h["driver"].strip()
                 if not driver_name:
                     continue
-                cls_name = normalize_class_name(h["class"])
+                cls_name = normalize_class_name(h["class"], self.class_aliases)
                 laps = h.get("laps", 0)
                 sec = h.get("total_seconds", 0.0)
                 best_lap = h.get("best_lap")
@@ -227,7 +258,7 @@ class StatsAggregator:
                 driver_name = f["driver"].strip()
                 if not driver_name:
                     continue
-                cls_name = normalize_class_name(f["class"])
+                cls_name = normalize_class_name(f["class"], self.class_aliases)
                 final_name = f.get("final", "A Final").strip()
                 pos = safe_int_pos(f.get("position", 1))
                 laps = f.get("laps", 0)
@@ -381,6 +412,13 @@ class StatsAggregator:
 
             # Summary for this meeting
             meeting_lap_totals[mid] = meeting_laps
+            # Register meeting attendance and slug for all participating drivers
+            for dname in meeting_drivers:
+                d = self.drivers[dname]
+                d["name"] = dname
+                d["slug"] = slugify(dname)
+                d["meetings_attended"].add(mid)
+
             self.meetings_summary.append({
                 "id": mid,
                 "date": date,
@@ -462,13 +500,24 @@ class StatsAggregator:
 
         # Build Driver Profiles and Badges
         drivers_index = []
+        # Clean out old driver profile JSONs to avoid stale/orphaned files from previous clubs
+        if os.path.exists(DRIVERS_DIR):
+            for f in os.listdir(DRIVERS_DIR):
+                if f.endswith(".json"):
+                    try:
+                        os.remove(os.path.join(DRIVERS_DIR, f))
+                    except OSError:
+                        pass
         os.makedirs(DRIVERS_DIR, exist_ok=True)
 
         for dname, d in self.drivers.items():
             if not dname:
                 continue
             
-            slug = d["slug"]
+            slug = d["slug"] or slugify(dname)
+            if not slug:
+                continue
+            d["slug"] = slug
             m_count = len(d["meetings_attended"])
             attendance_pct = round((m_count / total_meetings) * 100, 1) if total_meetings > 0 else 0
             a_final_pct = round((len(d["a_final_meetings"]) / m_count) * 100, 1) if m_count > 0 else 0
