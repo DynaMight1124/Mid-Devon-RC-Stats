@@ -7,7 +7,7 @@ Processes raw meeting JSON files and computes:
 - Driver career statistics, personal bests, progression, and badges
 - Chronological meetings archive
 - Pairwise head-to-head match records
-Outputs static JSON files to site/data/ for the frontend dashboard.
+Outputs static JSON files to docs/data/ for the frontend dashboard.
 """
 
 import os
@@ -21,8 +21,8 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 CONFIG_PATH = os.path.join(PROJECT_ROOT, "club_config.json")
 RAW_DATA_DIR = os.path.join(PROJECT_ROOT, "raw_data")
-SITE_DATA_DIR = os.path.join(PROJECT_ROOT, "site", "data")
-DRIVERS_DIR = os.path.join(SITE_DATA_DIR, "drivers")
+DOCS_DATA_DIR = os.path.join(PROJECT_ROOT, "docs", "data")
+DRIVERS_DIR = os.path.join(DOCS_DATA_DIR, "drivers")
 
 def load_config() -> Dict[str, Any]:
     with open(CONFIG_PATH, "r", encoding="utf-8") as f:
@@ -599,29 +599,29 @@ class StatsAggregator:
         ]
 
         # Save all generated files
-        os.makedirs(SITE_DATA_DIR, exist_ok=True)
+        os.makedirs(DOCS_DATA_DIR, exist_ok=True)
         
-        with open(os.path.join(SITE_DATA_DIR, "club.json"), "w", encoding="utf-8") as f:
+        with open(os.path.join(DOCS_DATA_DIR, "club.json"), "w", encoding="utf-8") as f:
             json.dump(club_data, f, indent=2)
-        print(f"[Aggregator] Saved site/data/club.json")
+        print(f"[Aggregator] Saved docs/data/club.json")
 
-        with open(os.path.join(SITE_DATA_DIR, "drivers.json"), "w", encoding="utf-8") as f:
+        with open(os.path.join(DOCS_DATA_DIR, "drivers.json"), "w", encoding="utf-8") as f:
             json.dump(drivers_index, f, indent=2)
-        print(f"[Aggregator] Saved site/data/drivers.json ({len(drivers_index)} drivers)")
+        print(f"[Aggregator] Saved docs/data/drivers.json ({len(drivers_index)} drivers)")
 
-        with open(os.path.join(SITE_DATA_DIR, "classes.json"), "w", encoding="utf-8") as f:
+        with open(os.path.join(DOCS_DATA_DIR, "classes.json"), "w", encoding="utf-8") as f:
             json.dump(class_records, f, indent=2)
-        print(f"[Aggregator] Saved site/data/classes.json ({len(class_records)} classes)")
+        print(f"[Aggregator] Saved docs/data/classes.json ({len(class_records)} classes)")
 
         # Meetings sorted newest first for frontend display
         meetings_display = sorted(self.meetings_summary, key=lambda m: m["id"], reverse=True)
-        with open(os.path.join(SITE_DATA_DIR, "meetings.json"), "w", encoding="utf-8") as f:
+        with open(os.path.join(DOCS_DATA_DIR, "meetings.json"), "w", encoding="utf-8") as f:
             json.dump(meetings_display, f, indent=2)
-        print(f"[Aggregator] Saved site/data/meetings.json ({len(meetings_display)} meetings)")
+        print(f"[Aggregator] Saved docs/data/meetings.json ({len(meetings_display)} meetings)")
 
-        with open(os.path.join(SITE_DATA_DIR, "h2h.json"), "w", encoding="utf-8") as f:
+        with open(os.path.join(DOCS_DATA_DIR, "h2h.json"), "w", encoding="utf-8") as f:
             json.dump(h2h_list, f, indent=2)
-        print(f"[Aggregator] Saved site/data/h2h.json ({len(h2h_list)} rivalry matchups)")
+        print(f"[Aggregator] Saved docs/data/h2h.json ({len(h2h_list)} rivalry matchups)")
 
         print("[Aggregator] Aggregation successfully finished!")
 

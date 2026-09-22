@@ -47,7 +47,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add raw_data/ site/data/
+          git add raw_data/ docs/data/
           if git diff --staged --quiet; then
             echo "No new race data to commit."
           else
@@ -62,7 +62,7 @@ jobs:
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'site/'
+          path: 'docs/'
 
       - name: Deploy to GitHub Pages
         id: deployment

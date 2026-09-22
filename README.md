@@ -51,7 +51,7 @@ To preview the dashboard on your local machine:
    ```
 2. Start a lightweight local HTTP server:
    ```bash
-   python -m http.server 8000 --directory site
+   python -m http.server 8000 --directory docs
    ```
 3. Open your browser to: [http://localhost:8000](http://localhost:8000)
 
@@ -131,7 +131,7 @@ Any RC racing club using `rc-results.com` can adopt this dashboard in less than 
 ├── raw_data/                         # Cached raw meeting JSON files (avoids re-scraping)
 │   ├── meetings_index.json           # Catalog of scraped meeting IDs
 │   └── meeting_<id>.json             # Detailed race results per meeting
-├── site/                             # Frontend web dashboard (deployed to GitHub Pages)
+├── docs/                             # Frontend web dashboard (deployed to GitHub Pages)
 │   ├── index.html                    # Dark motorsport SPA dashboard
 │   ├── css/
 │   │   └── dashboard.css             # Dark-mode styling, badges, glassmorphism cards
