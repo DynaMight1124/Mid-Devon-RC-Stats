@@ -157,6 +157,10 @@ class StatsAggregator:
                     if venue_id and m_venue and m_venue != venue_id:
                         skipped_venue_count += 1
                         continue
+                    # Skip empty/unrun placeholder meetings (e.g. upcoming events without race results)
+                    if not data.get("finals") and not data.get("heats") and not data.get("qualifying"):
+                        print(f"[Aggregator] Notice: Skipping empty meeting {data.get('id')} ({data.get('title')}) - no race results yet.")
+                        continue
                     self.raw_meetings.append(data)
                 except Exception as e:
                     print(f"[Aggregator] Error reading {path}: {e}")

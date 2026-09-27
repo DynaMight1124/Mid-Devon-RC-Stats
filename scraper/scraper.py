@@ -14,6 +14,7 @@ import json
 import re
 import time
 import argparse
+from datetime import datetime, date, timezone
 from html import unescape
 from typing import Dict, List, Optional, Any
 import requests
@@ -74,6 +75,25 @@ def parse_result_str(result_str: str) -> Dict[str, Any]:
         except ValueError:
             pass
     return {"laps": 0, "total_seconds": 0.0, "raw": result_str.strip()}
+
+def parse_meeting_date(date_str: str) -> Optional[date]:
+    """Parse meeting date string like '04-Oct-2026' or '04/10/2026'."""
+    if not date_str:
+        return None
+    for fmt in ("%d-%b-%Y", "%d/%m/%Y", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(date_str.strip(), fmt).date()
+        except ValueError:
+            pass
+    return None
+
+def is_future_meeting(date_str: str) -> bool:
+    """Check if meeting date is in the future compared to today (UTC)."""
+    m_date = parse_meeting_date(date_str)
+    if not m_date:
+        return False
+    today = datetime.now(timezone.utc).date()
+    return m_date > today
 
 class RCResultsScraper:
     def __init__(self, venue_id: int):
@@ -414,16 +434,35 @@ def run_scraper(mode: str = "incremental", specific_id: Optional[int] = None, cl
     elif mode == "full":
         print(f"[Scraper] Mode: FULL BACKFILL for venueId {venue_id}...")
         all_meetings = scraper.get_all_venue_meetings()
-        meetings_to_scrape = all_meetings
+        # Filter out upcoming future meetings during full scrape
+        meetings_to_scrape = [m for m in all_meetings if not is_future_meeting(m.get("date", ""))]
     else:
         print(f"[Scraper] Mode: INCREMENTAL CHECK for venueId {venue_id}...")
         # Check first page
         page1 = scraper.get_venue_meetings_page(1)
-        new_meetings = [m for m in page1 if str(m["meetingId"]) not in scraped_map]
+        new_meetings = []
+        for m in page1:
+            mid_str = str(m["meetingId"])
+            m_date = m.get("date", "")
+
+            # 1. Skip future / upcoming meetings that have not occurred yet
+            if is_future_meeting(m_date):
+                print(f"[Scraper] Meeting {m['meetingId']} ({m_date} - {m['title']}) is an upcoming event. Skipping until race day.")
+                continue
+
+            # 2. Check if meeting needs to be scraped:
+            # - Not yet in index, OR
+            # - In index, but was marked not complete (is_complete == False)
+            if mid_str not in scraped_map:
+                new_meetings.append(m)
+            elif not scraped_map[mid_str].get("is_complete", True):
+                print(f"[Scraper] Meeting {m['meetingId']} ({m['title']}) was previously incomplete (no finals). Re-checking...")
+                new_meetings.append(m)
+
         if not new_meetings:
-            print("[Scraper] All meetings on page 1 are already scraped. Everything is up to date!")
+            print("[Scraper] All completed meetings on page 1 are already scraped. Everything is up to date!")
             return
-        print(f"[Scraper] Found {len(new_meetings)} new meeting(s) to scrape!")
+        print(f"[Scraper] Found {len(new_meetings)} new or incomplete meeting(s) to process!")
         meetings_to_scrape = new_meetings
 
     print(f"[Scraper] Total meetings to process: {len(meetings_to_scrape)}")
@@ -435,18 +474,26 @@ def run_scraper(mode: str = "incremental", specific_id: Optional[int] = None, cl
         
         try:
             meeting_data = scraper.scrape_meeting(mid, date, title)
+            
+            # A meeting is complete if finals have been run
+            has_finals = len(meeting_data.get("finals", [])) > 0
+            is_complete = has_finals
+
             with open(file_path, "w", encoding="utf-8") as f:
                 json.dump(meeting_data, f, indent=2)
             
             scraped_map[str(mid)] = {
                 "date": date,
                 "title": title,
-                "scraped_at": meeting_data["scraped_at"]
+                "scraped_at": meeting_data["scraped_at"],
+                "is_complete": is_complete
             }
             index["venue_id"] = venue_id
             index["scraped_meetings"] = scraped_map
             save_meetings_index(index)
-            print(f"[Scraper] Successfully saved {file_path}")
+            
+            status_tag = "COMPLETE" if is_complete else "IN PROGRESS (no finals yet)"
+            print(f"[Scraper] Successfully saved {file_path} [{status_tag}]")
         except Exception as e:
             print(f"[Scraper] Error scraping meeting {mid}: {e}")
         
