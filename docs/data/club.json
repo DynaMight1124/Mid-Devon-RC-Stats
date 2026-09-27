@@ -360,6 +360,35 @@
   },
   "top_afinalists": [
     {
+      "name": "Keith Halsey",
+      "slug": "keith-halsey",
+      "meetings_count": 17,
+      "attendance_pct": 94.4,
+      "total_laps": 2839,
+      "a_final_wins": 9,
+      "a_final_podiums": 15,
+      "a_final_appearances": 28,
+      "a_final_rate": 94.1,
+      "a_final_podium_rate": 53.6,
+      "a_final_avg_pos": 3.6,
+      "a_finals_by_class": {
+        "Stadium Trucks": 5,
+        "2WD Buggy": 16,
+        "4WD Buggy": 6,
+        "Vintage / Rear Motor": 1
+      },
+      "tqs": 9,
+      "classes": [
+        "2WD Buggy",
+        "4WD Buggy",
+        "Stadium Trucks",
+        "Vintage / Rear Motor"
+      ],
+      "best_lap": 11.55,
+      "metronome": 1.11,
+      "badges_count": 6
+    },
+    {
       "name": "Jordan Newbery",
       "slug": "jordan-newbery",
       "meetings_count": 12,
@@ -411,6 +440,106 @@
       "badges_count": 5
     },
     {
+      "name": "Gary Stocks",
+      "slug": "gary-stocks",
+      "meetings_count": 15,
+      "attendance_pct": 83.3,
+      "total_laps": 2036,
+      "a_final_wins": 0,
+      "a_final_podiums": 4,
+      "a_final_appearances": 16,
+      "a_final_rate": 93.3,
+      "a_final_podium_rate": 25.0,
+      "a_final_avg_pos": 4.2,
+      "a_finals_by_class": {
+        "2WD Buggy": 10,
+        "Vintage / Rear Motor": 6
+      },
+      "tqs": 0,
+      "classes": [
+        "2WD Buggy",
+        "Vintage / Rear Motor"
+      ],
+      "best_lap": 12.14,
+      "metronome": 1.13,
+      "badges_count": 2
+    },
+    {
+      "name": "Marc Biddiss",
+      "slug": "marc-biddiss",
+      "meetings_count": 16,
+      "attendance_pct": 88.9,
+      "total_laps": 2127,
+      "a_final_wins": 0,
+      "a_final_podiums": 1,
+      "a_final_appearances": 15,
+      "a_final_rate": 75.0,
+      "a_final_podium_rate": 6.7,
+      "a_final_avg_pos": 5.7,
+      "a_finals_by_class": {
+        "4WD Buggy": 4,
+        "Vintage / Rear Motor": 6,
+        "Stadium Trucks": 5
+      },
+      "tqs": 0,
+      "classes": [
+        "2WD Buggy",
+        "4WD Buggy",
+        "Stadium Trucks",
+        "Vintage / Rear Motor"
+      ],
+      "best_lap": 13.67,
+      "metronome": 2.42,
+      "badges_count": 2
+    },
+    {
+      "name": "Nathan Jarvis",
+      "slug": "nathan-jarvis",
+      "meetings_count": 15,
+      "attendance_pct": 83.3,
+      "total_laps": 2086,
+      "a_final_wins": 3,
+      "a_final_podiums": 9,
+      "a_final_appearances": 14,
+      "a_final_rate": 93.3,
+      "a_final_podium_rate": 64.3,
+      "a_final_avg_pos": 3.1,
+      "a_finals_by_class": {
+        "Stadium Trucks": 14
+      },
+      "tqs": 3,
+      "classes": [
+        "2WD Buggy",
+        "Stadium Trucks"
+      ],
+      "best_lap": 13.01,
+      "metronome": 1.88,
+      "badges_count": 6
+    },
+    {
+      "name": "Paul Rose",
+      "slug": "paul-rose",
+      "meetings_count": 16,
+      "attendance_pct": 88.9,
+      "total_laps": 1668,
+      "a_final_wins": 0,
+      "a_final_podiums": 5,
+      "a_final_appearances": 14,
+      "a_final_rate": 87.5,
+      "a_final_podium_rate": 35.7,
+      "a_final_avg_pos": 4.6,
+      "a_finals_by_class": {
+        "2WD Buggy": 14
+      },
+      "tqs": 0,
+      "classes": [
+        "2WD Buggy"
+      ],
+      "best_lap": 11.61,
+      "metronome": 0.86,
+      "badges_count": 2
+    },
+    {
       "name": "Maxim Cook",
       "slug": "maxim-cook",
       "meetings_count": 13,
@@ -434,122 +563,57 @@
       "badges_count": 5
     },
     {
-      "name": "Dan Harding",
-      "slug": "dan-harding",
-      "meetings_count": 12,
-      "attendance_pct": 66.7,
-      "total_laps": 1224,
-      "a_final_wins": 6,
-      "a_final_podiums": 10,
-      "a_final_appearances": 12,
-      "a_final_rate": 100.0,
-      "a_final_podium_rate": 83.3,
+      "name": "Gavin Knight",
+      "slug": "gavin-knight",
+      "meetings_count": 15,
+      "attendance_pct": 83.3,
+      "total_laps": 1425,
+      "a_final_wins": 2,
+      "a_final_podiums": 11,
+      "a_final_appearances": 13,
+      "a_final_rate": 86.7,
+      "a_final_podium_rate": 84.6,
       "a_final_avg_pos": 2.2,
       "a_finals_by_class": {
-        "Vintage / Rear Motor": 7,
-        "2WD Buggy": 5
+        "Vintage / Rear Motor": 10,
+        "Stadium Trucks": 1,
+        "2WD Buggy": 1,
+        "4WD Buggy": 1
       },
-      "tqs": 4,
+      "tqs": 3,
       "classes": [
         "2WD Buggy",
+        "4WD Buggy",
+        "Stadium Trucks",
         "Vintage / Rear Motor"
       ],
-      "best_lap": 11.81,
-      "metronome": 0.88,
-      "badges_count": 5
+      "best_lap": 11.7,
+      "metronome": 0.87,
+      "badges_count": 6
     },
     {
-      "name": "Paul Duckmanton",
-      "slug": "paul-duckmanton",
-      "meetings_count": 10,
-      "attendance_pct": 55.6,
-      "total_laps": 1846,
+      "name": "Barry Norris",
+      "slug": "barry-norris",
+      "meetings_count": 15,
+      "attendance_pct": 83.3,
+      "total_laps": 1239,
       "a_final_wins": 0,
       "a_final_podiums": 1,
-      "a_final_appearances": 10,
-      "a_final_rate": 100.0,
-      "a_final_podium_rate": 10.0,
-      "a_final_avg_pos": 5.2,
+      "a_final_appearances": 13,
+      "a_final_rate": 86.7,
+      "a_final_podium_rate": 7.7,
+      "a_final_avg_pos": 5.8,
       "a_finals_by_class": {
-        "Vintage / Rear Motor": 10
+        "Stadium Trucks": 13
       },
       "tqs": 0,
       "classes": [
         "2WD Buggy",
-        "Vintage / Rear Motor"
+        "Stadium Trucks"
       ],
-      "best_lap": 13.19,
-      "metronome": 1.46,
-      "badges_count": 1
-    },
-    {
-      "name": "Martin Owen",
-      "slug": "martin-owen",
-      "meetings_count": 9,
-      "attendance_pct": 50.0,
-      "total_laps": 952,
-      "a_final_wins": 4,
-      "a_final_podiums": 7,
-      "a_final_appearances": 9,
-      "a_final_rate": 100.0,
-      "a_final_podium_rate": 77.8,
-      "a_final_avg_pos": 2.4,
-      "a_finals_by_class": {
-        "2WD Buggy": 9
-      },
-      "tqs": 2,
-      "classes": [
-        "2WD Buggy"
-      ],
-      "best_lap": 11.64,
-      "metronome": 0.77,
-      "badges_count": 4
-    },
-    {
-      "name": "Callum Mitchell",
-      "slug": "callum-mitchell",
-      "meetings_count": 8,
-      "attendance_pct": 44.4,
-      "total_laps": 769,
-      "a_final_wins": 1,
-      "a_final_podiums": 3,
-      "a_final_appearances": 8,
-      "a_final_rate": 100.0,
-      "a_final_podium_rate": 37.5,
-      "a_final_avg_pos": 5.0,
-      "a_finals_by_class": {
-        "2WD Buggy": 8
-      },
-      "tqs": 2,
-      "classes": [
-        "2WD Buggy"
-      ],
-      "best_lap": 12.47,
-      "metronome": 1.51,
-      "badges_count": 3
-    },
-    {
-      "name": "Bryan Burrows",
-      "slug": "bryan-burrows",
-      "meetings_count": 6,
-      "attendance_pct": 33.3,
-      "total_laps": 569,
-      "a_final_wins": 1,
-      "a_final_podiums": 4,
-      "a_final_appearances": 6,
-      "a_final_rate": 100.0,
-      "a_final_podium_rate": 66.7,
-      "a_final_avg_pos": 3.7,
-      "a_finals_by_class": {
-        "Vintage / Rear Motor": 6
-      },
-      "tqs": 4,
-      "classes": [
-        "Vintage / Rear Motor"
-      ],
-      "best_lap": 13.13,
-      "metronome": 1.16,
-      "badges_count": 3
+      "best_lap": 13.72,
+      "metronome": 2.24,
+      "badges_count": 2
     }
   ],
   "recent_meetings": [

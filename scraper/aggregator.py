@@ -630,9 +630,9 @@ class StatsAggregator:
         # Add top A-finalists and recent winners to club_data
         top_afinalists = sorted(
             [d for d in drivers_index if d["meetings_count"] >= 3],
-            key=lambda x: (x["a_final_rate"], x["a_final_appearances"], x["a_final_wins"]),
+            key=lambda x: (x["a_final_appearances"], x["a_final_wins"], x["a_final_rate"]),
             reverse=True
-        )[:8]
+        )[:10]
         club_data["top_afinalists"] = top_afinalists
 
         recent_meetings = sorted(self.meetings_summary, key=lambda m: m["id"], reverse=True)[:3]
