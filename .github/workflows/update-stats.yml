@@ -2,9 +2,9 @@ name: Update RC Stats & Deploy to GitHub Pages
 
 on:
   schedule:
-    # Run every Sunday at 20:00 UTC and Monday at 06:00 UTC (after weekend race meetings)
-    - cron: '0 20 * * 0'
-    - cron: '0 6 * * 1'
+    # Run every Sunday at 20:15 UTC and Monday at 06:15 UTC (off-peak to avoid GitHub runner delays)
+    - cron: '15 20 * * 0'
+    - cron: '15 6 * * 1'
   workflow_dispatch: # Allows manual trigger from GitHub Actions tab
 
 permissions:
@@ -17,7 +17,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  update-and-deploy:
+  build-and-update:
     runs-on: ubuntu-latest
 
     steps:
@@ -64,6 +64,13 @@ jobs:
         with:
           path: 'docs/'
 
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build-and-update
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
