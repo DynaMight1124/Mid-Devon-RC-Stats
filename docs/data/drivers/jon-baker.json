@@ -19,6 +19,52 @@
       "2WD Buggy": 2,
       "Vintage / Rear Motor": 2
     },
+    "by_class": {
+      "Stadium Trucks": {
+        "meetings_count": 1,
+        "attendance_pct": 5.6,
+        "a_final_appearances": 1,
+        "a_final_wins": 1,
+        "a_final_podiums": 1,
+        "a_final_rate": 100.0,
+        "a_final_avg_pos": 1.0,
+        "total_laps": 86,
+        "tqs": 1
+      },
+      "Vintage / Rear Motor": {
+        "meetings_count": 2,
+        "attendance_pct": 11.1,
+        "a_final_appearances": 2,
+        "a_final_wins": 0,
+        "a_final_podiums": 2,
+        "a_final_rate": 100.0,
+        "a_final_avg_pos": 3.0,
+        "total_laps": 191,
+        "tqs": 0
+      },
+      "4WD Buggy": {
+        "meetings_count": 6,
+        "attendance_pct": 33.3,
+        "a_final_appearances": 6,
+        "a_final_wins": 1,
+        "a_final_podiums": 4,
+        "a_final_rate": 100.0,
+        "a_final_avg_pos": 3.2,
+        "total_laps": 577,
+        "tqs": 0
+      },
+      "2WD Buggy": {
+        "meetings_count": 12,
+        "attendance_pct": 66.7,
+        "a_final_appearances": 2,
+        "a_final_wins": 0,
+        "a_final_podiums": 0,
+        "a_final_rate": 16.7,
+        "a_final_avg_pos": 5.0,
+        "total_laps": 1139,
+        "tqs": 0
+      }
+    },
     "tqs": 1,
     "classes": [
       "2WD Buggy",

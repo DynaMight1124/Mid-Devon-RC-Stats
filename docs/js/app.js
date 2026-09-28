@@ -330,19 +330,39 @@ const App = {
       list = list.filter(d => d.classes.includes(cls));
     }
 
+    const getStats = (d) => (cls && d.by_class && d.by_class[cls]) ? d.by_class[cls] : d;
+
     // Sort
     if (sort === 'wins') {
-      list.sort((a, b) => (b.a_final_wins - a.a_final_wins) || (b.a_final_podiums - a.a_final_podiums) || (b.meetings_count - a.meetings_count));
+      list.sort((a, b) => {
+        const sa = getStats(a), sb = getStats(b);
+        return ((sb.a_final_wins || 0) - (sa.a_final_wins || 0)) || ((sb.a_final_podiums || 0) - (sa.a_final_podiums || 0)) || ((sb.meetings_count || 0) - (sa.meetings_count || 0));
+      });
     } else if (sort === 'afinals') {
-      list.sort((a, b) => (b.a_final_appearances - a.a_final_appearances) || (b.a_final_wins - a.a_final_wins) || (b.a_final_rate - a.a_final_rate));
+      list.sort((a, b) => {
+        const sa = getStats(a), sb = getStats(b);
+        return ((sb.a_final_appearances || 0) - (sa.a_final_appearances || 0)) || ((sb.a_final_wins || 0) - (sa.a_final_wins || 0)) || ((sb.a_final_rate || 0) - (sa.a_final_rate || 0));
+      });
     } else if (sort === 'afinal_rate') {
-      list.sort((a, b) => (b.a_final_rate - a.a_final_rate) || (b.a_final_appearances - a.a_final_appearances));
+      list.sort((a, b) => {
+        const sa = getStats(a), sb = getStats(b);
+        return ((sb.a_final_rate || 0) - (sa.a_final_rate || 0)) || ((sb.a_final_appearances || 0) - (sa.a_final_appearances || 0));
+      });
     } else if (sort === 'podiums') {
-      list.sort((a, b) => (b.a_final_podiums - a.a_final_podiums) || (b.a_final_wins - a.a_final_wins));
+      list.sort((a, b) => {
+        const sa = getStats(a), sb = getStats(b);
+        return ((sb.a_final_podiums || 0) - (sa.a_final_podiums || 0)) || ((sb.a_final_wins || 0) - (sa.a_final_wins || 0));
+      });
     } else if (sort === 'laps') {
-      list.sort((a, b) => b.total_laps - a.total_laps);
+      list.sort((a, b) => {
+        const sa = getStats(a), sb = getStats(b);
+        return (sb.total_laps || 0) - (sa.total_laps || 0);
+      });
     } else if (sort === 'attendance') {
-      list.sort((a, b) => b.attendance_pct - a.attendance_pct);
+      list.sort((a, b) => {
+        const sa = getStats(a), sb = getStats(b);
+        return (sb.attendance_pct || 0) - (sa.attendance_pct || 0);
+      });
     } else if (sort === 'name') {
       list.sort((a, b) => a.name.localeCompare(b.name));
     }
@@ -359,33 +379,35 @@ const App = {
     }
 
     tbody.innerHTML = list.map((d, index) => {
+      const st = getStats(d);
+
       let badgeHtml = '';
-      if (d.a_final_wins >= 3) {
+      if (st.a_final_wins >= 3) {
         badgeHtml = `<span class="badge badge-winner">🏆 Champion</span>`;
-      } else if (d.a_final_wins >= 1) {
+      } else if (st.a_final_wins >= 1) {
         badgeHtml = `<span class="badge badge-winner">🥇 Winner</span>`;
-      } else if (d.a_final_podiums >= 1) {
+      } else if (st.a_final_podiums >= 1) {
         badgeHtml = `<span class="badge badge-gold">🥈 Podium</span>`;
-      } else if (d.attendance_pct >= 70) {
+      } else if (st.attendance_pct >= 70) {
         badgeHtml = `<span class="badge badge-blue">🛡️ Veteran</span>`;
       }
 
-      const rateClass = d.a_final_rate >= 80 ? 'badge-winner' : (d.a_final_rate >= 50 ? 'badge-gold' : 'badge-blue');
+      const rateClass = (st.a_final_rate || 0) >= 80 ? 'badge-winner' : ((st.a_final_rate || 0) >= 50 ? 'badge-gold' : 'badge-blue');
 
       return `
         <tr onclick="App.openDriverModal('${d.slug}')">
           <td style="color: var(--text-dim); font-weight: 700;">#${index + 1}</td>
           <td>
             <div style="font-weight: 700; color: #fff; font-size: 0.95rem;">${d.name}</div>
-            <div style="font-size: 0.75rem; color: var(--text-dim);">${d.classes.join(' &bull; ')}</div>
+            <div style="font-size: 0.75rem; color: var(--text-dim);">${cls ? cls : d.classes.join(' &bull; ')}</div>
           </td>
           <td>${badgeHtml || '<span style="color: var(--text-dim);">-</span>'}</td>
-          <td class="tabular-nums"><b>${d.a_final_appearances || 0}</b></td>
-          <td><span class="badge ${rateClass}">${d.a_final_rate || 0}%</span></td>
-          <td class="tabular-nums"><b>${d.a_final_wins}</b></td>
-          <td class="tabular-nums">${d.a_final_podiums}</td>
-          <td class="tabular-nums">${d.meetings_count} <small style="color: var(--text-dim);">(${d.attendance_pct}%)</small></td>
-          <td class="tabular-nums">${d.total_laps.toLocaleString()}</td>
+          <td class="tabular-nums"><b>${st.a_final_appearances || 0}</b></td>
+          <td><span class="badge ${rateClass}">${st.a_final_rate || 0}%</span></td>
+          <td class="tabular-nums"><b>${st.a_final_wins || 0}</b></td>
+          <td class="tabular-nums">${st.a_final_podiums || 0}</td>
+          <td class="tabular-nums">${st.meetings_count || 0} <small style="color: var(--text-dim);">(${st.attendance_pct || 0}%)</small></td>
+          <td class="tabular-nums">${(st.total_laps || 0).toLocaleString()}</td>
         </tr>
       `;
     }).join('');

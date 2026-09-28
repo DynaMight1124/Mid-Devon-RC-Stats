@@ -17,6 +17,30 @@
       "4WD Buggy": 4,
       "2WD Buggy": 3
     },
+    "by_class": {
+      "4WD Buggy": {
+        "meetings_count": 4,
+        "attendance_pct": 22.2,
+        "a_final_appearances": 4,
+        "a_final_wins": 0,
+        "a_final_podiums": 2,
+        "a_final_rate": 100.0,
+        "a_final_avg_pos": 3.2,
+        "total_laps": 350,
+        "tqs": 0
+      },
+      "2WD Buggy": {
+        "meetings_count": 15,
+        "attendance_pct": 83.3,
+        "a_final_appearances": 3,
+        "a_final_wins": 0,
+        "a_final_podiums": 0,
+        "a_final_rate": 20.0,
+        "a_final_avg_pos": 7.0,
+        "total_laps": 1448,
+        "tqs": 0
+      }
+    },
     "tqs": 0,
     "classes": [
       "2WD Buggy",

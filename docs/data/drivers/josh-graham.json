@@ -16,6 +16,19 @@
     "a_finals_by_class": {
       "2WD Buggy": 3
     },
+    "by_class": {
+      "2WD Buggy": {
+        "meetings_count": 3,
+        "attendance_pct": 16.7,
+        "a_final_appearances": 3,
+        "a_final_wins": 3,
+        "a_final_podiums": 3,
+        "a_final_rate": 100.0,
+        "a_final_avg_pos": 1.0,
+        "total_laps": 318,
+        "tqs": 2
+      }
+    },
     "tqs": 2,
     "classes": [
       "2WD Buggy"

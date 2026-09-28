@@ -109,6 +109,13 @@ class StatsAggregator:
             "a_final_meetings": set(),
             "a_final_positions": [],
             "a_finals_by_class": defaultdict(int),
+            "a_final_wins_by_class": defaultdict(int),
+            "a_final_podiums_by_class": defaultdict(int),
+            "a_final_positions_by_class": defaultdict(list),
+            "meetings_by_class": defaultdict(set),
+            "a_final_meetings_by_class": defaultdict(set),
+            "laps_by_class": defaultdict(int),
+            "tqs_by_class": defaultdict(int),
             "total_races": 0,
             "total_laps": 0,
             "total_race_seconds": 0.0,
@@ -200,14 +207,18 @@ class StatsAggregator:
                 q_pos = safe_int_pos(q["position"])
                 meeting_drivers.add(driver_name)
                 
+                d = self.drivers[driver_name]
+                d["classes"].add(cls_name)
+                d["meetings_by_class"][cls_name].add(mid)
+
                 # Check for TQ
                 if q_pos == 1:
                     class_tqs[cls_name] = driver_name
-                    self.drivers[driver_name]["tqs"] += 1
+                    d["tqs"] += 1
+                    d["tqs_by_class"][cls_name] += 1
                     self.classes[cls_name]["tqs"][driver_name] += 1
                 
                 # Update driver qualifying PB
-                d = self.drivers[driver_name]
                 if cls_name not in d["highest_quals"] or q_pos < d["highest_quals"][cls_name]:
                     d["highest_quals"][cls_name] = q_pos
 
@@ -233,6 +244,8 @@ class StatsAggregator:
                 d["total_laps"] += laps
                 d["total_race_seconds"] += sec
                 d["classes"].add(cls_name)
+                d["meetings_by_class"][cls_name].add(mid)
+                d["laps_by_class"][cls_name] += laps
 
                 if best_lap and best_lap > 5.0 and best_lap < 90.0:
                     # Update driver PB for this class
@@ -286,6 +299,8 @@ class StatsAggregator:
                 d["total_laps"] += laps
                 d["total_race_seconds"] += sec
                 d["classes"].add(cls_name)
+                d["meetings_by_class"][cls_name].add(mid)
+                d["laps_by_class"][cls_name] += laps
 
                 # Consistency tracking
                 if ave_lap and best_lap and ave_lap >= best_lap:
@@ -298,11 +313,14 @@ class StatsAggregator:
                     d["a_final_appearances"] += 1
                     d["a_final_meetings"].add(mid)
                     d["a_finals_by_class"][cls_name] += 1
+                    d["a_final_meetings_by_class"][cls_name].add(mid)
                     self.classes[cls_name]["a_finals"][driver_name] += 1
                     if isinstance(pos, int):
                         d["a_final_positions"].append(pos)
+                        d["a_final_positions_by_class"][cls_name].append(pos)
                     if pos == 1:
                         d["a_final_wins"] += 1
+                        d["a_final_wins_by_class"][cls_name] += 1
                         self.classes[cls_name]["wins"][driver_name] += 1
                         class_winners[cls_name] = {
                             "driver": driver_name,
@@ -312,6 +330,7 @@ class StatsAggregator:
                         }
                     if pos in (1, 2, 3):
                         d["a_final_podiums"] += 1
+                        d["a_final_podiums_by_class"][cls_name] += 1
                         self.classes[cls_name]["podiums"][driver_name] += 1
                 else:
                     if pos == 1:
@@ -572,6 +591,30 @@ class StatsAggregator:
             if d["best_laps"]:
                 overall_best_lap = min(d["best_laps"].values())
 
+            # Per-class statistics breakdown
+            by_class = {}
+            for c in d["classes"]:
+                c_m = len(d["meetings_by_class"][c])
+                c_af = d["a_finals_by_class"][c]
+                c_w = d["a_final_wins_by_class"][c]
+                c_pod = d["a_final_podiums_by_class"][c]
+                c_laps = d["laps_by_class"][c]
+                c_rate = round((len(d["a_final_meetings_by_class"][c]) / c_m) * 100, 1) if c_m > 0 else 0
+                c_pos = d["a_final_positions_by_class"][c]
+                c_avg = round(sum(c_pos) / len(c_pos), 1) if c_pos else None
+                c_att_pct = round((c_m / total_meetings) * 100, 1) if total_meetings > 0 else 0
+                by_class[c] = {
+                    "meetings_count": c_m,
+                    "attendance_pct": c_att_pct,
+                    "a_final_appearances": c_af,
+                    "a_final_wins": c_w,
+                    "a_final_podiums": c_pod,
+                    "a_final_rate": c_rate,
+                    "a_final_avg_pos": c_avg,
+                    "total_laps": c_laps,
+                    "tqs": d["tqs_by_class"][c]
+                }
+
             # Compact record for driver index table
             summary_record = {
                 "name": dname,
@@ -586,6 +629,7 @@ class StatsAggregator:
                 "a_final_podium_rate": round((d["a_final_podiums"] / d["a_final_appearances"]) * 100, 1) if d["a_final_appearances"] > 0 else 0,
                 "a_final_avg_pos": round(sum(d["a_final_positions"]) / len(d["a_final_positions"]), 1) if d["a_final_positions"] else None,
                 "a_finals_by_class": dict(d["a_finals_by_class"]),
+                "by_class": by_class,
                 "tqs": d["tqs"],
                 "classes": sorted(list(d["classes"])),
                 "best_lap": overall_best_lap,

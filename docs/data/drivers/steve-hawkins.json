@@ -16,6 +16,19 @@
     "a_finals_by_class": {
       "Vintage / Rear Motor": 4
     },
+    "by_class": {
+      "Vintage / Rear Motor": {
+        "meetings_count": 5,
+        "attendance_pct": 27.8,
+        "a_final_appearances": 4,
+        "a_final_wins": 0,
+        "a_final_podiums": 0,
+        "a_final_rate": 80.0,
+        "a_final_avg_pos": 5.5,
+        "total_laps": 434,
+        "tqs": 0
+      }
+    },
     "tqs": 0,
     "classes": [
       "Vintage / Rear Motor"
