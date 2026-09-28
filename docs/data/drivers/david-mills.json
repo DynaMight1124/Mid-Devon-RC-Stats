@@ -18,17 +18,6 @@
       "Vintage / Rear Motor": 2
     },
     "by_class": {
-      "Vintage / Rear Motor": {
-        "meetings_count": 7,
-        "attendance_pct": 38.9,
-        "a_final_appearances": 2,
-        "a_final_wins": 0,
-        "a_final_podiums": 0,
-        "a_final_rate": 28.6,
-        "a_final_avg_pos": 6.5,
-        "total_laps": 517,
-        "tqs": 0
-      },
       "Stadium Trucks": {
         "meetings_count": 6,
         "attendance_pct": 33.3,
@@ -38,6 +27,17 @@
         "a_final_rate": 83.3,
         "a_final_avg_pos": 6.2,
         "total_laps": 480,
+        "tqs": 0
+      },
+      "Vintage / Rear Motor": {
+        "meetings_count": 7,
+        "attendance_pct": 38.9,
+        "a_final_appearances": 2,
+        "a_final_wins": 0,
+        "a_final_podiums": 0,
+        "a_final_rate": 28.6,
+        "a_final_avg_pos": 6.5,
+        "total_laps": 517,
         "tqs": 0
       }
     },

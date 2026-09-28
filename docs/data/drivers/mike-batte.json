@@ -14,21 +14,10 @@
     "a_final_podium_rate": 0,
     "a_final_avg_pos": null,
     "a_finals_by_class": {
-      "Vintage / Rear Motor": 0,
-      "2WD Buggy": 0
+      "2WD Buggy": 0,
+      "Vintage / Rear Motor": 0
     },
     "by_class": {
-      "Vintage / Rear Motor": {
-        "meetings_count": 1,
-        "attendance_pct": 5.6,
-        "a_final_appearances": 0,
-        "a_final_wins": 0,
-        "a_final_podiums": 0,
-        "a_final_rate": 0.0,
-        "a_final_avg_pos": null,
-        "total_laps": 48,
-        "tqs": 0
-      },
       "2WD Buggy": {
         "meetings_count": 4,
         "attendance_pct": 22.2,
@@ -38,6 +27,17 @@
         "a_final_rate": 0.0,
         "a_final_avg_pos": null,
         "total_laps": 374,
+        "tqs": 0
+      },
+      "Vintage / Rear Motor": {
+        "meetings_count": 1,
+        "attendance_pct": 5.6,
+        "a_final_appearances": 0,
+        "a_final_wins": 0,
+        "a_final_podiums": 0,
+        "a_final_rate": 0.0,
+        "a_final_avg_pos": null,
+        "total_laps": 48,
         "tqs": 0
       }
     },

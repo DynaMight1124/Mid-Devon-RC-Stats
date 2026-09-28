@@ -18,17 +18,6 @@
       "2WD Buggy": 0
     },
     "by_class": {
-      "Vintage / Rear Motor": {
-        "meetings_count": 12,
-        "attendance_pct": 66.7,
-        "a_final_appearances": 11,
-        "a_final_wins": 1,
-        "a_final_podiums": 1,
-        "a_final_rate": 91.7,
-        "a_final_avg_pos": 5.4,
-        "total_laps": 1036,
-        "tqs": 0
-      },
       "2WD Buggy": {
         "meetings_count": 18,
         "attendance_pct": 100.0,
@@ -38,6 +27,17 @@
         "a_final_rate": 0.0,
         "a_final_avg_pos": null,
         "total_laps": 1597,
+        "tqs": 0
+      },
+      "Vintage / Rear Motor": {
+        "meetings_count": 12,
+        "attendance_pct": 66.7,
+        "a_final_appearances": 11,
+        "a_final_wins": 1,
+        "a_final_podiums": 1,
+        "a_final_rate": 91.7,
+        "a_final_avg_pos": 5.4,
+        "total_laps": 1036,
         "tqs": 0
       }
     },
